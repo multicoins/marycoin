@@ -66,12 +66,12 @@
         <translation>Modtagelsesadresser</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Disse er dine Bitcoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender bitcoins.</translation>
+        <source>These are your Marycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Disse er dine Marycoin-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender bitcoins.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dette er dine Bitcoin-adresser til at modtage betalinger med. Det anbefales are bruge en ny modtagelsesadresse for hver transaktion.</translation>
+        <source>These are your Marycoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dette er dine Marycoin-adresser til at modtage betalinger med. Det anbefales are bruge en ny modtagelsesadresse for hver transaktion.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -168,8 +168,8 @@
         <translation>Er du sikker på, at du ønsker at kryptere din tegnebog?</translation>
     </message>
     <message>
-        <source>Bitcoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Bitcoin Core vil nu lukke for at færdiggøre krypteringsprocessen. Husk at kryptering af din tegnebog kan ikke beskytte dine bitcoin fuldt ud mod at blive stjålet af eventuel malware, der måtte have inficeret din computer.</translation>
+        <source>Marycoin Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Marycoin Core vil nu lukke for at færdiggøre krypteringsprocessen. Husk at kryptering af din tegnebog kan ikke beskytte dine marycoin fuldt ud mod at blive stjålet af eventuel malware, der måtte have inficeret din computer.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -306,8 +306,8 @@
         <translation>&amp;Åbn URI…</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Bitcoin Core-klient</translation>
+        <source>Marycoin Core client</source>
+        <translation>Marycoin Core-klient</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -318,8 +318,8 @@
         <translation>Genindekserer blokke på disken…</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Send bitcoins til en Bitcoin-adresse</translation>
+        <source>Send coins to a Marycoin address</source>
+        <translation>Send bitcoins til en Marycoin-adresse</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -342,8 +342,8 @@
         <translation>&amp;Verificér besked…</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Marycoin</source>
+        <translation>Marycoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Modtag</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Vis oplysninger om Bitcoin Core</translation>
+        <source>Show information about Marycoin Core</source>
+        <translation>Vis oplysninger om Marycoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -374,12 +374,12 @@
         <translation>Kryptér de private nøgler, der hører til din tegnebog</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Underskriv beskeder med dine Bitcoin-adresser for at bevise, at de tilhører dig</translation>
+        <source>Sign messages with your Marycoin addresses to prove you own them</source>
+        <translation>Underskriv beskeder med dine Marycoin-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verificér beskeder for at sikre, at de er underskrevet med de angivne Bitcoin-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified Marycoin addresses</source>
+        <translation>Verificér beskeder for at sikre, at de er underskrevet med de angivne Marycoin-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -398,20 +398,20 @@
         <translation>Faneværktøjslinje</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Marycoin Core</source>
+        <translation>Marycoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Anmod om betalinger (genererer QR-koder og "bitcoin:"-URI'er)</translation>
+        <source>Request payments (generates QR codes and marycoin: URIs)</source>
+        <translation>Anmod om betalinger (genererer QR-koder og "marycoin:"-URI'er)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Om Bitcoin Core</translation>
+        <source>&amp;About Marycoin Core</source>
+        <translation>&amp;Om Marycoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Core</source>
-        <translation>Ændr opsætning af Bitcoin Core</translation>
+        <source>Modify configuration options for Marycoin Core</source>
+        <translation>Ændr opsætning af Marycoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,20 +422,20 @@
         <translation>Vis listen over brugte modtagelsesadresser og -mærkater</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Åbn en "bitcoin:"-URI eller betalingsanmodning</translation>
+        <source>Open a marycoin: URI or payment request</source>
+        <translation>Åbn en "marycoin:"-URI eller betalingsanmodning</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Tilvalg for &amp;kommandolinje</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Vis Bitcoin Core hjælpebesked for at få en liste over mulige tilvalg for Bitcoin kommandolinje</translation>
+        <source>Show the Marycoin Core help message to get a list with possible Marycoin command-line options</source>
+        <translation>Vis Marycoin Core hjælpebesked for at få en liste over mulige tilvalg for Marycoin kommandolinje</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiv forbindelse til Bitcoin-netværket</numerusform><numerusform>%n aktive forbindelser til Bitcoin-netværket</numerusform></translation>
+        <source>%n active connection(s) to Marycoin network</source>
+        <translation><numerusform>%n aktiv forbindelse til Marycoin-netværket</numerusform><numerusform>%n aktive forbindelser til Marycoin-netværket</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -817,8 +817,8 @@
         <translation>Den indtastede adresse "%1" er allerede i adressebogen.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Den indtastede adresse "%1" er ikke en gyldig Bitcoin-adresse.</translation>
+        <source>The entered address "%1" is not a valid Marycoin address.</source>
+        <translation>Den indtastede adresse "%1" er ikke en gyldig Marycoin-adresse.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -855,8 +855,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Marycoin Core</source>
+        <translation>Marycoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -867,8 +867,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Om Bitcoin Core</translation>
+        <source>About Marycoin Core</source>
+        <translation>Om Marycoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -918,16 +918,16 @@
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Velkommen til Bitcoin Core.</translation>
+        <source>Welcome to Marycoin Core.</source>
+        <translation>Velkommen til Marycoin Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
-        <translation>Siden dette er første gang, programmet startes, kan du vælge, hvor Bitcoin Core skal gemme sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Marycoin Core will store its data.</source>
+        <translation>Siden dette er første gang, programmet startes, kan du vælge, hvor Marycoin Core skal gemme sin data.</translation>
     </message>
     <message>
-        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Bitcoin Core vil downloade og gemme et kopi af Bitcoin-blokkæden. Mindst %1 GB data vil blive gemt i denne mappe, og den vil vokse over tid. Tegnebogen vil også blive gemt i denne mappe.</translation>
+        <source>Marycoin Core will download and store a copy of the Marycoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Marycoin Core vil downloade og gemme et kopi af Marycoin-blokkæden. Mindst %1 GB data vil blive gemt i denne mappe, og den vil vokse over tid. Tegnebogen vil også blive gemt i denne mappe.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -938,8 +938,8 @@
         <translation>Brug tilpasset mappe for data:</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Marycoin Core</source>
+        <translation>Marycoin Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1020,8 +1020,8 @@
         <translation>Minimér i stedet for at lukke applikationen, når vinduet lukkes. Når denne indstilling er slået til, vil applikationen først blive lukket, når Afslut vælges i menuen.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin Core.</source>
-        <translation>Sproget for brugerfladen kan vælges her. Denne indstilling vil træde i kraft efter genstart af Bitcoin Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Marycoin Core.</source>
+        <translation>Sproget for brugerfladen kan vælges her. Denne indstilling vil træde i kraft efter genstart af Marycoin Core.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1048,12 +1048,12 @@
         <translation>&amp;Netværk</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
-        <translation>Start Bitcoin Core automatisk efter der logges ind på systemet.</translation>
+        <source>Automatically start Marycoin Core after logging in to the system.</source>
+        <translation>Start Marycoin Core automatisk efter der logges ind på systemet.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
-        <translation>&amp;Start Bitcoin Core ved system-login</translation>
+        <source>&amp;Start Marycoin Core on system login</source>
+        <translation>&amp;Start Marycoin Core ved system-login</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
@@ -1080,16 +1080,16 @@
         <translation>&amp;Brug ubekræftede byttepenge</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn automatisk Bitcoin-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
+        <source>Automatically open the Marycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn automatisk Marycoin-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Konfigurér port vha. &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Forbind til Bitcoin-netværket gennem en SOCKS5-proxy.</translation>
+        <source>Connect to the Marycoin network through a SOCKS5 proxy.</source>
+        <translation>Forbind til Marycoin-netværket gennem en SOCKS5-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1128,8 +1128,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Forbind til Bitcoin-netværket gennem en separat SOCKS5-proxy for skjulte Tor-tjenester.</translation>
+        <source>Connect to the Marycoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Forbind til Marycoin-netværket gennem en separat SOCKS5-proxy for skjulte Tor-tjenester.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1215,8 +1215,8 @@
         <translation>Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Bitcoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Marycoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Marycoin-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1314,16 +1314,16 @@
         <translation>Fejl i betalingsanmodning</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Kan ikke starte bitcoin: click-to-pay-håndtering</translation>
+        <source>Cannot start marycoin: click-to-pay handler</source>
+        <translation>Kan ikke starte marycoin: click-to-pay-håndtering</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>Hentnings-URL for betalingsanmodning er ugyldig: %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig Bitcoin-adresse eller forkert udformede URL-parametre.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Marycoin address or malformed URI parameters.</source>
+        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig Marycoin-adresse eller forkert udformede URL-parametre.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1396,8 +1396,8 @@
         <translation>Beløb</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Indtast en Bitcoin-adresse (fx %1)</translation>
+        <source>Enter a Marycoin address (e.g. %1)</source>
+        <translation>Indtast en Marycoin-adresse (fx %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1518,8 +1518,8 @@
         <translation>Hukommelsesforbrug</translation>
     </message>
     <message>
-        <source>Open the Bitcoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn Bitcoin Cores fejlsøgningslogfil fra den aktuelle datamappe. Dette kan tage nogle få sekunder for store logfiler.</translation>
+        <source>Open the Marycoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn Marycoin Cores fejlsøgningslogfil fra den aktuelle datamappe. Dette kan tage nogle få sekunder for store logfiler.</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1678,8 +1678,8 @@
         <translation>&amp;Fjern bandlysning af knude</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Velkommen til Bitcoin Cores RPC-konsol.</translation>
+        <source>Welcome to the Marycoin Core RPC console.</source>
+        <translation>Velkommen til Marycoin Cores RPC-konsol.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1761,8 +1761,8 @@
         <translation>&amp;Genbrug en eksisterende modtagelsesadresse (anbefales ikke)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over Bitcoin-netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Marycoin network.</source>
+        <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes sammen med betalingen over Marycoin-netværket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1994,8 +1994,8 @@
         <translation>total mindst</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>Det er helt fint kun at betale det minimale gebyr, så længe den totale transaktionsvolumen er mindre end den plads, der er tilgængelig i blokkene. Men vær opmærksom på, at dette kan ende ud i transaktioner, der aldrig bliver bekræftet, når der bliver større forespørgsel efter bitcoin-transaktioner, end hvad netværket kan bearbejde.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for marycoin transactions than the network can process.</source>
+        <translation>Det er helt fint kun at betale det minimale gebyr, så længe den totale transaktionsvolumen er mindre end den plads, der er tilgængelig i blokkene. Men vær opmærksom på, at dette kan ende ud i transaktioner, der aldrig bliver bekræftet, når der bliver større forespørgsel efter marycoin-transaktioner, end hvad netværket kan bearbejde.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -2154,8 +2154,8 @@
         <translation>Adressegenganger fundet. Adresser bør kun bruges én gang hver.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Advarsel: Ugyldig Bitcoin-adresse</translation>
+        <source>Warning: Invalid Marycoin address</source>
+        <translation>Advarsel: Ugyldig Marycoin-adresse</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -2205,8 +2205,8 @@
         <translation>Dette er en normal betaling.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Bitcoin-adresse, som betalingen skal sendes til</translation>
+        <source>The Marycoin address to send the payment to</source>
+        <translation>Marycoin-adresse, som betalingen skal sendes til</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2226,7 +2226,7 @@
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Gebyret vil blive trukket fra det sendte beløb. Modtageren vil modtage færre bitcoin, end du indtaster i beløbfeltet. Hvis flere modtagere vælges, vil gebyret deles ligeligt.</translation>
+        <translation>Gebyret vil blive trukket fra det sendte beløb. Modtageren vil modtage færre marycoin, end du indtaster i beløbfeltet. Hvis flere modtagere vælges, vil gebyret deles ligeligt.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2249,8 +2249,8 @@
         <translation>Indtast et mærkat for denne adresse for at føje den til listen over brugte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>En besked, som blev føjet til "bitcon:"-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Bitcoin-netværket.</translation>
+        <source>A message that was attached to the marycoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Marycoin network.</source>
+        <translation>En besked, som blev føjet til "bitcon:"-URI'en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Marycoin-netværket.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2264,8 +2264,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Bitcoin Core is shutting down...</source>
-        <translation>Bitcoin Core lukker ned…</translation>
+        <source>Marycoin Core is shutting down...</source>
+        <translation>Marycoin Core lukker ned…</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2284,11 +2284,11 @@
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signere beskeder/aftaler med dine adresser for at bevise, at du kan modtage bitcoin, der bliver sendt til adresserne. Vær forsigtig med ikke at signere noget vagt eller tilfældigt, da eventuelle phishing-angreb kan snyde dig til at overlade din identitet til dem. Signér kun fuldt ud detaljerede udsagn, som du er enig i.</translation>
+        <translation>Du kan signere beskeder/aftaler med dine adresser for at bevise, at du kan modtage marycoin, der bliver sendt til adresserne. Vær forsigtig med ikke at signere noget vagt eller tilfældigt, da eventuelle phishing-angreb kan snyde dig til at overlade din identitet til dem. Signér kun fuldt ud detaljerede udsagn, som du er enig i.</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoin-adresse, som beskeden skal signeres med</translation>
+        <source>The Marycoin address to sign the message with</source>
+        <translation>Marycoin-adresse, som beskeden skal signeres med</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2319,8 +2319,8 @@
         <translation>Kopiér den nuværende underskrift til systemets udklipsholder</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Underskriv denne besked for at bevise, at Bitcoin-adressen tilhører dig</translation>
+        <source>Sign the message to prove you own this Marycoin address</source>
+        <translation>Underskriv denne besked for at bevise, at Marycoin-adressen tilhører dig</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2343,12 +2343,12 @@
         <translation>Indtast modtagerens adresse, besked (vær sikker på at kopiere linjeskift, mellemrum, tabuleringer, etc. præcist) og signatur herunder for at verificere beskeden. Vær forsigtig med ikke at læse noget ud fra signaturen, som ikke står i selve beskeden, for at undgå at blive snydt af et eventuelt man-in-the-middle-angreb. Bemærk, at dette kun beviser, at den signerende person kan modtage med adressen; det kan ikke bevise hvem der har sendt en given transaktion!</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoin-adressen, som beskeden blev signeret med</translation>
+        <source>The Marycoin address the message was signed with</source>
+        <translation>Marycoin-adressen, som beskeden blev signeret med</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verificér beskeden for at sikre, at den er underskrevet med den angivne Bitcoin-adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified Marycoin address</source>
+        <translation>Verificér beskeden for at sikre, at den er underskrevet med den angivne Marycoin-adresse</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2414,12 +2414,12 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Marycoin Core</source>
+        <translation>Marycoin Core</translation>
     </message>
     <message>
-        <source>The Bitcoin Core developers</source>
-        <translation>Udviklerne af Bitcoin Core</translation>
+        <source>The Marycoin Core developers</source>
+        <translation>Udviklerne af Marycoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2906,7 +2906,7 @@
     </message>
 </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>marycoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Indstillinger:</translation>
@@ -2936,8 +2936,8 @@
         <translation>Maksimalt totalgebyr (i %s) for brug i en enkelt tegnebogstransaktion; ved at sætte dette for lavt, kan store transaktioner afbrydes (standard: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Bitcoin Core will not work properly.</source>
-        <translation>Kontrollér venligst, at din computers dato og tid er korrekt! Hvis uret ikke passer, vil Bitcoin Core ikke fungere korrekt.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Marycoin Core will not work properly.</source>
+        <translation>Kontrollér venligst, at din computers dato og tid er korrekt! Hvis uret ikke passer, vil Marycoin Core ikke fungere korrekt.</translation>
     </message>
     <message>
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
@@ -3008,8 +3008,8 @@
         <translation>Dette er en foreløbig testudgivelse - brug på eget ansvar - brug ikke til udvinding eller handelsprogrammer</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
-        <translation>Ikke i stand til at tildele til %s på denne computer. Bitcoin Core kører sansynligvis allerede.</translation>
+        <source>Unable to bind to %s on this computer. Marycoin Core is probably already running.</source>
+        <translation>Ikke i stand til at tildele til %s på denne computer. Marycoin Core kører sansynligvis allerede.</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -3216,8 +3216,8 @@
         <translation>Tildel til den givne adresse for at lytte efter JSON-RPC-forbindelser. Brug [vært]:port-notation for IPv6. Denne valgmulighed kan angives flere gange (standard: tildel til alle grænseflader)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
-        <translation>Kan ikke opnå en lås på datamappe %s. Bitcoin Core kører sansynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. Marycoin Core is probably already running.</source>
+        <translation>Kan ikke opnå en lås på datamappe %s. Marycoin Core kører sansynligvis allerede.</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
@@ -3316,12 +3316,12 @@
         <translation>Forbind gennem SOCKS5-proxy</translation>
     </message>
     <message>
-        <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Ophavsret © 2009-%i Udviklerne af Bitcoin Core</translation>
+        <source>Copyright (C) 2009-%i The Marycoin Core Developers</source>
+        <translation>Ophavsret © 2009-%i Udviklerne af Marycoin Core</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin Core</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Bitcoin Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Marycoin Core</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Marycoin Core</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
@@ -3336,8 +3336,8 @@
         <translation>Information</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Bitcoin Core is shutting down.</source>
-        <translation>Sundhedstjek under klargøring mislykkedes. Bitcoin Core lukker ned.</translation>
+        <source>Initialization sanity check failed. Marycoin Core is shutting down.</source>
+        <translation>Sundhedstjek under klargøring mislykkedes. Marycoin Core lukker ned.</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
@@ -3456,8 +3456,8 @@
         <translation>Brugernavn til JSON-RPC-forbindelser</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Bitcoin Core to complete</source>
-        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Bitcoin Core for at gennemføre</translation>
+        <source>Wallet needed to be rewritten: restart Marycoin Core to complete</source>
+        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Marycoin Core for at gennemføre</translation>
     </message>
     <message>
         <source>Warning</source>

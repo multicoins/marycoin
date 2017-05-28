@@ -164,6 +164,6 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>marycoin-core</name>
     </context>
 </TS>

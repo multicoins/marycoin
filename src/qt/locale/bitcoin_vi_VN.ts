@@ -174,12 +174,12 @@
         <translation>Mở &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Bitcoin Core client</translation>
+        <source>Marycoin Core client</source>
+        <translation>Marycoin Core client</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Marycoin</source>
+        <translation>Marycoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -214,12 +214,12 @@
         <translation>Trợ &amp;giúp</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Marycoin Core</source>
+        <translation>Marycoin Core</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;Về Bitcoin Core</translation>
+        <source>&amp;About Marycoin Core</source>
+        <translation>&amp;Về Marycoin Core</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -377,16 +377,16 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Marycoin Core</source>
+        <translation>Marycoin Core</translation>
     </message>
     <message>
         <source>version</source>
         <translation>version</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>Về Bitcoin Core</translation>
+        <source>About Marycoin Core</source>
+        <translation>Về Marycoin Core</translation>
     </message>
     </context>
 <context>
@@ -396,8 +396,8 @@
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Marycoin Core</source>
+        <translation>Marycoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -616,8 +616,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Marycoin Core</source>
+        <translation>Marycoin Core</translation>
     </message>
     </context>
 <context>
@@ -708,7 +708,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>marycoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Lựa chọn:</translation>

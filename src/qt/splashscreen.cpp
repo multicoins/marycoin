@@ -38,9 +38,9 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
 #endif
 
     // define text to place
-    QString titleText       = tr("Bitcoin Core");
+    QString titleText       = tr("Marycoin Core");
     QString versionText     = QString("Version %1").arg(QString::fromStdString(FormatFullVersion()));
-    QString copyrightText   = QChar(0xA9)+QString(" 2009-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Bitcoin Core developers"));
+    QString copyrightText   = QChar(0xA9)+QString(" 2009-%1 ").arg(COPYRIGHT_YEAR) + QString(tr("The Marycoin Core developers"));
     QString titleAddText    = networkStyle->getTitleAddText();
 
     QString font            = QApplication::font().toString();
@@ -64,7 +64,7 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle *networkStyle) 
     QRect rGradient(QPoint(0,0), splashSize);
     pixPaint.fillRect(rGradient, gradient);
 
-    // draw the bitcoin icon, expected size of PNG: 1024x1024
+    // draw the marycoin icon, expected size of PNG: 1024x1024
     QRect rectIcon(QPoint(-150,-122), QSize(430,430));
 
     const QSize requiredSize(1024,1024);

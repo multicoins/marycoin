@@ -34,11 +34,11 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>Marycoin Core</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
+        <source>&amp;About Marycoin Core</source>
         <translation>За Биткойн ядрото</translation>
     </message>
     </context>
@@ -57,18 +57,18 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>Marycoin Core</source>
         <translation>Биткойн ядро</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
+        <source>About Marycoin Core</source>
         <translation>За Биткойн ядрото</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>Marycoin Core</source>
         <translation>Биткойн ядро</translation>
     </message>
     </context>
@@ -120,7 +120,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
+        <source>Marycoin Core</source>
         <translation>Биткойн ядро</translation>
     </message>
     </context>
@@ -152,6 +152,6 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>marycoin-core</name>
     </context>
 </TS>

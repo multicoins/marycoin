@@ -66,12 +66,12 @@
         <translation>Adresa za primanje</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ovo su vaše Bitcoin adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your Marycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su vaše Marycoin adrese za slanje novca. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Ovo su vaše Bitcoin adrese za primanje novca. Preporučamo da koristite novu adresu za primanje za svaku transakciju.</translation>
+        <source>These are your Marycoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ovo su vaše Marycoin adrese za primanje novca. Preporučamo da koristite novu adresu za primanje za svaku transakciju.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -294,8 +294,8 @@
         <translation>Otvori &amp;URI...</translation>
     </message>
     <message>
-        <source>Bitcoin Core client</source>
-        <translation>Bitcoin Core klijent</translation>
+        <source>Marycoin Core client</source>
+        <translation>Marycoin Core klijent</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
@@ -306,8 +306,8 @@
         <translation>Re-indeksiranje blokova na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Slanje novca na bitcoin adresu</translation>
+        <source>Send coins to a Marycoin address</source>
+        <translation>Slanje novca na marycoin adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -330,8 +330,8 @@
         <translation>&amp;Potvrdite poruku...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Marycoin</source>
+        <translation>Marycoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -346,8 +346,8 @@
         <translation>Pri&amp;mi</translation>
     </message>
     <message>
-        <source>Show information about Bitcoin Core</source>
-        <translation>Prikaži informacije o programu Bitcoin Core</translation>
+        <source>Show information about Marycoin Core</source>
+        <translation>Prikaži informacije o programu Marycoin Core</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -362,12 +362,12 @@
         <translation>Šifriranje privatnih ključeva koji u novčaniku</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Poruku potpišemo s bitcoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
+        <source>Sign messages with your Marycoin addresses to prove you own them</source>
+        <translation>Poruku potpišemo s marycoin adresom, kako bi dokazali vlasništvo nad tom adresom</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom bitcoin adresom</translation>
+        <source>Verify messages to ensure they were signed with specified Marycoin addresses</source>
+        <translation>Provjeravanje poruke, kao dokaz, da je potpisana navedenom marycoin adresom</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -386,19 +386,19 @@
         <translation>Traka kartica</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Marycoin Core</source>
+        <translation>Marycoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Zatraži uplatu (stvara QR kod i bitcoin: URI adresu)</translation>
+        <source>Request payments (generates QR codes and marycoin: URIs)</source>
+        <translation>Zatraži uplatu (stvara QR kod i marycoin: URI adresu)</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>&amp;O programu Bitcoin Core</translation>
+        <source>&amp;About Marycoin Core</source>
+        <translation>&amp;O programu Marycoin Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for Bitcoin Core</source>
+        <source>Modify configuration options for Marycoin Core</source>
         <translation>Promijeni postavke programa</translation>
     </message>
     <message>
@@ -410,20 +410,20 @@
         <translation>Prikaži popis korištenih adresa i oznaka za primanje novca</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Otvori bitcoin: URI adresu ili zahtjev za uplatu</translation>
+        <source>Open a marycoin: URI or payment request</source>
+        <translation>Otvori marycoin: URI adresu ili zahtjev za uplatu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Opcije &amp;naredbene linije</translation>
     </message>
     <message>
-        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the Marycoin Core help message to get a list with possible Marycoin command-line options</source>
         <translation>Ispis svih opcija naredbene linije programa sa kratkim opisom</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktivna veza na Bitcoin mrežu</numerusform><numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform><numerusform>%n aktivnih veza na Bitcoin mrežu</numerusform></translation>
+        <source>%n active connection(s) to Marycoin network</source>
+        <translation><numerusform>%n aktivna veza na Marycoin mrežu</numerusform><numerusform>%n aktivnih veza na Marycoin mrežu</numerusform><numerusform>%n aktivnih veza na Marycoin mrežu</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -686,11 +686,11 @@
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Oznaka bitcoin adrese</translation>
+        <translation>Oznaka marycoin adrese</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Bitcoin adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
+        <translation>Marycoin adresa. Izmjene adrese su moguće samo za adrese za slanje.</translation>
     </message>
     <message>
         <source>&amp;Address</source>
@@ -717,8 +717,8 @@
         <translation>Upisana adresa "%1" je već u adresaru.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Upisana adresa "%1" nije valjana bitcoin adresa.</translation>
+        <source>The entered address "%1" is not a valid Marycoin address.</source>
+        <translation>Upisana adresa "%1" nije valjana marycoin adresa.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -747,8 +747,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Marycoin Core</source>
+        <translation>Marycoin Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -759,8 +759,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>O programu Bitcoin Core</translation>
+        <source>About Marycoin Core</source>
+        <translation>O programu Marycoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -782,12 +782,12 @@
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to Bitcoin Core.</source>
-        <translation>Dobrodošli u programu Bitcoin Core.</translation>
+        <source>Welcome to Marycoin Core.</source>
+        <translation>Dobrodošli u programu Marycoin Core.</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Marycoin Core</source>
+        <translation>Marycoin Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -864,11 +864,11 @@
         <translation>&amp;Mreža</translation>
     </message>
     <message>
-        <source>Automatically start Bitcoin Core after logging in to the system.</source>
+        <source>Automatically start Marycoin Core after logging in to the system.</source>
         <translation>Program se automatski pokrene po prijavi u sustav.</translation>
     </message>
     <message>
-        <source>&amp;Start Bitcoin Core on system login</source>
+        <source>&amp;Start Marycoin Core on system login</source>
         <translation>&amp;Pokreni program kod prijave u sustav</translation>
     </message>
     <message>
@@ -880,8 +880,8 @@
         <translation>&amp;Trošenje nepotvrđenih vraćenih iznosa</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvori port Bitcoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
+        <source>Automatically open the Marycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvori port Marycoin klijenta na ruteru. To radi samo ako ruter podržava UPnP i ako je omogućen.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -955,8 +955,8 @@
         <translation>Oblik</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Bitcoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Marycoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazani podatci mogu biti zastarjeli. Vaš novčanik se automatski sinkronizira s Marycoin mrežom kada je veza uspostavljena, ali taj proces još nije završen.</translation>
     </message>
     <message>
         <source>Total:</source>
@@ -1086,8 +1086,8 @@
         <translation>Očisti konzolu</translation>
     </message>
     <message>
-        <source>Welcome to the Bitcoin Core RPC console.</source>
-        <translation>Dobrodošli u Bitcoin RPC konzolu.</translation>
+        <source>Welcome to the Marycoin Core RPC console.</source>
+        <translation>Dobrodošli u Marycoin RPC konzolu.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1406,8 +1406,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Marycoin Core</source>
+        <translation>Marycoin Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -1762,7 +1762,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>marycoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Postavke:</translation>

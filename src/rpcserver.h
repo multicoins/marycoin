@@ -123,7 +123,7 @@ public:
 };
 
 /**
- * Bitcoin RPC command dispatcher.
+ * Marycoin RPC command dispatcher.
  */
 class CRPCTable
 {

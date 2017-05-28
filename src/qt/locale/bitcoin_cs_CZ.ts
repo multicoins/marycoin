@@ -158,8 +158,8 @@
         <translation>Změnit heslo k šifrování peněženky</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Marycoin</source>
+        <translation>Marycoin</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -648,7 +648,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>marycoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Možnosti:</translation>

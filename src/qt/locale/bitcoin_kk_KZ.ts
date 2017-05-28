@@ -110,7 +110,7 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
+        <source>Marycoin</source>
         <translation>Биткоин</translation>
     </message>
     <message>
@@ -440,7 +440,7 @@
     </message>
     </context>
 <context>
-    <name>bitcoin-core</name>
+    <name>marycoin-core</name>
     <message>
         <source>Information</source>
         <translation>Информация</translation>
