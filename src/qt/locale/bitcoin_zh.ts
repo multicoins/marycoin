@@ -12,7 +12,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>MarycoinGUI</name>
     <message>
         <source>Error</source>
         <translation>错误</translation>
@@ -21,9 +21,6 @@
         <source>Warning</source>
         <translation>警告</translation>
     </message>
-    </context>
-<context>
-    <name>ClientModel</name>
     </context>
 <context>
     <name>CoinControlDialog</name>
@@ -49,6 +46,9 @@
     </message>
     </context>
 <context>
+    <name>ModalOverlay</name>
+    </context>
+<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -65,6 +65,9 @@
     </context>
 <context>
     <name>QObject</name>
+    </context>
+<context>
+    <name>QObject::QObject</name>
     </context>
 <context>
     <name>QRImageWidget</name>
@@ -96,12 +99,12 @@
         <translation>选择...</translation>
     </message>
     <message>
-        <source>Pay only the required fee of %1</source>
-        <translation>仅支付全额的%1</translation>
-    </message>
-    <message>
         <source>The recipient address is not valid. Please recheck.</source>
         <translation>收款人地址无效，请再次确认。</translation>
+    </message>
+    <message>
+        <source>Pay only the required fee of %1</source>
+        <translation>仅支付全额的%1</translation>
     </message>
     <message>
         <source>Warning: Invalid Marycoin address</source>
@@ -110,6 +113,9 @@
     </context>
 <context>
     <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>SendConfirmationDialog</name>
     </context>
 <context>
     <name>ShutdownWindow</name>
@@ -162,10 +168,6 @@
 <context>
     <name>marycoin-core</name>
     <message>
-        <source>Transaction amounts must be positive</source>
-        <translation>转账额度须为正数</translation>
-    </message>
-    <message>
         <source>Transaction too large for fee policy</source>
         <translation>根据费率标准，本次转账超额</translation>
     </message>
@@ -178,24 +180,8 @@
         <translation>警告</translation>
     </message>
     <message>
-        <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat文件受损，修复失败</translation>
-    </message>
-    <message>
-        <source>This help message</source>
-        <translation>此条帮助信息</translation>
-    </message>
-    <message>
         <source>Loading addresses...</source>
         <translation>正在载入地址...</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>wallet.dat文件加载错误：钱包受损</translation>
-    </message>
-    <message>
-        <source>Error loading wallet.dat</source>
-        <translation>wallet.dat文件加载错误</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
