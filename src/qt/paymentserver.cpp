@@ -52,9 +52,15 @@ const QString BITCOIN_IPC_PREFIX("marycoin:");
 const char* BIP70_MESSAGE_PAYMENTACK = "PaymentACK";
 const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
 // BIP71 payment protocol media types
+<<<<<<< HEAD
 const char* BIP71_MIMETYPE_PAYMENT = "application/marycoin-payment";
 const char* BIP71_MIMETYPE_PAYMENTACK = "application/marycoin-paymentack";
 const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/marycoin-paymentrequest";
+=======
+const char* BIP71_MIMETYPE_PAYMENT = "application/bitcoin-payment";
+const char* BIP71_MIMETYPE_PAYMENTACK = "application/bitcoin-paymentack";
+const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/bitcoin-paymentrequest";
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 
 struct X509StoreDeleter {
       void operator()(X509_STORE* b) {

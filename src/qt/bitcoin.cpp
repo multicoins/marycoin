@@ -515,7 +515,11 @@ void BitcoinApplication::shutdownResult(int retval)
 
 void BitcoinApplication::handleRunawayException(const QString &message)
 {
+<<<<<<< HEAD
     QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Marycoin can no longer continue safely and will quit.") + QString("\n\n") + message);
+=======
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Bitcoin can no longer continue safely and will quit.") + QString("\n\n") + message);
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     ::exit(EXIT_FAILURE);
 }
 

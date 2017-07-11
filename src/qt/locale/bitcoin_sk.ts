@@ -62,12 +62,21 @@
         <translation>Prijímajúce adresy</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Marycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Toto sú Vaše Marycoin adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
     </message>
     <message>
         <source>These are your Marycoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Toto sú vaše Marycoin adresy pre prijímanie platieb. Odporúča sa použiť vždy novú prijímaciu adresu pre každú transakciu.</translation>
+=======
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše Bitcoin adresy pre posielanie platieb. Vždy skontrolujte sumu a prijímaciu adresu pred poslaním mincí.</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše Bitcoin adresy pre prijímanie platieb. Odporúča sa použiť vždy novú prijímaciu adresu pre každú transakciu.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -162,6 +171,7 @@
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
         <translation>Zadajte staré heslo a nové heslo k peňaženke.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Confirm wallet encryption</source>
@@ -170,6 +180,12 @@
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
         <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE MarycoinY&lt;/b&gt;!</translation>
+=======
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Potvrďte zašifrovanie peňaženky</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,10 +196,13 @@
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your marycoins from being stolen by malware infecting your computer.</source>
         <translation>%1 sa teraz zavrie, aby sa ukončil proces šifrovania. Zašifrovanie peňaženky neochráni úplne pred krádežou marycoinov škodlivými programami, ktoré prenikli do vášho počítača.</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>DÔLEŽITÉ: Všetky predchádzajúce zálohy vašej peňaženky, ktoré ste vykonali by mali byť nahradené novo vytvorenou, zašifrovanou peňaženkou. Z bezpečnostných dôvodov bude predchádzajúca záloha nezašifrovanej peňaženky k ničomu, akonáhle začnete používať novú, zašifrovanú peňaženku.</translation>
     </message>
@@ -318,6 +337,7 @@
         <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>Kliknite pre zakázanie sieťovej aktivity.</translation>
     </message>
@@ -334,6 +354,8 @@
         <translation>Synchronizujú sa hlavičky (%1%)...</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Reindexing blocks on disk...</source>
         <translation>Preindexúvam bloky na disku...</translation>
     </message>
@@ -414,8 +436,13 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Vyžiadať platby (vygeneruje QR kódy a marycoin: URI)</translation>
+=======
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a bitcoin: URI)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -478,18 +505,26 @@
         <translation>Aktualizovaný</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Marycoin command-line options</source>
         <translation>Ukáž %1 zoznam možných nastavení Marycoinu pomocou príkazového riadku</translation>
+=======
+        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Ukáž %1 zoznam možných nastavení Bitcoinu pomocou príkazového riadku</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>%1 client</source>
         <translation>%1 klient</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connecting to peers...</source>
         <translation>Pripája sa k partnerom...</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Catching up...</source>
         <translation>Sťahujem...</translation>
     </message>
@@ -539,11 +574,15 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>A fatal error occurred. Marycoin can no longer continue safely and will quit.</source>
         <translation>Vyskytla sa kritická chyba. Marycoin nemôže ďalej bezpečne pokračovať a ukončí sa.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -677,10 +716,13 @@
     <message>
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
         <translation>Tento popis sčervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako súčasný limit pre "prach".</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Can vary +/- %1 satoshi(s) per input.</source>
         <translation>Môže sa líšiť o +/- %1 satoshi pre každý vstup.</translation>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>(no label)</source>
@@ -734,8 +776,13 @@
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Marycoin address.</source>
         <translation>Vložená adresa "%1" nieje platnou adresou Marycoin.</translation>
+=======
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>Vložená adresa "%1" nieje platnou adresou Bitcoin.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -843,8 +890,13 @@
         <translation>Keďže toto je prvé spustenie programu, môžete si vybrať, kam %1 bude ukladať vaše údaje.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>%1 stiahne a uloží kópiu Marycoin block chain. Minimálne %2GB dát bude uložených v tejto zložke, a bude sa zväčšovať postupom času. Peňaženka bude taktiež uložená v tejto zložke.</translation>
+=======
+        <source>%1 will download and store a copy of the Bitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 stiahne a uloží kópiu Bitcoin block chain. Minimálne %2GB dát bude uložených v tejto zložke, a bude sa zväčšovať postupom času. Peňaženka bude taktiež uložená v tejto zložke.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -878,6 +930,7 @@
         <translation>Forma</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the marycoin network, as detailed below.</source>
         <translation>Nedávne transakcie nemusia byť ešte viditeľné preto môže byť zostatok vo vašej peňaženke nesprávny. Táto informácia bude správna keď sa dokončí synchronizovanie peňaženky so sieťou marycoin, ako je rozpísané nižšie.</translation>
     </message>
@@ -894,10 +947,13 @@
         <translation>Neznáme...</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Last block time</source>
         <translation>Čas posledného bloku</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Progress</source>
         <translation>Postup synchronizácie</translation>
     </message>
@@ -910,6 +966,8 @@
         <translation>počíta sa...</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Estimated time left until synced</source>
         <translation>Odhadovaný čas do ukončenia synchronizácie</translation>
     </message>
@@ -917,11 +975,15 @@
         <source>Hide</source>
         <translation>Skryť</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
         <translation>Neznámy. Synchronizujú sa hlavičky (%1)...</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1088,8 +1150,13 @@
         <translation>Tor</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Marycoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Pripojiť k Marycoinovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
+=======
+        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Pripojiť k Bitcoinovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1274,8 +1341,13 @@
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI cannot be parsed! This can be caused by an invalid Marycoin address or malformed URI parameters.</source>
         <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Marycoin adresou alebo zle nastavenými vlastnosťami URI.</translation>
+=======
+        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! To môže byť spôsobené neplatnou Bitcoin adresou alebo zle nastavenými vlastnosťami URI.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1352,6 +1424,7 @@
         <source>Node/Service</source>
         <translation>Uzol/Služba</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>NodeId</source>
         <translation>ID uzlu</translation>
@@ -1361,6 +1434,9 @@
         <translation>Odozva</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 <context>
     <name>QObject</name>
     <message>
@@ -1400,6 +1476,7 @@
         <translation>%1 ms</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n second(s)</source>
         <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekundy</numerusform><numerusform>%n sekúnd</numerusform></translation>
     </message>
@@ -1416,6 +1493,8 @@
         <translation><numerusform>%n deň</numerusform><numerusform>%n dni</numerusform><numerusform>%n dní</numerusform></translation>
     </message>
     <message numerus="yes">
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>%n week(s)</source>
         <translation><numerusform>%n týždeň</numerusform><numerusform>%n týždne</numerusform><numerusform>%n týždňov</numerusform></translation>
     </message>
@@ -1427,6 +1506,7 @@
         <source>%n year(s)</source>
         <translation><numerusform>%n rok</numerusform><numerusform>%n roky</numerusform><numerusform>%n rokov</numerusform></translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>%1 didn't yet exit safely...</source>
         <translation>%1 ešte nebol bezpečne ukončený...</translation>
@@ -1439,6 +1519,12 @@
         <translation>Chyba: %1</translation>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>QObject::QObject</name>
+    </context>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -1482,7 +1568,15 @@
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
+<<<<<<< HEAD
         <translation>Používa verziu BerkeleyDB</translation>
+    </message>
+    <message>
+        <source>Datadir</source>
+        <translation>Priečinok s dátami</translation>
+=======
+        <translation>Používa BerkeleyDB verziu</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Datadir</source>
@@ -1518,7 +1612,11 @@
     </message>
     <message>
         <source>Current number of transactions</source>
+<<<<<<< HEAD
         <translation>Aktuálny počet transakcií</translation>
+=======
+        <translation>Aktuálny počet tranzakcií</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Memory usage</source>
@@ -1558,7 +1656,11 @@
     </message>
     <message>
         <source>Starting Block</source>
+<<<<<<< HEAD
         <translation>Počiatočný blok</translation>
+=======
+        <translation>Počiatočný Blok</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Synced Headers</source>
@@ -1611,6 +1713,7 @@
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
+<<<<<<< HEAD
         <translation>Trvanie aktuálnej požiadavky na odozvu.</translation>
     </message>
     <message>
@@ -1620,6 +1723,13 @@
     <message>
         <source>Min Ping</source>
         <translation>Minimálna odozva</translation>
+=======
+        <translation>Trvanie aktuálneho pingu</translation>
+    </message>
+    <message>
+        <source>Ping Wait</source>
+        <translation>Čakanie na ping</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Time Offset</source>
@@ -1682,6 +1792,7 @@
         <translation>1 &amp;rok</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Disconnect</source>
         <translation>&amp;Odpojiť</translation>
     </message>
@@ -1694,6 +1805,8 @@
         <translation>&amp;Zrušiť zákaz</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Welcome to the %1 RPC console.</source>
         <translation>Vitajte v %1 RPC konzole</translation>
     </message>
@@ -1710,10 +1823,13 @@
         <translation>VAROVANIE: Podvodníci sú aktívni a môžu nabádať používateľov napísať sem príkazy, pomocou ktorých ukradnú ich obsah peňaženky. Nepoužívajte túto konzolu ak nerozumiete presne účinkom príkazov.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Network activity disabled</source>
         <translation>Sieťová aktivita zakázaná</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>%1 B</source>
         <translation>%1 B</translation>
     </message>
@@ -2035,7 +2151,11 @@
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
+<<<<<<< HEAD
         <translation>(Automatický poplatok ešte nebol vypočítaný. Toto zvyčajne trvá niekoľko blokov...)</translation>
+=======
+        <translation>(Automatický poplatok ešte nebol aktivovaný. Toto zvyčajne trvá niekoľko blokov...)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>normal</source>
@@ -2118,10 +2238,13 @@
         <translation>Určite chcete odoslať transakciu?</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>added as transaction fee</source>
         <translation>pridané ako poplatok za transakciu</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Total Amount %1</source>
         <translation>Celková suma %1</translation>
     </message>
@@ -2148,6 +2271,7 @@
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
         <translation>Celková suma prevyšuje Váš zostatok ak sú započítané aj transakčné poplatky %1.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Duplicate address found: addresses should only be used once each.</source>
@@ -2164,12 +2288,23 @@
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
         <translation>Poplatok vyšší ako %1 sa považuje za neprimerane vysoký.</translation>
+=======
+    </message>
+    <message>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation>Našla sa duplicitná adresa: každá adresa by sa mala použiť len raz.</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>Vytvorenie transakcie zlyhalo!</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Payment request expired.</source>
         <translation>Vypršala platnosť požiadavky na platbu.</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n block(s)</source>
         <translation><numerusform>%n blok</numerusform><numerusform>%n bloky</numerusform><numerusform>%n blokov</numerusform></translation>
     </message>
@@ -2184,6 +2319,14 @@
     <message>
         <source>Warning: Invalid Marycoin address</source>
         <translation>Varovanie: Neplatná Marycoin adresa</translation>
+=======
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Odhadovaný začiatok potvrdzovania po %n bloku.</numerusform><numerusform>Odhadovaný začiatok potvrdzovania po %n blokoch.</numerusform><numerusform>Odhadovaný začiatok potvrdzovania po %n blokoch.</numerusform></translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Bitcoin address</source>
+        <translation>Varovanie: Neplatná Bitcoin adresa</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2245,8 +2388,13 @@
         <translation>Odstrániť túto položku</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej marycoinov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
+=======
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej bitcoinov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2314,12 +2462,21 @@
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Môžete podpísať správy svojou adresou a dokázať, že viete prijímať mince zaslané na túto adresu. Buďte však opatrní a podpíšte len podrobné prehlásenia, s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k podpísaniu nejasných alebo príliš všeobecných tvrdení čím prevezmú vašu identitu.</translation>
     </message>
     <message>
         <source>The Marycoin address to sign the message with</source>
         <translation>Marycoin adresa pre podpísanie správy s</translation>
+=======
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Môžete podpísať správy svojou adresou a dokázať, že viete prijímať mince zaslané na túto adresu. Buďte však opatrní a podpíšte len podrobné prehlásenia, s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k podpísaniu nejasných alebo príliš všeobecných tvrdení čím prevezmú vašu identitu.</translation>
+    </message>
+    <message>
+        <source>The Bitcoin address to sign the message with</source>
+        <translation>Bitcoin adresa pre podpísanie správy s</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2374,8 +2531,13 @@
         <translation>Vložte adresu príjemcu, správu (uistite sa, že presne kopírujete ukončenia riadkov, medzery, odrážky, atď.) a podpis pre potvrdenie správy. Buďte opatrní a nedomýšľajte si viac než je uvedené v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu MITM útokom. Toto len potvrdzuje, že podpisujúca strana môže prijímať na tejto adrese, nepotvrdzuje to vlastníctvo žiadnej transakcie!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Marycoin address the message was signed with</source>
         <translation>Adresa Marycoin, ktorou bola podpísaná správa</translation>
+=======
+        <source>The Bitcoin address the message was signed with</source>
+        <translation>Adresa Bitcoin, ktorou bola podpísaná správa</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Marycoin address</source>
@@ -2609,11 +2771,15 @@
         <source>This pane shows a detailed description of the transaction</source>
         <translation>Táto časť obrazovky zobrazuje detailný popis transakcie</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Details for %1</source>
         <translation>Podrobnosti pre %1</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 <context>
     <name>TransactionTableModel</name>
     <message>
@@ -2796,10 +2962,13 @@
         <translation>Skopírovať neupravenú transakciu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy full transaction details</source>
         <translation>Kopírovať všetky podrobnosti o transakcii</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Edit label</source>
         <translation>Upraviť popis</translation>
     </message>
@@ -2960,7 +3129,11 @@
     </message>
     <message>
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
+<<<<<<< HEAD
         <translation>Poplatok (za %s/kB) pridaný do transakcie, ktorú posielate (predvolené: %s)</translation>
+=======
+        <translation>Poplatok (za %s/kB) pridaný do tranzakcie, ktorú posielate (predvolené: %s)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Pruning blockstore...</source>
@@ -2975,8 +3148,13 @@
         <translation>Nepodarilo sa spustiť HTTP server. Pre viac detailov zobrazte debug log.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
+=======
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>The %s developers</source>
@@ -3088,7 +3266,11 @@
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
+<<<<<<< HEAD
         <translation>Povoliť zverejnenie hash transakcií pre &lt;address&gt;</translation>
+=======
+        <translation>Povoliť zverejnenie hash tranzakcií pre &lt;address&gt;</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
@@ -3249,12 +3431,21 @@
     <message>
         <source>Wallet debugging/testing options:</source>
         <translation>Ladiace / testovacie možnosti peňaženky.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
         <translation>Peňaženka musí byť prepísaná: pre dokončenie reštartujte %s</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Wallet needed to be rewritten: restart %s to complete</source>
+        <translation>Peňaženka musí byť prepísaná: pre dokončenie reštartujte %s</translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Wallet options:</source>
         <translation>Voľby peňaženky:</translation>
     </message>
@@ -3308,7 +3499,11 @@
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
+<<<<<<< HEAD
         <translation>Suma je príliš malá pre odoslanie transakcie</translation>
+=======
+        <translation>Suma je príliš malá pre odoslanie tranzakcie</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3392,7 +3587,11 @@
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
+<<<<<<< HEAD
         <translation>Suma transakcie je príliš malá na zaplatenie poplatku</translation>
+=======
+        <translation>Suma tranzakcie je príliš malá na zaplatenie poplatku</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>This is experimental software.</source>
@@ -3479,10 +3678,13 @@
         <translation>Výstupné ladiace informácie (predvolené: %u, dodanie &lt;category&gt; je voliteľné)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is the transaction fee you may pay when fee estimates are not available.</source>
         <translation>Toto je poplatok za transakciu keď odhad poplatkov ešte nie je k dispozícii.</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
         <translation>Celková dĺžka verzie sieťového reťazca (%i) prekračuje maximálnu dĺžku (%i). Znížte počet a veľkosť komentárov.</translation>
     </message>
@@ -3515,10 +3717,13 @@
         <translation>Povoliť partnerov pripájajúcich sa z danej IP adresy (napr. 1.2.3.4) alebo zo siete vo formáte CIDR (napr. 1.2.3.0/24). Môže byť zadané viackrát.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%s is set very high!</source>
         <translation>Hodnota %s je nastavená veľmi vysoko!</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>(default: %s)</source>
         <translation>(predvolené: %s)</translation>
     </message>
@@ -3599,6 +3804,7 @@
         <translation>Spúšťajú sa sieťové vlákna...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The wallet will avoid paying less than the minimum relay fee.</source>
         <translation>Peňaženka zabráni zaplateniu menšej sumy ako je minimálny poplatok.</translation>
     </message>
@@ -3623,6 +3829,12 @@
         <translation>Transakcia musí mať aspoň jedného príjemcu</translation>
     </message>
     <message>
+=======
+        <source>Transaction amounts must not be negative</source>
+        <translation>Sumy transakcií nesmú byť záporné</translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Unknown network specified in -onlynet: '%s'</source>
         <translation>Neznáma sieť upresnená v -onlynet: '%s'</translation>
     </message>

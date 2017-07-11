@@ -122,8 +122,13 @@
         <translation>Address king pamag-Tanggap</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Marycoin address</source>
         <translation>Magpadalang barya king Marycoin address</translation>
+=======
+        <source>Send coins to a Bitcoin address</source>
+        <translation>Magpadalang barya king Bitcoin address</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -752,8 +757,13 @@
         <translation>Gumana king gulut bilang daemon at tumanggap commands</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Kapilubluban ning Marycoin</translation>
+=======
+        <source>Bitcoin Core</source>
+        <translation>Kapilubluban ning Bitcoin</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Block creation options:</source>

@@ -68,7 +68,11 @@
     <name>BanTableModel</name>
     </context>
 <context>
+<<<<<<< HEAD:src/qt/locale/bitcoin_es_AR.ts
     <name>MarycoinGUI</name>
+=======
+    <name>BitcoinGUI</name>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26:src/qt/locale/bitcoin_es_AR.ts
     </context>
 <context>
     <name>CoinControlDialog</name>

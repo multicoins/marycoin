@@ -110,16 +110,26 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Marycoin address</source>
         <translation>Enviar monedas a una dirección Marycoin</translation>
+=======
+        <source>Send coins to a Bitcoin address</source>
+        <translation>Enviar monedas a una dirección Bitcoin</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Cambie la clave utilizada para el cifrado del monedero</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin</source>
         <translation>Marycoin</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Wallet</source>
@@ -437,7 +447,11 @@
     <name>WalletView</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>marycoin-core</name>
+=======
+    <name>bitcoin-core</name>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Options:</source>
         <translation>Opciones:</translation>

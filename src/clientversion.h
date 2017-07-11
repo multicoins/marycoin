@@ -16,7 +16,11 @@
 //! These need to be macros, as clientversion.cpp's and bitcoin*-res.rc's voodoo requires it
 #define CLIENT_VERSION_MAJOR 0
 #define CLIENT_VERSION_MINOR 14
+<<<<<<< HEAD
 #define CLIENT_VERSION_REVISION 2
+=======
+#define CLIENT_VERSION_REVISION 1
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 #define CLIENT_VERSION_BUILD 0
 
 //! Set to true for release, false for prerelease or test build

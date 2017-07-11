@@ -82,7 +82,11 @@ UniValue importprivkey(const JSONRPCRequest& request)
     
     if (request.fHelp || request.params.size() < 1 || request.params.size() > 3)
         throw runtime_error(
+<<<<<<< HEAD
             "importprivkey \"marycoinprivkey\" ( \"label\" ) ( rescan )\n"
+=======
+            "importprivkey \"bitcoinprivkey\" ( \"label\" ) ( rescan )\n"
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
             "\nAdds a private key (as returned by dumpprivkey) to your wallet.\n"
             "\nArguments:\n"
             "1. \"marycoinprivkey\"   (string, required) The private key (see dumpprivkey)\n"
@@ -522,7 +526,11 @@ UniValue dumpprivkey(const JSONRPCRequest& request)
             "\nReveals the private key corresponding to 'address'.\n"
             "Then the importprivkey can be used with this output\n"
             "\nArguments:\n"
+<<<<<<< HEAD
             "1. \"address\"   (string, required) The marycoin address for the private key\n"
+=======
+            "1. \"address\"   (string, required) The bitcoin address for the private key\n"
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
             "\nResult:\n"
             "\"key\"                (string) The private key\n"
             "\nExamples:\n"
@@ -590,7 +598,11 @@ UniValue dumpwallet(const JSONRPCRequest& request)
     std::sort(vKeyBirth.begin(), vKeyBirth.end());
 
     // produce output
+<<<<<<< HEAD
     file << strprintf("# Wallet dump created by Marycoin %s\n", CLIENT_BUILD);
+=======
+    file << strprintf("# Wallet dump created by Bitcoin %s\n", CLIENT_BUILD);
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     file << strprintf("# * Created on %s\n", EncodeDumpTime(GetTime()));
     file << strprintf("# * Best block at time of backup was %i (%s),\n", chainActive.Height(), chainActive.Tip()->GetBlockHash().ToString());
     file << strprintf("#   mined on %s\n", EncodeDumpTime(chainActive.Tip()->GetBlockTime()));

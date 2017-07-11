@@ -190,7 +190,11 @@ UniValue generatetoaddress(const JSONRPCRequest& request)
             "\nMine blocks immediately to a specified address (before the RPC call returns)\n"
             "\nArguments:\n"
             "1. nblocks      (numeric, required) How many blocks are generated immediately.\n"
+<<<<<<< HEAD:src/rpc/mining.cpp
             "2. address      (string, required) The address to send the newly generated marycoin to.\n"
+=======
+            "2. address      (string, required) The address to send the newly generated bitcoin to.\n"
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26:src/rpc/mining.cpp
             "3. maxtries     (numeric, optional) How many iterations to try (default = 1000000).\n"
             "\nResult:\n"
             "[ blockhashes ]     (array) hashes of blocks generated\n"
@@ -466,7 +470,11 @@ UniValue getblocktemplate(const JSONRPCRequest& request)
         throw JSONRPCError(RPC_CLIENT_P2P_DISABLED, "Error: Peer-to-peer functionality missing or disabled");
 
     if (g_connman->GetNodeCount(CConnman::CONNECTIONS_ALL) == 0)
+<<<<<<< HEAD:src/rpc/mining.cpp
         throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Marycoin is not connected!");
+=======
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Bitcoin is not connected!");
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26:src/rpc/mining.cpp
 
     if (IsInitialBlockDownload())
         throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Marycoin is downloading blocks...");

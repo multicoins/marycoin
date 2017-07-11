@@ -952,6 +952,7 @@ bool CWallet::AddToWallet(const CWalletTx& wtxIn, bool fFlushOnClose)
         {
             wtx.hashBlock = wtxIn.hashBlock;
             fUpdated = true;
+<<<<<<< HEAD
         }
         // If no longer abandoned, update
         if (wtxIn.hashBlock.IsNull() && wtx.isAbandoned())
@@ -964,6 +965,20 @@ bool CWallet::AddToWallet(const CWalletTx& wtxIn, bool fFlushOnClose)
             wtx.nIndex = wtxIn.nIndex;
             fUpdated = true;
         }
+=======
+        }
+        // If no longer abandoned, update
+        if (wtxIn.hashBlock.IsNull() && wtx.isAbandoned())
+        {
+            wtx.hashBlock = wtxIn.hashBlock;
+            fUpdated = true;
+        }
+        if (wtxIn.nIndex != -1 && (wtxIn.nIndex != wtx.nIndex))
+        {
+            wtx.nIndex = wtxIn.nIndex;
+            fUpdated = true;
+        }
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         if (wtxIn.fFromMe && wtxIn.fFromMe != wtx.fFromMe)
         {
             wtx.fFromMe = wtxIn.fFromMe;

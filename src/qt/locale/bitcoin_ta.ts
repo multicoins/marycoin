@@ -52,7 +52,11 @@
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>MarycoinGUI</name>
+=======
+    <name>BitcoinGUI</name>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;கண்ணோட்டம்</translation>
@@ -90,8 +94,13 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin</source>
         <translation>Marycoin</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Wallet</source>
@@ -706,10 +715,17 @@
     <name>WalletView</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>marycoin-core</name>
     <message>
         <source>Marycoin Core</source>
         <translation>Marycoin மையம்</translation>
+=======
+    <name>bitcoin-core</name>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin மையம்</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>(default: %u)</source>

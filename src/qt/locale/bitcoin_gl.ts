@@ -206,8 +206,13 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Solicitar pagos (xenera códigos QR e marycoin: URIs)</translation>
+=======
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <translation>Solicitar pagos (xenera códigos QR e bitcoin: URIs)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -466,8 +471,13 @@
         <translation>Moedeiro</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Marycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Abrir automáticamente o porto do cliente Marycoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
+=======
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente o porto do cliente Bitcoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1028,8 +1038,13 @@
         <translation>Executar no fondo como un demo e aceptar comandos</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Core de Marycoin</translation>
+=======
+        <source>Bitcoin Core</source>
+        <translation>Core de Bitcoin</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

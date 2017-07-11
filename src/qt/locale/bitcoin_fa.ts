@@ -52,6 +52,7 @@
     <message>
         <source>C&amp;hoose</source>
         <translation>انتخاب</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Sending addresses</source>
@@ -68,6 +69,16 @@
     <message>
         <source>&amp;Copy Address</source>
         <translation>کپی کردن آدرس</translation>
+=======
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>آدرس های فرستنده</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>آدرس های گیرنده</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -77,6 +88,7 @@
         <source>&amp;Edit</source>
         <translation>&amp;ویرایش</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Export Address List</source>
         <translation>صدور لیست آدرس ها</translation>
@@ -85,6 +97,8 @@
         <source>Exporting Failed</source>
         <translation>صدور موفق نبود</translation>
     </message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -124,18 +138,24 @@
         <translation>رمزنگاری کیف پول</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>این عملیات نیاز به عبارت کیف پول شما برای بازگشایی کیف پول دارد</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Unlock wallet</source>
         <translation>باز کردن قفل کیف پول</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>این عملیات نیاز به عبارت کیف پول شما برای رمزگشایی کیف پول دارد.</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Decrypt wallet</source>
         <translation>رمزگشایی کیف پول</translation>
     </message>
@@ -148,10 +168,13 @@
         <translation>عبارت کهنه و جدید کیف پول را وارد کنید.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirm wallet encryption</source>
         <translation>تأیید رمزنگاری کیف پول</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>آیا مطمئن هستید که می‌خواهید کیف پول خود را رمزنگاری کنید؟</translation>
     </message>
@@ -282,6 +305,7 @@
         <translation>باز کردن &amp;آدرس</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>برای غیر فعال کردن فعالیت شبکه کلیک کنید.</translation>
     </message>
@@ -294,6 +318,8 @@
         <translation>برای فعال کردن دوباره فعالیت شبکه کلیک کنید.</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Reindexing blocks on disk...</source>
         <translation>بازنشانی بلوک‌ها روی دیسک...</translation>
     </message>
@@ -374,7 +400,11 @@
         <translation>نوارابزار برگه‌ها</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
+=======
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>درخواست پرداخت ( تولید کد کیوار و ادرس بیت کوین)</translation>
     </message>
     <message>
@@ -386,7 +416,11 @@
         <translation>نمایش لیست آدرس های دریافت و لیبل ها</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a marycoin: URI or payment request</source>
+=======
+        <source>Open a bitcoin: URI or payment request</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>بازکردن یک بیت کوین: آدرس یا درخواست پرداخت</translation>
     </message>
     <message>
@@ -394,7 +428,11 @@
         <translation>گزینه‌های خط‌فرمان</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Marycoin network</source>
+=======
+        <source>%n active connection(s) to Bitcoin network</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation><numerusform>%n ارتباط فعال با شبکهٔ بیت‌کوین</numerusform></translation>
     </message>
     <message>
@@ -583,6 +621,7 @@
         <translation>رونوشت کارمزد</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy bytes</source>
         <translation>کپی کردن بایت ها</translation>
     </message>
@@ -591,6 +630,8 @@
         <translation>کپی کردن تغییر</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>(%1 locked)</source>
         <translation>(%1 قفل شده)</translation>
     </message>
@@ -642,7 +683,11 @@
         <translation>ویرایش آدرس قرستنده</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Marycoin address.</source>
+=======
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>نشانی وارد شده "%1" یک نشانی معتبر بیت‌کوین نیست.</translation>
     </message>
     <message>
@@ -766,6 +811,7 @@
         <translation>زمان آخرین بلوک</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Progress</source>
         <translation>پیشروی</translation>
     </message>
@@ -782,6 +828,8 @@
         <translation>زمان تخمینی تا سینک شدن</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Hide</source>
         <translation>پنهان کردن</translation>
     </message>
@@ -1001,7 +1049,14 @@
     </context>
 <context>
     <name>PaymentServer</name>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Invalid payment request.</source>
         <translation>درخواست پرداخت نامعتبر.</translation>
     </message>
@@ -1012,11 +1067,17 @@
 <context>
     <name>QObject</name>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Amount</source>
         <translation>مبلغ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Marycoin address (e.g. %1)</source>
+=======
+        <source>Enter a Bitcoin address (e.g. %1)</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>یک آدرس بیت‌کوین وارد کنید (مثلاً %1)</translation>
     </message>
     <message>
@@ -1167,10 +1228,13 @@
     <message>
         <source>In:</source>
         <translation>در:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Out:</source>
         <translation>خروجی:</translation>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Debug log file</source>
@@ -1181,18 +1245,24 @@
         <translation>پاکسازی کنسول</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>1 &amp;hour</source>
         <translation>1 ساعت</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
         <translation>1 روز</translation>
+=======
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>دکمه‌های بالا و پایین برای پیمایش تاریخچه و &lt;b&gt;Ctrl-L&lt;/b&gt; برای پاک کردن صفحه.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>1 &amp;week</source>
         <translation>1 هفته</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>1 &amp;year</source>
         <translation>1 سال</translation>
     </message>
@@ -1223,8 +1293,44 @@
     <message>
         <source>%1 GB</source>
         <translation>%1 گیگابایت</translation>
+=======
+        <source>%1 B</source>
+        <translation>%1 بایت</translation>
     </message>
     <message>
+        <source>%1 KB</source>
+        <translation>%1 کیلوبایت</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 مگابایت</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 گیگابایت</translation>
+    </message>
+    <message>
+        <source>never</source>
+        <translation>هرگز</translation>
+    </message>
+    <message>
+        <source>Yes</source>
+        <translation>بله</translation>
+    </message>
+    <message>
+        <source>No</source>
+        <translation>خیر</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>ناشناخته</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
+    </message>
+</context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>never</source>
         <translation>هرگز</translation>
     </message>
@@ -1284,6 +1390,48 @@
         <translation>کپی برچسب</translation>
     </message>
     <message>
+=======
+        <source>&amp;Amount:</source>
+        <translation>مبلغ:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;برچسب:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>پیام:</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>برای درخواست پرداخت از این فرم استفاده کنید.تمام قسمت ها &lt;b&gt;اختیاری&lt;b&gt; هستند.</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>تمام قسمت های فرم را خالی کن.</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>پاک‌کردن</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>نمایش</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>حذف ورودی های انتخاب‌شده از لیست</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>حذف کردن</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>کپی برچسب</translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Copy amount</source>
         <translation>کپی مقدار</translation>
     </message>
@@ -1439,6 +1587,7 @@
     <message>
         <source>Copy fee</source>
         <translation>رونوشت کارمزد</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Copy bytes</source>
@@ -1447,6 +1596,8 @@
     <message>
         <source>Copy change</source>
         <translation>کپی کردن تغییر</translation>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>(no label)</source>
@@ -1657,10 +1808,13 @@
     <message>
         <source>Address</source>
         <translation>آدرس</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Exporting Failed</source>
         <translation>صدور موفق نبود</translation>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     </context>
 <context>
@@ -1702,8 +1856,13 @@
         <translation>اجرا در پشت زمینه به‌صورت یک سرویس و پذیرش دستورات</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation> هسته Marycoin </translation>
+=======
+        <source>Bitcoin Core</source>
+        <translation> هسته Bitcoin </translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

@@ -86,7 +86,11 @@ bool AppInit(int argc, char* argv[])
         else
         {
             strUsage += "\n" + _("Usage:") + "\n" +
+<<<<<<< HEAD
                   "  marycoind [options]                     " + strprintf(_("Start %s Daemon"), _(PACKAGE_NAME)) + "\n";
+=======
+                  "  bitcoind [options]                     " + strprintf(_("Start %s Daemon"), _(PACKAGE_NAME)) + "\n";
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -125,7 +129,11 @@ bool AppInit(int argc, char* argv[])
 
         if (fCommandLine)
         {
+<<<<<<< HEAD
             fprintf(stderr, "Error: There is no RPC client functionality in marycoind anymore. Use the marycoin-cli utility instead.\n");
+=======
+            fprintf(stderr, "Error: There is no RPC client functionality in bitcoind anymore. Use the bitcoin-cli utility instead.\n");
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
             exit(EXIT_FAILURE);
         }
         // -server defaults to true for bitcoind but not for the GUI so do this here
@@ -151,7 +159,11 @@ bool AppInit(int argc, char* argv[])
         if (GetBoolArg("-daemon", false))
         {
 #if HAVE_DECL_DAEMON
+<<<<<<< HEAD
             fprintf(stdout, "Marycoin server starting\n");
+=======
+            fprintf(stdout, "Bitcoin server starting\n");
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 
             // Daemonize
             if (daemon(1, 0)) { // don't chdir (1), do close FDs (0)

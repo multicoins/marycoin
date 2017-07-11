@@ -76,7 +76,11 @@
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>MarycoinGUI</name>
+=======
+    <name>BitcoinGUI</name>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Sign &amp;message...</source>
         <translation>Podpiši &amp;sporočilo ...</translation>
@@ -230,8 +234,13 @@
         <translation>Orodna vrstica zavihkov</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Zahtevajte plačilo (ustvarite zahtevek s kodo QR in URI tipa marycoin:)</translation>
+=======
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <translation>Zahtevajte plačilo (ustvarite zahtevek s kodo QR in URI tipa bitcoin:)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -250,8 +259,13 @@
         <translation>Opcije &amp;ukazne vrstice</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Marycoin network</source>
         <translation><numerusform>%n aktivna povezava v omrežje Marycoin</numerusform><numerusform>%n aktivni povezavi v omrežje Marycoin</numerusform><numerusform>%n aktivne povezave v omrežje Marycoin</numerusform><numerusform>%n aktivnih povezav v omrežje Marycoin</numerusform></translation>
+=======
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n aktivna povezava v omrežje Bitcoin</numerusform><numerusform>%n aktivni povezavi v omrežje Bitcoin</numerusform><numerusform>%n aktivne povezave v omrežje Bitcoin</numerusform><numerusform>%n aktivnih povezav v omrežje Bitcoin</numerusform></translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -539,6 +553,24 @@
         <translation><numerusform>(od potrebnih %n GiB)</numerusform><numerusform>(od potrebnih %n GiB)</numerusform><numerusform>(od potrebnih %n GiB)</numerusform><numerusform>(od potrebnih %n GiB)</numerusform></translation>
     </message>
 </context>
+<<<<<<< HEAD
+<context>
+    <name>ModalOverlay</name>
+    <message>
+        <source>Form</source>
+        <translation>Oblika</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Čas zadnjega bloka</translation>
+    </message>
+    <message>
+        <source>Hide</source>
+        <translation>Skrij</translation>
+    </message>
+    </context>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 <context>
     <name>ModalOverlay</name>
     <message>
@@ -560,6 +592,8 @@
         <source>Open URI</source>
         <translation>Odpri URl</translation>
     </message>
+<<<<<<< HEAD
+=======
     <message>
         <source>Open payment request from URI or file</source>
         <translation>Vnesite zahtevek za plačilo iz URI ali pa ga naložite iz datoteke</translation>
@@ -572,6 +606,7 @@
         <source>Select payment request file</source>
         <translation>Izbiranje datoteke z zahtevkom za plačilo</translation>
     </message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>OptionsDialog</name>
@@ -1590,8 +1625,13 @@
         <translation>Teci v ozadju in sprejemaj ukaze</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
+=======
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

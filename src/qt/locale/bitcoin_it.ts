@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Fare clic con il tasto destro del mouse per modificare l'indirizzo o l'etichetta</translation>
+        <translation>Fare clic con il tasto destro del mouse per modificare l'indirizzo o l'etichettadefault</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -68,6 +68,10 @@
     <message>
         <source>These are your Marycoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Questi sono i tuoi indirizzi Marycoin che puoi usare per ricevere pagamenti. Si raccomanda di generare un nuovo indirizzo per ogni transazione.</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Copia l'indirizzo</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -180,6 +184,7 @@
         <translation>Portamonete cifrato</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>IMPORTANTE: qualsiasi backup del file portamonete effettuato in precedenza dovrà essere sostituito con il file del portamonete cifrato appena generato. Per ragioni di sicurezza, i precedenti backup del file del portamonete non cifrato diventeranno inservibili non appena si inizierà ad utilizzare il nuovo portamonete cifrato.</translation>
     </message>
@@ -194,6 +199,10 @@
     <message>
         <source>The supplied passphrases do not match.</source>
         <translation>Le frasi di accesso non corrispondono.</translation>
+=======
+        <source>Wallet encryption failed</source>
+        <translation>Il processo di crittografia del tuo portafogli è fallito</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Wallet unlock failed</source>
@@ -203,7 +212,11 @@
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>La frase inserita per decrittografare il tuo portafoglio è incorretta</translation>
     </message>
+    </context>
+<context>
+    <name>BanTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>Wallet decryption failed</source>
         <translation>Decrittazione del portamonete fallita.</translation>
     </message>
@@ -229,6 +242,18 @@
 </context>
 <context>
     <name>MarycoinGUI</name>
+=======
+        <source>IP/Netmask</source>
+        <translation>IP/Netmask</translation>
+    </message>
+    <message>
+        <source>Banned Until</source>
+        <translation>Bannato fino a</translation>
+    </message>
+</context>
+<context>
+    <name>BitcoinGUI</name>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firma &amp;messaggio...</translation>
@@ -394,8 +419,13 @@
         <translation>Barra degli strumenti</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Richiedi pagamenti (genera codici QR e marycoin: URI)</translation>
+=======
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <translation>Richiedi pagamenti (genera codici QR e bitcoin: URI)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -458,8 +488,13 @@
         <translation>Aggiornato</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Marycoin command-line options</source>
         <translation>Mostra il messaggio di aiuto di %1 per ottenere una lista di opzioni di comando per Marycoin </translation>
+=======
+        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Mostra il messaggio di aiuto di %1 per ottenere una lista di opzioni di comando per Bitcoin </translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>%1 client</source>
@@ -647,6 +682,7 @@
         <translation>no</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
         <translation>Questa etichetta diventerà rossa se uno qualsiasi dei destinatari riceverà un importo inferiore alla corrente soglia minima per la movimentazione della valuta.</translation>
     </message>
@@ -655,14 +691,19 @@
         <translation>Può variare di +/- %1 satoshi per input.</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>(no label)</source>
         <translation>(nessuna etichetta)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>change from %1 (%2)</source>
         <translation>cambio da %1 (%2)</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>(change)</source>
         <translation>(resto)</translation>
     </message>
@@ -689,6 +730,7 @@
         <source>&amp;Address</source>
         <translation>&amp;Indirizzo</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>New receiving address</source>
         <translation>Nuovo indirizzo di ricezione</translation>
@@ -722,6 +764,9 @@
         <translation>Generazione della nuova chiave non riuscita.</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -815,8 +860,13 @@
         <translation>Dato che questa è la prima volta che il programma viene lanciato, puoi scegliere dove %1 salverà i suoi dati.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>%1 scaricherà e salverà una copia della Blockchain di Marycoin. Saranno salvati almeno %2GB di dati in questo percorso e continueranno ad aumentare col tempo. Anche il portafoglio verrà salvato in questo percorso.</translation>
+=======
+        <source>%1 will download and store a copy of the Bitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 scaricherà e salverà una copia della Blockchain di Bitcoin. Saranno salvati almeno %2GB di dati in questo percorso e continueranno ad aumentare col tempo. Anche il portafoglio verrà salvato in questo percorso.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -850,10 +900,13 @@
         <translation>Modulo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Number of blocks left</source>
         <translation>Numero di blocchi mancanti</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Unknown...</source>
         <translation>Sconosciuto...</translation>
     </message>
@@ -862,10 +915,13 @@
         <translation>Ora del blocco più recente</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Progress</source>
         <translation>Progresso</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Hide</source>
         <translation>Nascondi</translation>
     </message>
@@ -888,11 +944,7 @@
         <source>Select payment request file</source>
         <translation>Seleziona il file di richiesta di pagamento</translation>
     </message>
-    <message>
-        <source>Select payment request file to open</source>
-        <translation>Seleziona il file di richiesta di pagamento da aprire</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -1037,8 +1089,13 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Tor</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Marycoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Connette alla rete Marycoin attraverso un proxy SOCKS5 separato per Tor.</translation>
+=======
+        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Connette alla rete Bitcoin attraverso un proxy SOCKS5 separato per Tor.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1207,6 +1264,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
 <context>
     <name>PaymentServer</name>
     <message>
+<<<<<<< HEAD
         <source>Payment request error</source>
         <translation>Errore di richiesta di pagamento</translation>
     </message>
@@ -1225,8 +1283,20 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>Invalid payment address %1</source>
         <translation>Indirizzo di pagamento non valido %1</translation>
+=======
+        <source>Payment request expired.</source>
+        <translation>Richiesta di pagamento scaduta.</translation>
     </message>
     <message>
+        <source>Invalid payment request.</source>
+        <translation>Richiesta di pagamento invalida</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
+    </message>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>URI cannot be parsed! This can be caused by an invalid Marycoin address or malformed URI parameters.</source>
         <translation>Impossibile interpretare l'URI! I parametri dell'URI o l'indirizzo Marycoin potrebbero non essere corretti.</translation>
     </message>
@@ -1241,20 +1311,33 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>Payment request rejected</source>
         <translation>Richiesta di pagamento respinta</translation>
+=======
+        <source>User Agent</source>
+        <translation>User Agent</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>La rete della richiesta di pagamento non corrisponde alla rete del client.</translation>
+        <source>Node/Service</source>
+        <translation>Nodo/Servizio</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Payment request expired.</source>
         <translation>Richiesta di pagamento scaduta.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
         <translation>La richiesta di pagamento non è stata inizializzata.</translation>
+=======
+        <source>Ping</source>
+        <translation>Ping</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
+</context>
+<context>
+    <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Le richieste di pagamento non verificate verso script di pagamento personalizzati non sono supportate.</translation>
     </message>
@@ -1281,28 +1364,89 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>Payment request cannot be parsed!</source>
         <translation>La richiesta di pagamento non può essere processata!</translation>
+=======
+        <source>Amount</source>
+        <translation>Importo</translation>
     </message>
     <message>
-        <source>Payment acknowledged</source>
-        <translation>Pagamento riconosciuto</translation>
+        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <translation>Inserisci un indirizzo Bitcoin (ad es. %1)</translation>
     </message>
+    <message>
+        <source>%1 d</source>
+        <translation>%1 d</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 s</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Nessuno</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/D</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 ms</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n second(s)</source>
+        <translation><numerusform>%n secondo</numerusform><numerusform>%n secondi</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n minute(s)</source>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minuti</numerusform></translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n ora</numerusform><numerusform>%n ore</numerusform></translation>
+    </message>
+<<<<<<< HEAD
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>User Agent</source>
         <translation>User Agent</translation>
+=======
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n giorno</numerusform><numerusform>%n giorni</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n settimana</numerusform><numerusform>%n settimane</numerusform></translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
-        <source>Node/Service</source>
-        <translation>Nodo/Servizio</translation>
+        <source>%1 and %2</source>
+        <translation>%1 e %2</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Ping</source>
         <translation>Ping</translation>
+=======
+    <message numerus="yes">
+        <source>%n year(s)</source>
+        <translation><numerusform>%n anno</numerusform><numerusform>%n anni</numerusform></translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
-</context>
+    </context>
 <context>
+<<<<<<< HEAD
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -1336,9 +1480,12 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <source>N/A</source>
         <translation>N/D</translation>
     </message>
+=======
+    <name>QObject::QObject</name>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
-        <source>%1 ms</source>
-        <translation>%1 ms</translation>
+        <source>Error: %1</source>
+        <translation>Errore: %1</translation>
     </message>
     <message numerus="yes">
         <source>%n second(s)</source>
@@ -1379,6 +1526,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
 <context>
     <name>QRImageWidget</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Save Image...</source>
         <translation>&amp;Salva immagine</translation>
     </message>
@@ -1391,6 +1539,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Salva codice QR</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>PNG Image (*.png)</source>
         <translation>Immagine PNG (*.png)</translation>
     </message>
@@ -1614,10 +1764,13 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>1 &amp;anno</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Disconnect</source>
         <translation>&amp;Disconnetti</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Welcome to the %1 RPC console.</source>
         <translation>Benvenuto nella console RPC di %1.</translation>
     </message>
@@ -1784,6 +1937,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>&amp;Salva Immagine...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payment to %1</source>
         <translation>Richiesta di pagamento a %1</translation>
     </message>
@@ -1792,6 +1946,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Informazioni di pagamento</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>URI</source>
         <translation>URI</translation>
     </message>
@@ -2016,6 +2172,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>%1 to %2</source>
         <translation>%1 a %2</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>added as transaction fee</source>
@@ -2036,6 +2193,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>The transaction was rejected with the following reason: %1</source>
         <translation>La transazione è stata respinta per il seguente motivo: %1</translation>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Payment request expired.</source>
@@ -2044,12 +2203,21 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message numerus="yes">
         <source>%n block(s)</source>
         <translation><numerusform>%n blocco</numerusform><numerusform>%n blocchi</numerusform></translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Warning: Invalid Marycoin address</source>
         <translation>Attenzione: Indirizzo Marycoin non valido</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Warning: Invalid Bitcoin address</source>
+        <translation>Attenzione: Indirizzo Bitcoin non valido</translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Warning: Unknown change address</source>
         <translation>Attenzione: Indirizzo per il resto sconosciuto</translation>
     </message>
@@ -2309,6 +2477,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>%1/offline</source>
         <translation>%1/offline</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>0/unconfirmed, %1</source>
@@ -2327,6 +2496,10 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>%1 conferme</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Status</source>
         <translation>Stato</translation>
     </message>
@@ -2795,8 +2968,13 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Impossibile avviare il server HTTP. Dettagli nel log di debug.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
+=======
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>The %s developers</source>
@@ -2837,6 +3015,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
         <translation>Regolazione della massima differenza media di tempo dei peer consentita. L'impostazione dell'orario locale può essere impostata in avanti o indietro di questa quantità. (default %u secondi)</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
@@ -2871,6 +3050,42 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>È necessario ricostruire il database usando -reindex per cambiare -txindex</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
+        <translation>Totale massimo di commissioni (in %s) da usare in una transazione singola o di gruppo del wallet; valori troppo bassi possono abortire grandi transazioni (default: %s)</translation>
+    </message>
+    <message>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <translation>Per favore controllate che la data del computer e l'ora siano corrette! Se il vostro orologio è sbagliato %s non funzionerà correttamente.</translation>
+    </message>
+    <message>
+        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
+        <translation>Per favore contribuite se ritenete %s utile. Visitate %s per maggiori informazioni riguardo il software.</translation>
+    </message>
+    <message>
+        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+        <translation>Imposta il numero di thread per la verifica degli script (da %u a %d, 0 = automatico, &lt;0 = lascia questo numero di core liberi, predefinito: %d)</translation>
+    </message>
+    <message>
+        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
+        <translation>Il database dei blocchi contiene un blocco che sembra provenire dal futuro. Questo può essere dovuto alla data e ora del tuo computer impostate in modo scorretto. Ricostruisci il database dei blocchi se sei certo che la data e l'ora sul tuo computer siano corrette</translation>
+    </message>
+    <message>
+        <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
+        <translation>Impossibile riportare il database ad un livello pre-fork. Dovrai riscaricare tutta la blockchain</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
+        <translation>Utilizza UPnP per mappare la porta in ascolto (default: 1 quando in ascolto e -proxy non è specificato)</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>È necessario ricostruire il database usando -reindex per cambiare -txindex</translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>%s corrupt, salvage failed</source>
         <translation>%s corrotto, recupero fallito</translation>
     </message>
@@ -3281,12 +3496,21 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>Tor control port password (default: empty)</source>
         <translation>Password porta controllo Tor (default: empty)</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
         <translation>Porta di controllo Tor da usare se in ascolto su onion (default: %s)</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Tor control port to use if onion listening enabled (default: %s)</source>
+        <translation>Porta di controllo Tor da usare se in ascolto su onion (default: %s)</translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Transaction amount too small</source>
         <translation>Importo transazione troppo piccolo</translation>
     </message>

@@ -404,7 +404,11 @@
                   <enum>Qt::ActionsContextMenu</enum>
                  </property>
                  <property name="text">
+<<<<<<< HEAD
                   <string notr="true">0.00 MC</string>
+=======
+                  <string notr="true">0.00 BTC</string>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
                  </property>
                  <property name="textInteractionFlags">
                   <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -588,7 +592,11 @@
         <x>0</x>
         <y>0</y>
         <width>830</width>
+<<<<<<< HEAD
         <height>95</height>
+=======
+        <height>104</height>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,1">

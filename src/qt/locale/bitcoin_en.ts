@@ -80,7 +80,11 @@
     </message>
     <message>
         <location line="+7"/>
+<<<<<<< HEAD
         <source>These are your Marycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+=======
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -211,7 +215,11 @@
     </message>
     <message>
         <location line="+1"/>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
+=======
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -227,7 +235,11 @@
     </message>
     <message>
         <location line="-56"/>
+<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your marycoins from being stolen by malware infecting your computer.</source>
+=======
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -299,17 +311,29 @@
 <context>
     <name>MarycoinGUI</name>
     <message>
+<<<<<<< HEAD
         <location filename="../marycoingui.cpp" line="+357"/>
+=======
+        <location filename="../bitcoingui.cpp" line="+357"/>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Sign &amp;message...</source>
         <translation>Sign &amp;message...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+429"/>
+=======
+        <location line="+430"/>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Synchronizing with network...</source>
         <translation>Synchronizing with network...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-507"/>
+=======
+        <location line="-508"/>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>&amp;Overview</source>
         <translation>&amp;Overview</translation>
     </message>
@@ -404,7 +428,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+359"/>
+=======
+        <location line="+360"/>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Click to disable network activity.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -429,9 +457,15 @@
         <translation>Reindexing blocks on disk...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-510"/>
         <source>Send coins to a Marycoin address</source>
         <translation>Send coins to a Marycoin address</translation>
+=======
+        <location line="-511"/>
+        <source>Send coins to a Bitcoin address</source>
+        <translation>Send coins to a Bitcoin address</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <location line="+67"/>
@@ -459,12 +493,21 @@
         <translation>&amp;Verify message...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+516"/>
         <source>Marycoin</source>
         <translation>Marycoin</translation>
     </message>
     <message>
         <location line="-741"/>
+=======
+        <location line="+517"/>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <location line="-742"/>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Wallet</source>
         <translation>Wallet</translation>
     </message>
@@ -525,7 +568,11 @@
     </message>
     <message>
         <location line="-158"/>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
+=======
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -549,8 +596,13 @@
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <location line="+356"/>
         <source>%n active connection(s) to Marycoin network</source>
+=======
+        <location line="+357"/>
+        <source>%n active connection(s) to Bitcoin network</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>
             <numerusform>%n active connection to Marycoin network</numerusform>
             <numerusform>%n active connections to Marycoin network</numerusform>
@@ -610,12 +662,21 @@
         <translation>Up to date</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="-440"/>
         <source>Show the %1 help message to get a list with possible Marycoin command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+199"/>
+=======
+        <location line="-441"/>
+        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+200"/>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>%1 client</source>
         <translation type="unfinished"></translation>
     </message>
@@ -690,8 +751,13 @@
         <translation>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../marycoin.cpp" line="+518"/>
         <source>A fatal error occurred. Marycoin can no longer continue safely and will quit.</source>
+=======
+        <location filename="../bitcoin.cpp" line="+518"/>
+        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -891,6 +957,7 @@
         <location filename="../forms/editaddressdialog.ui" line="+14"/>
         <source>Edit Address</source>
         <translation>Edit Address</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location line="+11"/>
@@ -898,6 +965,15 @@
         <translation>&amp;Label</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>&amp;Label</source>
+        <translation>&amp;Label</translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <location line="+10"/>
         <source>The label associated with this address list entry</source>
         <translation type="unfinished"></translation>
@@ -934,7 +1010,11 @@
     </message>
     <message>
         <location line="+71"/>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is not a valid Marycoin address.</source>
+=======
+        <source>The entered address &quot;%1&quot; is not a valid Bitcoin address.</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1069,7 +1149,11 @@
     </message>
     <message>
         <location line="+10"/>
+<<<<<<< HEAD
         <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+=======
+        <source>%1 will download and store a copy of the Bitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1118,12 +1202,20 @@
     </message>
     <message>
         <location line="+119"/>
+<<<<<<< HEAD
         <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the marycoin network, as detailed below.</source>
+=======
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+19"/>
+<<<<<<< HEAD
         <source>Attempting to spend marycoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+=======
+        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1620,6 +1712,13 @@
         <location line="+14"/>
         <location line="+7"/>
         <source>URI handling</source>
+<<<<<<< HEAD
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-20"/>
+        <source>Payment request fetch URL is invalid: %1</source>
+=======
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1634,10 +1733,22 @@
     </message>
     <message>
         <location line="+8"/>
+        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Invalid payment address %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
         <source>URI cannot be parsed! This can be caused by an invalid Marycoin address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location line="+13"/>
         <source>Payment request file handling</source>
         <translation type="unfinished"></translation>
@@ -1648,6 +1759,8 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <location line="+61"/>
         <location line="+9"/>
         <location line="+31"/>
@@ -1750,13 +1863,21 @@
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <location filename="../marycoinunits.cpp" line="+176"/>
+=======
+        <location filename="../bitcoinunits.cpp" line="+176"/>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Amount</source>
         <translation type="unfinished">Amount</translation>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+136"/>
+<<<<<<< HEAD
         <source>Enter a Marycoin address (e.g. %1)</source>
+=======
+        <source>Enter a Bitcoin address (e.g. %1)</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1850,7 +1971,11 @@
         </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <location filename="../marycoin.cpp" line="+172"/>
+=======
+        <location filename="../bitcoin.cpp" line="+172"/>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>%1 didn&apos;t yet exit safely...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2718,6 +2843,12 @@
         <location filename="../sendcoinsdialog.cpp" line="-486"/>
         <source>Copy quantity</source>
         <translation type="unfinished"></translation>
+<<<<<<< HEAD
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy amount</source>
+=======
     </message>
     <message>
         <location line="+1"/>
@@ -2732,6 +2863,7 @@
     <message>
         <location line="+1"/>
         <source>Copy after fee</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2740,6 +2872,17 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>Copy dust</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Copy change</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <location line="+1"/>
         <source>Copy dust</source>
         <translation type="unfinished"></translation>
@@ -2768,6 +2911,26 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+=======
+        <location line="+205"/>
+        <location line="+5"/>
+        <location line="+5"/>
+        <location line="+4"/>
+        <source>%1 to %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Are you sure you want to send?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>added as transaction fee</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <location line="+15"/>
         <source>Total Amount %1</source>
         <translation type="unfinished"></translation>
@@ -2850,7 +3013,11 @@
     </message>
     <message>
         <location line="+102"/>
+<<<<<<< HEAD
         <source>Warning: Invalid Marycoin address</source>
+=======
+        <source>Warning: Invalid Bitcoin address</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3486,6 +3653,12 @@
         <location line="+3"/>
         <source>Open until %1</source>
         <translation type="unfinished"></translation>
+<<<<<<< HEAD
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Offline</source>
+=======
     </message>
     <message>
         <location line="+3"/>
@@ -3505,16 +3678,53 @@
     <message>
         <location line="+3"/>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
+<<<<<<< HEAD
+        <source>Unconfirmed</source>
+=======
         <source>Confirmed (%1 confirmations)</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
+<<<<<<< HEAD
+        <source>Abandoned</source>
+=======
         <source>Conflicted</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+<<<<<<< HEAD
+        <source>Confirmed (%1 confirmations)</source>
+=======
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+<<<<<<< HEAD
+        <source>Conflicted</source>
+=======
+        <source>Generated but not accepted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+39"/>
+        <source>Received with</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3566,6 +3776,7 @@
         <location line="+15"/>
         <source>(n/a)</source>
         <translation type="unfinished"></translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location line="+213"/>
@@ -3573,6 +3784,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <location line="+213"/>
+        <source>(no label)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <location line="+39"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
         <translation type="unfinished"></translation>
@@ -3770,6 +3990,7 @@
         <location line="+3"/>
         <source>Exporting Failed</source>
         <translation type="unfinished"></translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location line="+0"/>
@@ -3777,6 +3998,15 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <location line="+4"/>
         <source>Exporting Successful</source>
         <translation type="unfinished"></translation>
@@ -3800,7 +4030,11 @@
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
+<<<<<<< HEAD
         <location filename="../marycoingui.cpp" line="+129"/>
+=======
+        <location filename="../bitcoingui.cpp" line="+129"/>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Unit to show amounts in. Click to select another unit.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3867,7 +4101,11 @@
 <context>
     <name>marycoin-core</name>
     <message>
+<<<<<<< HEAD
         <location filename="../marycoinstrings.cpp" line="+318"/>
+=======
+        <location filename="../bitcoinstrings.cpp" line="+318"/>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Options:</source>
         <translation>Options:</translation>
     </message>
@@ -3953,13 +4191,19 @@
     </message>
     <message>
         <location line="-360"/>
+<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation type="unfinished">Marycoin Core</translation>
+=======
+        <source>Bitcoin Core</source>
+        <translation type="unfinished">Bitcoin Core</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <location line="+1"/>
         <source>The %s developers</source>
         <translation type="unfinished"></translation>
+<<<<<<< HEAD
     </message>
     <message>
         <location line="+7"/>
@@ -3973,6 +4217,21 @@
     </message>
     <message>
         <location line="+7"/>
+=======
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Bind to given address and always listen on it. Use [host]:port notation for IPv6</translation>
     </message>

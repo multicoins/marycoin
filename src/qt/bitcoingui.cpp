@@ -374,7 +374,11 @@ void BitcoinGUI::createActions()
 
     showHelpMessageAction = new QAction(platformStyle->TextColorIcon(":/icons/info"), tr("&Command-line options"), this);
     showHelpMessageAction->setMenuRole(QAction::NoRole);
+<<<<<<< HEAD
     showHelpMessageAction->setStatusTip(tr("Show the %1 help message to get a list with possible Marycoin command-line options").arg(tr(PACKAGE_NAME)));
+=======
+    showHelpMessageAction->setStatusTip(tr("Show the %1 help message to get a list with possible Bitcoin command-line options").arg(tr(PACKAGE_NAME)));
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 
     connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
     connect(aboutAction, SIGNAL(triggered()), this, SLOT(aboutClicked()));
@@ -478,7 +482,10 @@ void BitcoinGUI::setClientModel(ClientModel *_clientModel)
         connect(_clientModel, SIGNAL(numConnectionsChanged(int)), this, SLOT(setNumConnections(int)));
         connect(_clientModel, SIGNAL(networkActiveChanged(bool)), this, SLOT(setNetworkActive(bool)));
 
+<<<<<<< HEAD
         modalOverlay->setKnownBestHeight(_clientModel->getHeaderTipHeight(), QDateTime::fromTime_t(_clientModel->getHeaderTipTime()));
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         setNumBlocks(_clientModel->getNumBlocks(), _clientModel->getLastBlockDate(), _clientModel->getVerificationProgress(NULL), false);
         connect(_clientModel, SIGNAL(numBlocksChanged(int,QDateTime,double,bool)), this, SLOT(setNumBlocks(int,QDateTime,double,bool)));
 
@@ -506,6 +513,11 @@ void BitcoinGUI::setClientModel(ClientModel *_clientModel)
             // initialize the disable state of the tray icon with the current value in the model.
             setTrayIconVisible(optionsModel->getHideTrayIcon());
         }
+<<<<<<< HEAD
+=======
+
+        modalOverlay->setKnownBestHeight(clientModel->getHeaderTipHeight(), QDateTime::fromTime_t(clientModel->getHeaderTipTime()));
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     } else {
         // Disable possibility to show main window via action
         toggleHideAction->setEnabled(false);
@@ -728,7 +740,11 @@ void BitcoinGUI::updateNetworkState()
     QString tooltip;
 
     if (clientModel->getNetworkActive()) {
+<<<<<<< HEAD
         tooltip = tr("%n active connection(s) to Marycoin network", "", count) + QString(".<br>") + tr("Click to disable network activity.");
+=======
+        tooltip = tr("%n active connection(s) to Bitcoin network", "", count) + QString(".<br>") + tr("Click to disable network activity.");
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     } else {
         tooltip = tr("Network activity disabled.") + QString("<br>") + tr("Click to enable network activity again.");
         icon = ":/icons/network_disabled";
@@ -739,6 +755,7 @@ void BitcoinGUI::updateNetworkState()
     connectionsControl->setToolTip(tooltip);
 
     connectionsControl->setPixmap(platformStyle->SingleColorIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
+<<<<<<< HEAD
 }
 
 void BitcoinGUI::setNumConnections(int count)
@@ -747,10 +764,23 @@ void BitcoinGUI::setNumConnections(int count)
 }
 
 void BitcoinGUI::setNetworkActive(bool networkActive)
+=======
+}
+
+void BitcoinGUI::setNumConnections(int count)
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 {
     updateNetworkState();
 }
 
+<<<<<<< HEAD
+=======
+void BitcoinGUI::setNetworkActive(bool networkActive)
+{
+    updateNetworkState();
+}
+
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 void BitcoinGUI::updateHeadersSyncProgressLabel()
 {
     int64_t headersTipTime = clientModel->getHeaderTipTime();

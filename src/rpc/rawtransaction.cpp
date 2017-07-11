@@ -176,7 +176,11 @@ UniValue getrawtransaction(const JSONRPCRequest& request)
             "         \"reqSigs\" : n,            (numeric) The required sigs\n"
             "         \"type\" : \"pubkeyhash\",  (string) The type, eg 'pubkeyhash'\n"
             "         \"addresses\" : [           (json array of string)\n"
+<<<<<<< HEAD:src/rpc/rawtransaction.cpp
             "           \"address\"        (string) marycoin address\n"
+=======
+            "           \"address\"        (string) bitcoin address\n"
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26:src/rpc/rawtransaction.cpp
             "           ,...\n"
             "         ]\n"
             "       }\n"
@@ -372,7 +376,11 @@ UniValue createrawtransaction(const JSONRPCRequest& request)
             "     ]\n"
             "2. \"outputs\"               (object, required) a json object with outputs\n"
             "    {\n"
+<<<<<<< HEAD:src/rpc/rawtransaction.cpp
             "      \"address\": x.xxx,    (numeric or string, required) The key is the marycoin address, the numeric value (can be string) is the " + CURRENCY_UNIT + " amount\n"
+=======
+            "      \"address\": x.xxx,    (numeric or string, required) The key is the bitcoin address, the numeric value (can be string) is the " + CURRENCY_UNIT + " amount\n"
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26:src/rpc/rawtransaction.cpp
             "      \"data\": \"hex\"      (string, required) The key is \"data\", the value is hex encoded data\n"
             "      ,...\n"
             "    }\n"

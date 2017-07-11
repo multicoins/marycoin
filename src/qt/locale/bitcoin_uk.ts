@@ -41,6 +41,7 @@
         <source>&amp;Delete</source>
         <translation>&amp;Видалити</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Оберіть адресу для відправки монет</translation>
@@ -97,6 +98,12 @@
         <translation>(немає мітки)</translation>
     </message>
 </context>
+=======
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    </context>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -286,8 +293,13 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Створити запит платежу (генерує QR-код та marycoin: URI)</translation>
+=======
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <translation>Створити запит платежу (генерує QR-код та bitcoin: URI)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -306,8 +318,13 @@
         <translation>П&amp;араметри командного рядка</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Marycoin network</source>
         <translation><numerusform>%n активне з'єднання з мережею Marycoin</numerusform><numerusform>%n активні з'єднання з мережею Marycoin</numerusform><numerusform>%n активних з'єднань з мережею Marycoin</numerusform></translation>
+=======
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n активне з'єднання з мережею Bitcoin</numerusform><numerusform>%n активні з'єднання з мережею Bitcoin</numerusform><numerusform>%n активних з'єднань з мережею Bitcoin</numerusform></translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -462,10 +479,13 @@
         <source>Confirmed</source>
         <translation>Підтверджені</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>(no label)</source>
         <translation>немає мітки</translation>
     </message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -538,6 +558,7 @@
     <message>
         <source>UI Options:</source>
         <translation>Параметри інтерфейсу:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
@@ -558,11 +579,39 @@
     <message>
         <source>Show splash screen on startup (default: %u)</source>
         <translation>Показувати заставку під час запуску (типово: %u)</translation>
+=======
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: %u)</source>
+        <translation>Обирати каталог даних під час запуску (типово: %u)</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Встановити мову (наприклад: "de_DE") (типово: системна)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Start minimized</source>
+        <translation>Запускати згорнутим</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Вказати кореневі SSL-сертифікати для запиту платежу (типово: -системні-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: %u)</source>
+        <translation>Показувати заставку під час запуску (типово: %u)</translation>
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Welcome</source>
         <translation>Вітання</translation>
     </message>
@@ -929,6 +978,7 @@
         <translation>Вузол/Сервіс</translation>
     </message>
     </context>
+<<<<<<< HEAD
 <context>
     <name>QObject</name>
     <message>
@@ -973,6 +1023,52 @@
     </message>
     </context>
 <context>
+=======
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Amount</source>
+        <translation>Кількість</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <translation>Введіть адресу Bitcoin (наприклад %1)</translation>
+    </message>
+    <message>
+        <source>%1 d</source>
+        <translation>%1 д</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 г</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 х</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 с</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Відсутні</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>Н/Д</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 мс</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 та %2</translation>
+    </message>
+    </context>
+<context>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <name>QObject::QObject</name>
     </context>
 <context>
@@ -1326,6 +1422,7 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Зберегти зображення...</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Label</source>
         <translation>Мітка</translation>
@@ -1341,6 +1438,11 @@
         <source>(no label)</source>
         <translation>немає мітки</translation>
     </message>
+=======
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1484,11 +1586,15 @@
         <source>S&amp;end</source>
         <translation>&amp;Відправити</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>(no label)</source>
         <translation>немає мітки</translation>
     </message>
 </context>
+=======
+    </context>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1512,8 +1618,13 @@
         <translation>Це звичайний платіж.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Marycoin address to send the payment to</source>
         <translation>Адреса Marycoin для відправлення платежу</translation>
+=======
+        <source>The Bitcoin address to send the payment to</source>
+        <translation>Адреса Bitcoin для відправлення платежу</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Alt+A</source>
@@ -1532,7 +1643,11 @@
         <translation>Видалити цей запис</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+=======
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>Комісію буде знято зі вказаної суми. До отримувача надійде менше біткоінів, ніж було вказано в полі кількості. Якщо ж отримувачів декілька - комісію буде розподілено між ними.</translation>
     </message>
     <message>
@@ -1556,8 +1671,13 @@
         <translation>Введіть мітку для цієї адреси для додавання її в список використаних адрес</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A message that was attached to the marycoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Marycoin network.</source>
         <translation>Повідомлення, що було додане до marycoin:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу Marycoin.</translation>
+=======
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>Повідомлення, що було додане до bitcoin:URI та буде збережено разом з транзакцією для довідки. Примітка: Це повідомлення не буде відправлено в мережу Bitcoin.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Pay To:</source>
@@ -1589,12 +1709,21 @@
         <translation>&amp;Підписати повідомлення</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Ви можете підписувати повідомлення/угоди своїми адресами, щоб довести можливість отримання біткоінів, що будуть надіслані на них. Остерігайтеся підписувати будь-що нечітке чи неочікуване, так як за допомогою фішинг-атаки вас можуть спробувати ввести в оману для отримання вашого підпису під чужими словами. Підписуйте лише чіткі твердження, з якими ви повністю згодні.</translation>
     </message>
     <message>
         <source>The Marycoin address to sign the message with</source>
         <translation>Адреса Marycoin для підпису цього повідомлення</translation>
+=======
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Ви можете підписувати повідомлення/угоди своїми адресами, щоб довести можливість отримання біткоінів, що будуть надіслані на них. Остерігайтеся підписувати будь-що нечітке чи неочікуване, так як за допомогою фішинг-атаки вас можуть спробувати ввести в оману для отримання вашого підпису під чужими словами. Підписуйте лише чіткі твердження, з якими ви повністю згодні.</translation>
+    </message>
+    <message>
+        <source>The Bitcoin address to sign the message with</source>
+        <translation>Адреса Bitcoin для підпису цього повідомлення</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1625,7 +1754,11 @@
         <translation>Копіювати поточну сигнатуру до системного буферу обміну</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Marycoin address</source>
+=======
+        <source>Sign the message to prove you own this Bitcoin address</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -1649,12 +1782,21 @@
         <translation>Введіть нижче адресу отримувача, повідомлення (впевніться, що ви точно скопіювали символи завершення рядка, табуляцію, пробіли тощо) та підпис для перевірки повідомлення. Впевніться, що в підпис не було додано зайвих символів: це допоможе уникнути атак типу «людина посередині». Зауважте, що це лише засвідчує можливість отримання транзакцій підписувачем, але не в стані підтвердити джерело жодної транзакції!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Marycoin address the message was signed with</source>
         <translation>Адреса Marycoin, якою було підписано це повідомлення</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Marycoin address</source>
         <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Marycoin-адресою</translation>
+=======
+        <source>The Bitcoin address the message was signed with</source>
+        <translation>Адреса Bitcoin, якою було підписано це повідомлення</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Bitcoin-адресою</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1691,6 +1833,7 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+<<<<<<< HEAD
     <message>
         <source>Label</source>
         <translation>Мітка</translation>
@@ -1714,6 +1857,11 @@
         <source>Exporting Failed</source>
         <translation>Експортування пройшло не успішно</translation>
     </message>
+=======
+    </context>
+<context>
+    <name>TransactionView</name>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1790,8 +1938,13 @@
         <translation>Неможливо запустити HTTP-сервер. Детальніший опис наведено в журналі зневадження.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
+=======
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

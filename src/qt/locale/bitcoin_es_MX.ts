@@ -174,8 +174,13 @@
         <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin</source>
         <translation>Marycoin</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Wallet</source>
@@ -418,8 +423,13 @@
         <translation>Mensaje:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Marycoin network.</source>
         <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Marycoin.</translation>
+=======
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <translation>Mensaje opcional para agregar a la solicitud de pago, el cual será mostrado cuando la solicitud este abierta. Nota: El mensaje no se manda con el pago a travéz de la red de Bitcoin.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -465,6 +475,7 @@
     <message>
         <source>After Fee:</source>
         <translation>Después de los cargos por comisión. </translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Change:</source>
@@ -475,6 +486,18 @@
         <translation>rápido</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Cambio</translation>
+    </message>
+    <message>
+        <source>fast</source>
+        <translation>rápido</translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Send to multiple recipients at once</source>
         <translation>Enviar a múltiples receptores a la vez</translation>
     </message>
@@ -598,14 +621,23 @@
     <name>WalletView</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>marycoin-core</name>
+=======
+    <name>bitcoin-core</name>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Options:</source>
         <translation>Opciones:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>nucleo Marycoin</translation>
+=======
+        <source>Bitcoin Core</source>
+        <translation>nucleo Bitcoin</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

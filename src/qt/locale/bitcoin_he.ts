@@ -60,6 +60,7 @@
     <message>
         <source>Receiving addresses</source>
         <translation>מקבל כתובות</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>These are your Marycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
@@ -67,6 +68,15 @@
     </message>
     <message>
         <source>These are your Marycoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+=======
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>אלה הם כתובות הביטקוין שלך לשליחת תשלומים. חשוב לבדוק את הכמות של הכתובות המקבלות לפני שליחת מטבעות</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>אלה הן כתובות הביטקוין שלך לקבלת תשלומים. מומלץ להשתמש בכתובת חדשה לכל העברה.</translation>
     </message>
     <message>
@@ -132,7 +142,11 @@
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>MarycoinGUI</name>
+=======
+    <name>BitcoinGUI</name>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Sign &amp;message...</source>
         <translation>&amp;חתימה על הודעה…</translation>
@@ -294,8 +308,13 @@
         <translation>סרגל כלים לשוניות</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :marycoin)</translation>
+=======
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :bitcoin)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -853,6 +872,7 @@
     <message>
         <source>User Agent</source>
         <translation>סוכן משתמש</translation>
+<<<<<<< HEAD
     </message>
     </context>
 <context>
@@ -868,8 +888,14 @@
     <message>
         <source>%1 d</source>
         <translation>%1 ימים</translation>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
+    </context>
+<context>
+    <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>%1 h</source>
         <translation>%1 שעות</translation>
     </message>
@@ -896,6 +922,34 @@
     <message>
         <source>%1 and %2</source>
         <translation>%1 ו%2</translation>
+=======
+        <source>Amount</source>
+        <translation>כמות</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <translation>נא להזין כתובת ביטקוין (למשל: %1)</translation>
+    </message>
+    <message>
+        <source>%1 d</source>
+        <translation>%1 ימים</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 שעות</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 דקות</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1 שניות</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>ללא</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     </context>
 <context>
@@ -909,6 +963,30 @@
     <message>
         <source>N/A</source>
         <translation>לא זמין</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1 מילישניות</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 ו%2</translation>
+    </message>
+    </context>
+<context>
+    <name>QObject::QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>N/A</source>
+        <translation>לא זמין</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Client version</source>
@@ -1556,6 +1634,7 @@
     <message>
         <source>[testnet]</source>
         <translation>[רשת-בדיקה]</translation>
+<<<<<<< HEAD
     </message>
 </context>
 <context>
@@ -1580,19 +1659,61 @@
     <message>
         <source>Label</source>
         <translation>תוית</translation>
+=======
     </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
     <message>
+        <source>KB/s</source>
+        <translation>ק״ב/ש׳</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>חלונית זו מציגה תיאור מפורט של ההעברה</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
+    </message>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>(no label)</source>
         <translation>(ללא תוית)</translation>
+=======
+        <source>Label</source>
+        <translation>תוית</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     </context>
 <context>
     <name>TransactionView</name>
     <message>
+<<<<<<< HEAD
+        <source>Label</source>
+        <translation>תוית</translation>
+=======
+        <source>(no label)</source>
+        <translation>(ללא תוית)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
+=======
         <source>Label</source>
         <translation>תוית</translation>
     </message>
     <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Address</source>
         <translation>כתובת</translation>
     </message>
@@ -1648,7 +1769,11 @@
         <translation>ריצה כסוכן ברקע וקבלת פקודות</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin Core</source>
+=======
+        <source>Bitcoin Core</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>ליבת ביטקוין</translation>
     </message>
     <message>

@@ -456,6 +456,7 @@ CLEANFILES += zmq/*.gcda zmq/*.gcno
 DISTCLEANFILES = obj/build.h
 
 EXTRA_DIST = $(CTAES_DIST)
+<<<<<<< HEAD
 
 
 config/bitcoin-config.h: config/stamp-h1
@@ -464,6 +465,8 @@ config/stamp-h1: $(top_srcdir)/$(subdir)/config/bitcoin-config.h.in $(top_buildd
 	$(AM_V_at)$(MAKE) -C $(top_builddir) $(subdir)/$(@)
 $(top_srcdir)/$(subdir)/config/bitcoin-config.h.in:  $(am__configure_deps)
 	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/bitcoin-config.h.in
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 
 clean-local:
 	-$(MAKE) -C secp256k1 clean

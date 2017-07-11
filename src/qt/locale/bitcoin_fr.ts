@@ -74,6 +74,10 @@
         <translation>&amp;Copier l'adresse</translation>
     </message>
     <message>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Copier l'adresse</translation>
+    </message>
+    <message>
         <source>Copy &amp;Label</source>
         <translation>Copier l'é&amp;tiquette</translation>
     </message>
@@ -168,8 +172,13 @@
         <translation>Confirmer le chiffrement du porte-monnaie</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
         <translation>Avertissement : si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS MarycoinS&lt;/b&gt; !</translation>
+=======
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <translation>Avertissement : si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS BITCOINS&lt;/b&gt; !</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,8 +189,13 @@
         <translation>Le porte-monnaie est chiffré</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your marycoins from being stolen by malware infecting your computer.</source>
         <translation>%1 va maintenant se fermer pour terminer le processus de chiffrement. Souvenez-vous que le chiffrement de votre porte-monnaie ne peut pas protéger entièrement vos marycoins contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+=======
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 va maintenant se fermer pour terminer le processus de chiffrement. Souvenez-vous que le chiffrement de votre porte-monnaie ne peut pas protéger entièrement vos bitcoins contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -394,8 +408,13 @@
         <translation>Signer les messages avec vos adresses Marycoin pour prouver que vous les détenez</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verify messages to ensure they were signed with specified Marycoin addresses</source>
         <translation>Vérifier les messages pour s'assurer qu'ils ont été signés avec les adresses Marycoin spécifiées</translation>
+=======
+        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <translation>Vérifier les messages pour s'assurer qu'ils ont été signés avec les adresses Bitcoin spécifiées</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +433,13 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Demander des paiements (génère des codes QR et des URI marycoin:)</translation>
+=======
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <translation>Demander des paiements (génère des codes QR et des URI bitcoin:)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,8 +450,13 @@
         <translation>Afficher la liste d'adresses de réception et d'étiquettes utilisées</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a marycoin: URI or payment request</source>
         <translation>Ouvrir une URI marycoin: ou une demande de paiement</translation>
+=======
+        <source>Open a bitcoin: URI or payment request</source>
+        <translation>Ouvrir une URI bitcoin: ou une demande de paiement</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -478,8 +507,13 @@
         <translation>À jour</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Marycoin command-line options</source>
         <translation>Afficher le message d'aide de %1 pour obtenir la liste des options de ligne de commande Marycoin possibles.</translation>
+=======
+        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Afficher le message d'aide de %1 pour obtenir la liste des options de ligne de commande Bitcoin possibles.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>%1 client</source>
@@ -548,8 +582,13 @@
         <translation>Le porte-monnaie est &lt;b&gt;chiffré&lt;/b&gt; et actuellement &lt;b&gt;verrouillé&lt;/b&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fatal error occurred. Marycoin can no longer continue safely and will quit.</source>
         <translation>Une erreur fatale est survenue. Marycoin ne peut plus continuer en toute sécurité et va s'arrêter.</translation>
+=======
+        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale est survenue. Bitcoin ne peut plus continuer en toute sécurité et va s'arrêter.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
 </context>
 <context>
@@ -568,7 +607,11 @@
     </message>
     <message>
         <source>Amount:</source>
+<<<<<<< HEAD
         <translation>Montant :</translation>
+=======
+        <translation>Montant :</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Fee:</source>
@@ -742,12 +785,21 @@
         <translation>Modifier l’adresse d'envoi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Marycoin address.</source>
         <translation>L'adresse saisie « %1 » n'est pas une adresse Marycoin valide.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
         <translation>L’adresse saisie « %1 » est déjà présente dans le carnet d'adresses.</translation>
+=======
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>L'adresse saisie « %1 » n'est pas une adresse Bitcoin valide.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>L’adresse saisie « %1 » est déjà présente dans le carnet d'adresses.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -817,7 +869,11 @@
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
+<<<<<<< HEAD
         <translation>Définir la langue, par exemple « fr_CA » (par défaut : la langue du système)</translation>
+=======
+        <translation>Définir la langue, par exemple « fr_CA » (par défaut : la langue du système)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Start minimized</source>
@@ -829,7 +885,11 @@
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
+<<<<<<< HEAD
         <translation>Afficher l'écran d'accueil au démarrage (par défaut : %u)</translation>
+=======
+        <translation>Afficher l'écran d'accueil au démarrage (par défaut : %u)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Reset all settings changed in the GUI</source>
@@ -851,8 +911,13 @@
         <translation>Puisque c'est la première fois que le logiciel est lancé, vous pouvez choisir où %1 stockera ses données.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>%1 téléchargera et stockera une copie de la chaîne de blocs de Marycoin. Au moins %2 Go de données seront stockés dans ce répertoire et sa taille augmentera avec le temps. Le porte-monnaie sera également stocké dans ce répertoire.</translation>
+=======
+        <source>%1 will download and store a copy of the Bitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 téléchargera et stockera une copie de la chaîne de blocs de Bitcoin. Au moins %2 Go de données seront stockés dans ce répertoire et sa taille augmentera avec le temps. Le porte-monnaie sera également stocké dans ce répertoire.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -886,12 +951,21 @@
         <translation>Formulaire</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the marycoin network, as detailed below.</source>
         <translation>Les transactions récentes ne sont peut-être pas encore visibles, et par conséquent, le solde de votre porte-monnaie est peut-être erroné. Cette information sera juste une fois que votre porte-monnaie aura fini de se synchroniser avec le réseau Marycoin, comme décrit ci-dessous. </translation>
     </message>
     <message>
         <source>Attempting to spend marycoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Toute tentative de dépense de marycoins affectés par des transactions qui ne sont pas encore affichées ne sera pas acceptée par le réseau.</translation>
+=======
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <translation>Les transactions récentes ne sont peut-être pas encore visibles, et par conséquent, le solde de votre porte-monnaie est peut-être erroné. Cette information sera juste une fois que votre porte-monnaie aura fini de se synchroniser avec le réseau Bitcoin, comme décrit ci-dessous. </translation>
+    </message>
+    <message>
+        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Toute tentative de dépense de bitcoins affectés par des transactions qui ne sont pas encore affichées ne sera pas acceptée par le réseau.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -903,7 +977,11 @@
     </message>
     <message>
         <source>Last block time</source>
+<<<<<<< HEAD
         <translation>Estampille temporelle du dernier bloc</translation>
+=======
+        <translation>Horodatage du dernier bloc</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Progress</source>
@@ -1048,8 +1126,13 @@
         <translation>&amp;Dépenser la monnaie non confirmée</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Marycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Ouvrir automatiquement le port du client Marycoin sur le routeur. Cela ne fonctionne que si votre routeur prend en charge l'UPnP et si la fonction est activée.</translation>
+=======
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquement le port du client Bitcoin sur le routeur. Cela ne fonctionne que si votre routeur prend en charge l'UPnP et si la fonction est activée.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1065,7 +1148,11 @@
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
+<<<<<<< HEAD
         <translation>&amp;IP du mandataire :</translation>
+=======
+        <translation>&amp;IP du mandataire :</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Port:</source>
@@ -1096,8 +1183,13 @@
         <translation>Tor</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Marycoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Se connecter au réseau Marycoin au travers d'un mandataire SOCKS5 séparé pour les services cachés de Tor.</translation>
+=======
+        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Se connecter au réseau Bitcoin au travers d'un mandataire SOCKS5 séparé pour les services cachés de Tor.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1134,6 +1226,10 @@
     <message>
         <source>User Interface &amp;language:</source>
         <translation>&amp;Langue de l'interface utilisateur :</translation>
+    </message>
+    <message>
+        <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
+        <translation>La langue de l'interface utilisateur peut être définie ici. Ce réglage sera pris en compte après redémarrage de %1.</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
@@ -1195,8 +1291,13 @@
         <translation>Formulaire</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Marycoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Les informations affichées peuvent être obsolètes. Votre porte-monnaie est automatiquement synchronisé avec le réseau Marycoin lorsque la connexion s'établit, or ce processus n'est pas encore terminé.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées peuvent être obsolètes. Votre porte-monnaie est automatiquement synchronisé avec le réseau Bitcoin lorsque la connexion s'établit, or ce processus n'est pas encore terminé.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1268,6 +1369,7 @@
     <message>
         <source>Payment request error</source>
         <translation>Erreur de demande de paiement</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Cannot start marycoin: click-to-pay handler</source>
@@ -1292,8 +1394,51 @@
     <message>
         <source>Payment request file handling</source>
         <translation>Gestion des fichiers de demande de paiement</translation>
+=======
     </message>
     <message>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>Impossible de démarrer le gestionnaire de cliquer-pour-payer bitcoin:</translation>
+    </message>
+    <message>
+        <source>URI handling</source>
+        <translation>Gestion des URI</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
+    </message>
+    <message>
+        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
+        <translation>Le fichier de demande de paiement ne peut pas être lu ! Cela peut être causé par un fichier de demande de paiement invalide.</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Payment request rejected</source>
+        <translation>Demande de paiement rejetée</translation>
+=======
+        <source>Invalid payment address %1</source>
+        <translation>Adresse de paiement invalide %1</translation>
+    </message>
+    <message>
+        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>L'URI ne peut pas être analysée ! Cela peut être causé par une adresse Bitcoin invalide ou par des paramètres d'URI mal formés.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
+    </message>
+    <message>
+        <source>Payment request network doesn't match client network.</source>
+        <translation>Le réseau de la demande de paiement ne correspond pas au réseau du client.</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Payment request expired.</source>
+        <translation>La demande de paiement a expiré</translation>
+    </message>
+    <message>
+        <source>Payment request is not initialized.</source>
+        <translation>La demande de paiement n'est pas initialisée.</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>Les demandes de paiements non vérifiées vers des scripts de paiement personnalisés ne sont pas prises en charge.</translation>
+=======
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
         <translation>Le fichier de demande de paiement ne peut pas être lu ! Cela peut être causé par un fichier de demande de paiement invalide.</translation>
     </message>
@@ -1304,6 +1449,7 @@
     <message>
         <source>Payment request network doesn't match client network.</source>
         <translation>Le réseau de la demande de paiement ne correspond pas au réseau du client.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Payment request expired.</source>
@@ -1366,7 +1512,11 @@
     </message>
     <message>
         <source>NodeId</source>
+<<<<<<< HEAD
         <translation>ID de nœud</translation>
+=======
+        <translation>NodeId</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Ping</source>
@@ -1691,6 +1841,7 @@
     <message>
         <source>1 &amp;day</source>
         <translation>1 &amp;jour</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>1 &amp;week</source>
@@ -1713,6 +1864,30 @@
         <translation>&amp;Réhabiliter</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>1 &amp;week</source>
+        <translation>1 &amp;semaine</translation>
+    </message>
+    <message>
+        <source>1 &amp;year</source>
+        <translation>1 &amp;an</translation>
+    </message>
+    <message>
+        <source>&amp;Disconnect</source>
+        <translation>&amp;Déconnecter</translation>
+    </message>
+    <message>
+        <source>Ban for</source>
+        <translation>Bannir pendant</translation>
+    </message>
+    <message>
+        <source>&amp;Unban</source>
+        <translation>&amp;Réhabiliter</translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Welcome to the %1 RPC console.</source>
         <translation>Bienvenue sur la console RPC de %1.</translation>
     </message>
@@ -1804,8 +1979,13 @@
         <translation>Ré&amp;utiliser une adresse de réception existante (non recommandé)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Marycoin network.</source>
         <translation>Un message facultatif à joindre à la demande de paiement et qui sera affiché à l'ouverture de celle-ci. Note : le message ne sera pas envoyé avec le paiement par le réseau Marycoin.</translation>
+=======
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <translation>Un message facultatif à joindre à la demande de paiement et qui sera affiché à l'ouverture de celle-ci. Note : le message ne sera pas envoyé avec le paiement par le réseau Bitcoin.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1986,7 +2166,11 @@
     </message>
     <message>
         <source>Amount:</source>
+<<<<<<< HEAD
         <translation>Montant :</translation>
+=======
+        <translation>Montant :</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Fee:</source>
@@ -2037,7 +2221,11 @@
         <translation>total au moins</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for marycoin transactions than the network can process.</source>
+=======
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>Il est correct de payer les frais minimum tant que le volume transactionnel est inférieur à l'espace dans les blocs. Mais soyez conscient que cela pourrait résulter en une transaction n'étant jamais confirmée une fois qu'il y aura plus de transactions que le réseau ne pourra en traiter.</translation>
     </message>
     <message>
@@ -2178,7 +2366,11 @@
     </message>
     <message>
         <source>The transaction was rejected with the following reason: %1</source>
+<<<<<<< HEAD
         <translation>La transaction a été rejetée pour la raison suivante : %1</translation>
+=======
+        <translation>La transaction a été rejetée pour la raison suivante: %1</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
@@ -2195,16 +2387,26 @@
     <message>
         <source>Pay only the required fee of %1</source>
         <translation>Payer seulement les frais exigés de %1</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Il est estimé que la confirmation commencera dans %n bloc.</numerusform><numerusform>Il est estimé que la confirmation commencera dans %n blocs.</numerusform></translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
         <translation><numerusform>Il est estimé que la confirmation commencera dans %n bloc.</numerusform><numerusform>Il est estimé que la confirmation commencera dans %n blocs.</numerusform></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Invalid Marycoin address</source>
         <translation>Avertissement : adresse Marycoin invalide</translation>
     </message>
     <message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Warning: Unknown change address</source>
         <translation>Avertissement : adresse de monnaie inconnue</translation>
     </message>
@@ -2229,7 +2431,11 @@
     </message>
     <message>
         <source>Pay &amp;To:</source>
+<<<<<<< HEAD
         <translation>&amp;Payer à :</translation>
+=======
+        <translation>&amp;Payer à :</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -2288,8 +2494,13 @@
         <translation>Saisir une étiquette pour cette adresse afin de l'ajouter à la liste d'adresses utilisées</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A message that was attached to the marycoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Marycoin network.</source>
         <translation>Un message qui était joint à l'URI marycoin: et qui sera stocké avec la transaction pour référence. Note : ce message ne sera pas envoyé par le réseau Marycoin.</translation>
+=======
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>Un message qui était joint à l'URI bitcoin: et qui sera stocké avec la transaction pour référence. Note : ce message ne sera pas envoyé par le réseau Bitcoin.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Pay To:</source>
@@ -2333,8 +2544,13 @@
         <translation>&amp;Signer un message</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Vous pouvez signer des messages ou des accords avec vos adresses pour prouver que vous pouvez recevoir des marycoins à ces dernières. Faites attention de ne rien signer de vague ou au hasard, car des attaques d'hameçonnage pourraient essayer de vous faire signer avec votre identité afin de l'usurper. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d'accord.</translation>
+=======
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Vous pouvez signer des messages ou des accords avec vos adresses pour prouver que vous pouvez recevoir des bitcoins à ces dernières. Faites attention de ne rien signer de vague ou au hasard, car des attaques d'hameçonnage pourraient essayer de vous faire signer avec votre identité afin de l'usurper. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d'accord.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>The Marycoin address to sign the message with</source>
@@ -2369,8 +2585,13 @@
         <translation>Copier la signature actuelle dans le presse-papiers</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Marycoin address</source>
         <translation>Signer le message afin de prouver que vous détenez cette adresse Marycoin</translation>
+=======
+        <source>Sign the message to prove you own this Bitcoin address</source>
+        <translation>Signer le message afin de prouver que vous détenez cette adresse Bitcoin</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2397,8 +2618,13 @@
         <translation>L'adresse Marycoin avec laquelle le message a été signé</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified Marycoin address</source>
         <translation>Vérifier le message pour s'assurer qu'il a été signé avec l'adresse Marycoin spécifiée</translation>
+=======
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <translation>Vérifier le message pour s'assurer qu'il a été signé avec l'adresse Bitcoin spécifiée</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2686,6 +2912,16 @@
     <message>
         <source>Offline</source>
         <translation>Hors ligne</translation>
+<<<<<<< HEAD
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Non confirmée</translation>
+    </message>
+    <message>
+        <source>Abandoned</source>
+        <translation>Abandonnée</translation>
+=======
     </message>
     <message>
         <source>Unconfirmed</source>
@@ -2706,6 +2942,28 @@
     <message>
         <source>Conflicted</source>
         <translation>En conflit</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
+    </message>
+    <message>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>Immature (%1 confirmations, sera disponible après %2)</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Confirmée (%1 confirmations)</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>En conflit</translation>
+=======
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Ce bloc n’a été reçu par aucun autre nœud et ne sera probablement pas accepté !</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Générée mais refusée</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
@@ -2924,7 +3182,11 @@
     </message>
     <message>
         <source>Range:</source>
+<<<<<<< HEAD
         <translation>Plage :</translation>
+=======
+        <translation>Plage :</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>to</source>
@@ -3058,8 +3320,13 @@
         <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
+=======
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>The %s developers</source>
@@ -3143,7 +3410,11 @@
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
+<<<<<<< HEAD
         <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : 1 en écoute et sans -proxy)</translation>
+=======
+        <translation>Utiliser l'UPnP pour mapper le port d'écoute (par défaut : 1 en écoute et sans -proxy)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
@@ -3160,6 +3431,7 @@
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
         <translation>Avertissement : nous ne semblons pas être en accord complet avec nos pairs ! Une mise à niveau pourrait être nécessaire pour vous ou pour d'autres nœuds du réseau.</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
@@ -3170,6 +3442,18 @@
         <translation>%s corrompu, la récupération a échoué</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>Vous devez reconstruire la base de données avec -reindex-chainstate pour changer -txindex</translation>
+    </message>
+    <message>
+        <source>%s corrupt, salvage failed</source>
+        <translation>%s corrompu, la récupération a échoué</translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>-maxmempool must be at least %d MB</source>
         <translation>-maxmempool doit être d'au moins %d Mo</translation>
     </message>
@@ -3191,7 +3475,11 @@
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>
+<<<<<<< HEAD
         <translation>Impossible de résoudre l'adresse -%s : « %s »</translation>
+=======
+        <translation>Impossible de résoudre l'adresse -%s : « %s »</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Chain selection options:</source>
@@ -3259,11 +3547,19 @@
     </message>
     <message>
         <source>Error loading %s: Wallet corrupted</source>
+<<<<<<< HEAD
         <translation>Erreur de chargement de %s : porte-monnaie corrompu</translation>
     </message>
     <message>
         <source>Error loading %s: Wallet requires newer version of %s</source>
         <translation>Erreur de chargement de %s : le porte-monnaie exige une version plus récente de %s</translation>
+=======
+        <translation>Erreur de chargement de %s : porte-monnaie corrompu</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet requires newer version of %s</source>
+        <translation>Erreur de chargement de %s : le porte-monnaie exige une version plus récente de %s</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
@@ -3303,7 +3599,11 @@
     </message>
     <message>
         <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
+<<<<<<< HEAD
         <translation>Montant invalide pour -%s=&lt;amount&gt; : « %s »</translation>
+=======
+        <translation>Montant invalide pour -%s=&lt;amount&gt; : « %s »</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
@@ -3419,7 +3719,11 @@
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart %s to complete</source>
+<<<<<<< HEAD
         <translation>Le porte-monnaie devait être réécrit : redémarrer %s pour terminer l'opération.</translation>
+=======
+        <translation>Le porte-monnaie devait être réécrit : redémarrer %s pour terminer l'opération.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Wallet options:</source>
@@ -3503,7 +3807,11 @@
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
+<<<<<<< HEAD
         <translation>Créer automatiquement un service caché Tor (par défaut : %d)</translation>
+=======
+        <translation>Créer automatiquement un service caché Tor (par défaut : %d)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -3584,12 +3892,21 @@
     <message>
         <source>Tor control port password (default: empty)</source>
         <translation>Mot de passe du port de contrôle Tor (par défaut : vide)</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
         <translation>Port de contrôle Tor à utiliser si l'écoute onion est activée (par défaut :%s)</translation>
     </message>
     <message>
+=======
+    </message>
+    <message>
+        <source>Tor control port to use if onion listening enabled (default: %s)</source>
+        <translation>Port de contrôle Tor à utiliser si l'écoute onion est activée (par défaut :%s)</translation>
+    </message>
+    <message>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Transaction amount too small</source>
         <translation>Le montant de la transaction est trop bas</translation>
     </message>
@@ -3770,6 +4087,10 @@
         <translation>La réserve de clés est épuisée, veuillez d'abord appeler « keypoolrefill »</translation>
     </message>
     <message>
+        <source>Keypool ran out, please call keypoolrefill first</source>
+        <translation>La réserve de clés est épuisée, veuillez d'abord appeler « keypoolrefill »</translation>
+    </message>
+    <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>Écouter les connexions JSON-RPC sur &lt;port&gt; (par défaut : %u ou tesnet : %u)</translation>
     </message>
@@ -3871,7 +4192,11 @@
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
+<<<<<<< HEAD
         <translation>Réseau inconnu spécifié dans -onlynet : « %s »</translation>
+=======
+        <translation>Réseau inconnu spécifié dans -onlynet : « %s »</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Insufficient funds</source>

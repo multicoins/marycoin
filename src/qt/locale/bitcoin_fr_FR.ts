@@ -121,14 +121,30 @@
     <message>
         <source>IP/Netmask</source>
         <translation>IP/Masque de sous réseau</translation>
+<<<<<<< HEAD
     </message>
     <message>
+        <source>Banned Until</source>
+        <translation>Banni jusque </translation>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
+    </message>
+</context>
+<context>
+    <name>MarycoinGUI</name>
+    <message>
+<<<<<<< HEAD
+        <source>Sign &amp;message...</source>
+        <translation>Signer &amp;message...</translation>
+    </message>
+=======
         <source>Banned Until</source>
         <translation>Banni jusque </translation>
     </message>
 </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signer &amp;message...</translation>
@@ -218,8 +234,13 @@
         <translation>Réindexer les blocs sur le disque...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Marycoin address</source>
         <translation>Envoyer des pièces à une adresse Marycoin</translation>
+=======
+        <source>Send coins to a Bitcoin address</source>
+        <translation>Envoyer des pièces à une adresse Bitcoin</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -242,8 +263,17 @@
         <translation>&amp;Vérification du message</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin</source>
         <translation>Marycoin</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Portefeuille</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Wallet</source>
@@ -270,8 +300,13 @@
         <translation>Crypter les clé privées qui appartiennent votre portefeuille</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Marycoin addresses to prove you own them</source>
         <translation>Signer vos messages avec vos adresses Marycoin pour prouver que vous les détenez</translation>
+=======
+        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <translation>Signer vos messages avec vos adresses Bitcoin pour prouver que vous les détenez</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;File</source>
@@ -290,24 +325,39 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Demander des paiements (générer QR codes et marycoin: URIs)</translation>
+=======
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <translation>Demander des paiements (générer QR codes et bitcoin: URIs)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
         <translation>Montrer la liste des adresses d'envois utilisées et les étiquettes</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a marycoin: URI or payment request</source>
         <translation>Ouvrir un marycoin: URI ou demande de paiement</translation>
+=======
+        <source>Open a bitcoin: URI or payment request</source>
+        <translation>Ouvrir un bitcoin: URI ou demande de paiement</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Options de ligne de commande</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Marycoin network</source>
         <translation><numerusform>%n connexion active au réseau Marycoin</numerusform><numerusform>%n connexions actives au réseau Marycoin</numerusform></translation>
+=======
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n connexion active au réseau Bitcoin</numerusform><numerusform>%n connexions actives au réseau Bitcoin</numerusform></translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -684,8 +734,13 @@
         <translation>Expert</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Marycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Ouvrir le port du client Marycoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+=======
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client Bitcoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -844,8 +899,13 @@
         <translation>Montant</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Marycoin address (e.g. %1)</source>
         <translation>Entrer une adresse Marycoin (e.g. %1)</translation>
+=======
+        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <translation>Entrer une adresse Bitcoin (e.g. %1)</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>%1 d</source>
@@ -1662,8 +1722,13 @@
         <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
+=======
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

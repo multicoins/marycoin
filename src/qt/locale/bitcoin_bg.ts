@@ -394,7 +394,11 @@
         <translation>Раздели</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
+=======
+        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>Изискване на плащания(генерира QR кодове и биткойн: URIs)</translation>
     </message>
     <message>
@@ -450,7 +454,11 @@
         <translation>Синхронизиран</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Marycoin command-line options</source>
+=======
+        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>Покажи %1 помощно съобщение за да получиш лист с възможни Биткойн команди</translation>
     </message>
     <message>
@@ -690,8 +698,17 @@
         <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Marycoin address.</source>
         <translation>"%1" не е валиден Биткоин адрес.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Вече има адрес "%1" в списъка с адреси.</translation>
+=======
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>"%1" не е валиден Биткоин адрес.</translation>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1062,7 +1079,11 @@
         <translation>Възникна грешка по време назаявката за плащане</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot start marycoin: click-to-pay handler</source>
+=======
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>Биткойн не можe да се стартира: click-to-pay handler</translation>
     </message>
     <message>
@@ -2346,7 +2367,11 @@
         <translation>Въведете Ваш публичен адрес</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Marycoin Core</source>
+=======
+        <source>Bitcoin Core</source>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>Биткойн ядро</translation>
     </message>
     <message>

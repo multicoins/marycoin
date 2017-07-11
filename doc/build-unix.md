@@ -321,10 +321,15 @@ Clang is installed by default as `cc` compiler, this makes it easier to get
 started than on [OpenBSD](build-openbsd.md). Installing dependencies:
 
     pkg install autoconf automake libtool pkgconf
+<<<<<<< HEAD
     pkg install boost-libs openssl libevent
     pkg install gmake
 
 You need to use GNU make (`gmake`) instead of `make`.
+=======
+    pkg install boost-libs openssl libevent2
+
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 (`libressl` instead of `openssl` will also work)
 
 For the wallet (optional):
@@ -340,7 +345,11 @@ Then build using:
 
     ./autogen.sh
     ./configure --with-incompatible-bdb BDB_CFLAGS="-I/usr/local/include/db5" BDB_LIBS="-L/usr/local/lib -ldb_cxx-5"
+<<<<<<< HEAD
     gmake
+=======
+    make
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 
 *Note on debugging*: The version of `gdb` installed by default is [ancient and considered harmful](https://wiki.freebsd.org/GdbRetirement).
 It is not suitable for debugging a multi-threaded C++ program, not even for getting backtraces. Please install the package `gdb` and

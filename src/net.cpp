@@ -1466,7 +1466,11 @@ void ThreadMapPort()
             }
         }
 
+<<<<<<< HEAD
         std::string strDesc = "Marycoin " + FormatFullVersion();
+=======
+        std::string strDesc = "Bitcoin " + FormatFullVersion();
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 
         try {
             while (true) {
@@ -1599,9 +1603,12 @@ void CConnman::ThreadDNSAddressSeed()
                     found++;
                 }
             }
+<<<<<<< HEAD
             if (interruptNet) {
                 return;
             }
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
             // TODO: The seed name resolve may fail, yielding an IP of [::], which results in
             // addrman assigning the same source to results from different seeds.
             // This should switch to a hard-coded stable dummy IP for each seed name, so that the
@@ -1722,17 +1729,23 @@ void CConnman::ThreadOpenConnections()
         // Only connect out to one peer per network group (/16 for IPv4).
         // Do this here so we don't have to critsect vNodes inside mapAddresses critsect.
         int nOutbound = 0;
+<<<<<<< HEAD
         int nOutboundRelevant = 0;
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         std::set<std::vector<unsigned char> > setConnected;
         {
             LOCK(cs_vNodes);
             BOOST_FOREACH(CNode* pnode, vNodes) {
                 if (!pnode->fInbound && !pnode->fAddnode) {
+<<<<<<< HEAD
 
                     // Count the peers that have all relevant services
                     if (pnode->fSuccessfullyConnected && !pnode->fFeeler && ((pnode->nServices & nRelevantServices) == nRelevantServices)) {
                         nOutboundRelevant++;
                     }
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
                     // Netgroups for inbound and addnode peers are not excluded because our goal here
                     // is to not use multiple of our limited outbound slots on a single netgroup
                     // but inbound and addnode peers do not use our outbound slots.  Inbound peers
@@ -1796,6 +1809,7 @@ void CConnman::ThreadOpenConnections()
                 continue;
 
             // only consider nodes missing relevant services after 40 failed attempts and only if less than half the outbound are up.
+<<<<<<< HEAD
             ServiceFlags nRequiredServices = nRelevantServices;
             if (nTries >= 40 && nOutbound < (nMaxOutbound >> 1)) {
                 nRequiredServices = REQUIRED_SERVICES;
@@ -1804,6 +1818,10 @@ void CConnman::ThreadOpenConnections()
             if ((addr.nServices & nRequiredServices) != nRequiredServices) {
                 continue;
             }
+=======
+            if ((addr.nServices & nRelevantServices) != nRelevantServices && (nTries < 40 || nOutbound >= (nMaxOutbound >> 1)))
+                continue;
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 
             // do not allow non-default ports, unless after 50 invalid addresses selected already
             if (addr.GetPort() != Params().GetDefaultPort() && nTries < 50)
@@ -2339,6 +2357,7 @@ void CConnman::Interrupt()
         flagInterruptMsgProc = true;
     }
     condMsgProc.notify_all();
+<<<<<<< HEAD
 
     interruptNet();
     InterruptSocks5(true);
@@ -2432,6 +2451,101 @@ void CConnman::MarkAddressGood(const CAddress& addr)
 
 void CConnman::AddNewAddress(const CAddress& addr, const CAddress& addrFrom, int64_t nTimePenalty)
 {
+=======
+
+    interruptNet();
+    InterruptSocks5(true);
+
+    if (semOutbound) {
+        for (int i=0; i<(nMaxOutbound + nMaxFeeler); i++) {
+            semOutbound->post();
+        }
+    }
+
+    if (semAddnode) {
+        for (int i=0; i<nMaxAddnode; i++) {
+            semAddnode->post();
+        }
+    }
+}
+
+void CConnman::Stop()
+{
+    if (threadMessageHandler.joinable())
+        threadMessageHandler.join();
+    if (threadOpenConnections.joinable())
+        threadOpenConnections.join();
+    if (threadOpenAddedConnections.joinable())
+        threadOpenAddedConnections.join();
+    if (threadDNSAddressSeed.joinable())
+        threadDNSAddressSeed.join();
+    if (threadSocketHandler.joinable())
+        threadSocketHandler.join();
+
+    if (fAddressesInitialized)
+    {
+        DumpData();
+        fAddressesInitialized = false;
+    }
+
+    // Close sockets
+    BOOST_FOREACH(CNode* pnode, vNodes)
+        pnode->CloseSocketDisconnect();
+    BOOST_FOREACH(ListenSocket& hListenSocket, vhListenSocket)
+        if (hListenSocket.socket != INVALID_SOCKET)
+            if (!CloseSocket(hListenSocket.socket))
+                LogPrintf("CloseSocket(hListenSocket) failed with error %s\n", NetworkErrorString(WSAGetLastError()));
+
+    // clean up some globals (to help leak detection)
+    BOOST_FOREACH(CNode *pnode, vNodes) {
+        DeleteNode(pnode);
+    }
+    BOOST_FOREACH(CNode *pnode, vNodesDisconnected) {
+        DeleteNode(pnode);
+    }
+    vNodes.clear();
+    vNodesDisconnected.clear();
+    vhListenSocket.clear();
+    delete semOutbound;
+    semOutbound = NULL;
+    delete semAddnode;
+    semAddnode = NULL;
+}
+
+void CConnman::DeleteNode(CNode* pnode)
+{
+    assert(pnode);
+    bool fUpdateConnectionTime = false;
+    GetNodeSignals().FinalizeNode(pnode->GetId(), fUpdateConnectionTime);
+    if(fUpdateConnectionTime)
+        addrman.Connected(pnode->addr);
+    delete pnode;
+}
+
+CConnman::~CConnman()
+{
+    Interrupt();
+    Stop();
+}
+
+size_t CConnman::GetAddressCount() const
+{
+    return addrman.size();
+}
+
+void CConnman::SetServices(const CService &addr, ServiceFlags nServices)
+{
+    addrman.SetServices(addr, nServices);
+}
+
+void CConnman::MarkAddressGood(const CAddress& addr)
+{
+    addrman.Good(addr);
+}
+
+void CConnman::AddNewAddress(const CAddress& addr, const CAddress& addrFrom, int64_t nTimePenalty)
+{
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     addrman.Add(addr, addrFrom, nTimePenalty);
 }
 
@@ -2474,12 +2588,21 @@ size_t CConnman::GetNodeCount(NumConnections flags)
     LOCK(cs_vNodes);
     if (flags == CConnman::CONNECTIONS_ALL) // Shortcut if we want total
         return vNodes.size();
+<<<<<<< HEAD
 
     int nNum = 0;
     for(std::vector<CNode*>::const_iterator it = vNodes.begin(); it != vNodes.end(); ++it)
         if (flags & ((*it)->fInbound ? CONNECTIONS_IN : CONNECTIONS_OUT))
             nNum++;
 
+=======
+
+    int nNum = 0;
+    for(std::vector<CNode*>::const_iterator it = vNodes.begin(); it != vNodes.end(); ++it)
+        if (flags & ((*it)->fInbound ? CONNECTIONS_IN : CONNECTIONS_OUT))
+            nNum++;
+
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     return nNum;
 }
 
@@ -2625,6 +2748,7 @@ uint64_t CConnman::GetTotalBytesSent()
 }
 
 ServiceFlags CConnman::GetLocalServices() const
+<<<<<<< HEAD
 {
     return nLocalServices;
 }
@@ -2639,6 +2763,22 @@ int CConnman::GetBestHeight() const
     return nBestHeight.load(std::memory_order_acquire);
 }
 
+=======
+{
+    return nLocalServices;
+}
+
+void CConnman::SetBestHeight(int height)
+{
+    nBestHeight.store(height, std::memory_order_release);
+}
+
+int CConnman::GetBestHeight() const
+{
+    return nBestHeight.load(std::memory_order_acquire);
+}
+
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 unsigned int CConnman::GetReceiveFloodSize() const { return nReceiveFloodSize; }
 unsigned int CConnman::GetSendBufferSize() const{ return nSendBufferMaxSize; }
 
@@ -2765,6 +2905,7 @@ void CConnman::PushMessage(CNode* pnode, CSerializedNetMsg&& msg)
     size_t nMessageSize = msg.data.size();
     size_t nTotalSize = nMessageSize + CMessageHeader::HEADER_SIZE;
     LogPrint("net", "sending %s (%d bytes) peer=%d\n",  SanitizeString(msg.command.c_str()), nMessageSize, pnode->id);
+<<<<<<< HEAD
 
     std::vector<unsigned char> serializedHeader;
     serializedHeader.reserve(CMessageHeader::HEADER_SIZE);
@@ -2774,10 +2915,22 @@ void CConnman::PushMessage(CNode* pnode, CSerializedNetMsg&& msg)
 
     CVectorWriter{SER_NETWORK, INIT_PROTO_VERSION, serializedHeader, 0, hdr};
 
+=======
+
+    std::vector<unsigned char> serializedHeader;
+    serializedHeader.reserve(CMessageHeader::HEADER_SIZE);
+    uint256 hash = Hash(msg.data.data(), msg.data.data() + nMessageSize);
+    CMessageHeader hdr(Params().MessageStart(), msg.command.c_str(), nMessageSize);
+    memcpy(hdr.pchChecksum, hash.begin(), CMessageHeader::CHECKSUM_SIZE);
+
+    CVectorWriter{SER_NETWORK, INIT_PROTO_VERSION, serializedHeader, 0, hdr};
+
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     size_t nBytesSent = 0;
     {
         LOCK(pnode->cs_vSend);
         bool optimisticSend(pnode->vSendMsg.empty());
+<<<<<<< HEAD
 
         //log total amount of bytes per command
         pnode->mapSendBytesPerMsgCmd[msg.command] += nTotalSize;
@@ -2789,6 +2942,19 @@ void CConnman::PushMessage(CNode* pnode, CSerializedNetMsg&& msg)
         if (nMessageSize)
             pnode->vSendMsg.push_back(std::move(msg.data));
 
+=======
+
+        //log total amount of bytes per command
+        pnode->mapSendBytesPerMsgCmd[msg.command] += nTotalSize;
+        pnode->nSendSize += nTotalSize;
+
+        if (pnode->nSendSize > nSendBufferMaxSize)
+            pnode->fPauseSend = true;
+        pnode->vSendMsg.push_back(std::move(serializedHeader));
+        if (nMessageSize)
+            pnode->vSendMsg.push_back(std::move(msg.data));
+
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         // If write queue empty, attempt "optimistic write"
         if (optimisticSend == true)
             nBytesSent = SocketSendData(pnode);

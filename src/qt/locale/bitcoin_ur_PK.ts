@@ -41,6 +41,7 @@
         <source>&amp;Delete</source>
         <translation>مٹا</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Choose the address to send coins to</source>
         <translation>کوئین وصول کرنے والے کا پتہ</translation>
@@ -60,6 +61,11 @@
         <source>Address</source>
         <translation> پتہ</translation>
     </message>
+=======
+    </context>
+<context>
+    <name>AddressTableModel</name>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -167,10 +173,13 @@
     <message>
         <source>Copy &amp;Address</source>
         <translation>کاپی پتہ</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Address</source>
         <translation> پتہ</translation>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     </context>
 <context>
@@ -220,10 +229,13 @@
     </context>
 <context>
     <name>TransactionView</name>
+<<<<<<< HEAD
     <message>
         <source>Address</source>
         <translation> پتہ</translation>
     </message>
+=======
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -238,7 +250,11 @@
     <name>WalletView</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>marycoin-core</name>
+=======
+    <name>bitcoin-core</name>
+>>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Insufficient funds</source>
         <translation>ناکافی فنڈز</translation>
