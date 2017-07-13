@@ -100,11 +100,7 @@
         <translation>Potvrdite šifrovanje novčanika</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
-=======
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>Upozorenje: Ako šifrujete svoj novčanik, i potom izgubite svoju pristupnu frazu &lt;b&gt;IZGUBIĆETE SVE SVOJE BITKOINE&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -128,11 +124,7 @@
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>MarycoinGUI</name>
-=======
-    <name>BitcoinGUI</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Synchronizing with network...</source>
         <translation>Usklađivanje sa mrežom...</translation>
@@ -166,26 +158,16 @@
         <translation>Otvori &amp;URI...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Send coins to a Marycoin address</source>
         <translation>Pošalji novčiće na Marycoin adresu</translation>
-=======
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Pošalji novčiće na Bitcoin adresu</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Proveri poruku...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin</source>
         <translation>Marycoin</translation>
-=======
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Wallet</source>
@@ -422,17 +404,10 @@
     <name>WalletView</name>
     </context>
 <context>
-<<<<<<< HEAD
     <name>marycoin-core</name>
     <message>
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
-=======
-    <name>bitcoin-core</name>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Information</source>

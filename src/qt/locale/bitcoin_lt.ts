@@ -72,11 +72,7 @@
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>MarycoinGUI</name>
-=======
-    <name>BitcoinGUI</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Sign &amp;message...</source>
         <translation>Pasirašyti ži&amp;nutę...</translation>
@@ -422,13 +418,8 @@
         <translation>Piniginė</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Automatically open the Marycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automatiškai atidaryti Marycoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
-=======
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Bitcoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -945,13 +936,8 @@
         <translation>Dirbti fone kaip šešėlyje ir priimti komandas</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin branduolys</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin branduolys</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Error opening block database</source>

@@ -218,21 +218,12 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Pieprasīt maksājumus (izveido QR kodu un marycoin: URIs)</translation>
     </message>
     <message>
         <source>Open a marycoin: URI or payment request</source>
         <translation>Atvērt marycoin URI vai maksājuma pieprasījumu</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un bitcoin: URIs)</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Atvērt bitcoin URI vai maksājuma pieprasījumu</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1133,13 +1124,8 @@
         <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

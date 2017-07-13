@@ -498,11 +498,7 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-<<<<<<< HEAD
     return pathRet / "Library/Application Support/Marycoin";
-=======
-    return pathRet / "Library/Application Support/Bitcoin";
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 #else
     // Unix
     return pathRet / ".marycoin";
@@ -853,16 +849,8 @@ std::string CopyrightHolders(const std::string& strPrefix)
     std::string strCopyrightHolders = strPrefix + strprintf(_(COPYRIGHT_HOLDERS), _(COPYRIGHT_HOLDERS_SUBSTITUTION));
 
     // Check for untranslated substitution to make sure Bitcoin Core copyright is not removed by accident
-<<<<<<< HEAD
     if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("Marycoin Core") == std::string::npos) {
         strCopyrightHolders += "\n" + strPrefix + "The Marycoin Core developers";
     }
     return strCopyrightHolders;
 }
-=======
-    if (strprintf(COPYRIGHT_HOLDERS, COPYRIGHT_HOLDERS_SUBSTITUTION).find("Bitcoin Core") == std::string::npos) {
-        strCopyrightHolders += "\n" + strPrefix + "The Bitcoin Core developers";
-    }
-    return strCopyrightHolders;
-}
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26

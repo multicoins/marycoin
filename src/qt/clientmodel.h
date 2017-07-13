@@ -82,13 +82,10 @@ public:
     bool isReleaseVersion() const;
     QString formatClientStartupTime() const;
     QString dataDir() const;
-<<<<<<< HEAD
 
     // caches for the best header
     mutable std::atomic<int> cachedBestHeaderHeight;
     mutable std::atomic<int64_t> cachedBestHeaderTime;
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 
 private:
     OptionsModel *optionsModel;

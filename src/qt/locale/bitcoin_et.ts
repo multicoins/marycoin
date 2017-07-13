@@ -62,21 +62,12 @@
         <translation>Vastuvõtvad aadressid</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>These are your Marycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Need on sinu Marycoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
     </message>
     <message>
         <source>These are your Marycoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Need on sinu Marycoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
-=======
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Bitcoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Need on sinu Bitcoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -167,7 +158,6 @@
     <message>
         <source>Change passphrase</source>
         <translation>Vaheta salafraasi</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Enter the old passphrase and new passphrase to the wallet.</source>
@@ -180,20 +170,6 @@
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
         <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA MarycoinID&lt;/b&gt;!</translation>
-=======
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Sisesta vana salafraas ja uus salafraas rahakotti.</translation>
-    </message>
-    <message>
-        <source>Confirm wallet encryption</source>
-        <translation>Kinnita rahakoti krüpteerimine.</translation>
-    </message>
-    <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA BITCOINID&lt;/b&gt;!</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -390,34 +366,20 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Loo maksepäring (genereerib QR koodid ja marycoini: URId)</translation>
     </message>
     <message>
         <source>Open a marycoin: URI or payment request</source>
         <translation>Ava marycoini: URI või maksepäring</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Loo maksepäring (genereerib QR koodid ja bitcoini: URId)</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Ava bitcoini: URI või maksepäring</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Käsurea valikud</translation>
     </message>
     <message numerus="yes">
-<<<<<<< HEAD
         <source>%n active connection(s) to Marycoin network</source>
         <translation><numerusform>%n aktiivne ühendus Marycoini võrku</numerusform><numerusform>%n aktiivset ühendust Marycoini võrku</numerusform></translation>
-=======
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiivne ühendus Bitcoini võrku</numerusform><numerusform>%n aktiivset ühendust Bitcoini võrku</numerusform></translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -664,13 +626,8 @@
         <translation>Muuda saatvat aadressi</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Marycoin address.</source>
         <translation>Sisestatud aadress "%1" ei ole korrektne Marycoin aadress.</translation>
-=======
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>Sisestatud aadress "%1" ei ole korrektne Bitcoin aadress.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -931,21 +888,12 @@
     <message>
         <source>Payment request rejected</source>
         <translation>Maksepäring tagasi lükatud</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Payment request expired.</source>
         <translation>Maksepäring aegunud.</translation>
     </message>
     <message>
-=======
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Maksepäring aegunud.</translation>
-    </message>
-    <message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>Kinnitamata maksepäringud kohandatud makse scriptidele ei ole toetatud.</translation>
     </message>
@@ -1389,13 +1337,8 @@
         <translation>Maksepäring aegunud.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Warning: Invalid Marycoin address</source>
         <translation>Hoiatus: Ebakorrektne Marycoin aadress</translation>
-=======
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Hoiatus: Ebakorrektne Bitcoin aadress</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>(no label)</source>
@@ -1474,13 +1417,8 @@
         <translation>&amp;Allkirjastamise teade</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The Marycoin address to sign the message with</source>
         <translation>Marycoin aadress millega sõnum allkirjastada</translation>
-=======
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoin aadress millega sõnum allkirjastada</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1531,21 +1469,12 @@
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The Marycoin address the message was signed with</source>
         <translation>Marycoin aadress millega sõnum on allkirjastatud</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Marycoin address</source>
         <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Marycoini aadressiga.</translation>
-=======
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoin aadress millega sõnum on allkirjastatud</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Bitcoini aadressiga.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1829,13 +1758,8 @@
         <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoini tuumik</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoini tuumik</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

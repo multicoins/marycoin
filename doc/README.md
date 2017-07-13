@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 Bitcoin Core 0.14.2
-=======
-Bitcoin Core 0.14.1
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 =====================
 
 Setup

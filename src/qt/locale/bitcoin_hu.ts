@@ -76,11 +76,7 @@
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>MarycoinGUI</name>
-=======
-    <name>BitcoinGUI</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Sign &amp;message...</source>
         <translation>Üzenet aláírása...</translation>
@@ -238,13 +234,8 @@
         <translation>Fül eszköztár</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Fizetési kérelem (QR-kódot és "marycoin:" URI azonosítót hoz létre)</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Fizetési kérelem (QR-kódot és "bitcoin:" URI azonosítót hoz létre)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -263,13 +254,8 @@
         <translation>Paran&amp;cssor kapcsolók</translation>
     </message>
     <message numerus="yes">
-<<<<<<< HEAD
         <source>%n active connection(s) to Marycoin network</source>
         <translation><numerusform>%n aktív kapcsolat a Marycoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Marycoin hálózathoz</numerusform></translation>
-=======
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktív kapcsolat a Bitcoin hálózathoz</numerusform><numerusform>%n aktív kapcsolat a Bitcoin hálózathoz</numerusform></translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -1392,13 +1378,8 @@
 </translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>

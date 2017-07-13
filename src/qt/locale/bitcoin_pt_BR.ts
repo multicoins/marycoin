@@ -62,19 +62,11 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>These are your Marycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Estes são os seus endereços para enviar pagamentos. Sempre cheque a quantia e o endereço do destinatário antes de enviar moedas.</translation>
     </message>
     <message>
         <source>These are your Marycoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-=======
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os seus endereços para enviar pagamentos. Sempre cheque a quantia e o endereço do destinatário antes de enviar moedas.</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>Estes são os seus endereços para receber pagamentos. É recomendado usar um novo para cada transação.</translation>
     </message>
     <message>
@@ -176,13 +168,8 @@
         <translation>Confirmar criptografia da carteira</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
         <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;PERDER TODOS OS SEUS MarycoinS&lt;/b&gt;!</translation>
-=======
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;PERDER TODOS OS SEUS BITCOINS&lt;/b&gt;!</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -423,13 +410,8 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Solicitações de pagamentos (gera códigos QR e marycoin: URIs)</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitações de pagamentos (gera códigos QR e bitcoin: URIs)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -492,13 +474,8 @@
         <translation>Atualizado</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Marycoin command-line options</source>
         <translation>Mostrar a mensagem de ajuda do %1 para obter uma lista com possíveis opções de linha de comando Marycoin</translation>
-=======
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Mostrar a mensagem de ajuda do %1 para obter uma lista com possíveis opções de linha de comando Bitcoin</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>%1 client</source>
@@ -567,13 +544,8 @@
         <translation>Carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente &lt;b&gt;bloqueada&lt;/b&gt;</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>A fatal error occurred. Marycoin can no longer continue safely and will quit.</source>
         <translation>Um erro fatal ocorreu. Marycoin não pode continuar em segurança e irá fechar.</translation>
-=======
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>Um erro fatal ocorreu. Bitcoin não pode continuar em segurança e irá fechar.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
 </context>
 <context>
@@ -766,11 +738,7 @@
         <translation>Editar endereço de envio</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Marycoin address.</source>
-=======
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>O endereço digitado "%1" não é um endereço válido.</translation>
     </message>
     <message>
@@ -879,13 +847,8 @@
         <translation>Como essa é a primeira vez que o programa é executado, você pode escolher onde %1 armazenará seus dados.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>O %1 irá baixar e armazenar uma cópia do block chain do Marycoin. Pelo menos %2GB de dados serão armazenados neste diretório, e ele crescerá ao longo do tempo. A carteira também será armazenada neste diretório.</translation>
-=======
-        <source>%1 will download and store a copy of the Bitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O %1 irá baixar e armazenar uma cópia do block chain do Bitcoin. Pelo menos %2GB de dados serão armazenados neste diretório, e ele crescerá ao longo do tempo. A carteira também será armazenada neste diretório.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -919,21 +882,12 @@
         <translation>Formulário</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the marycoin network, as detailed below.</source>
         <translation>Transações recentes podem não estar visíveis ainda, portanto o seu saldo pode estar incorreto. Esta informação será corrigida assim que sua carteira for sincronizada com a rede, como detalhado abaixo.</translation>
     </message>
     <message>
         <source>Attempting to spend marycoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Gastar moedas de transações desconhecidas podem não ser aceitas pela rede.</translation>
-=======
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>Transações recentes podem não estar visíveis ainda, portanto o seu saldo pode estar incorreto. Esta informação será corrigida assim que sua carteira for sincronizada com a rede, como detalhado abaixo.</translation>
-    </message>
-    <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Gastar moedas de transações desconhecidas podem não ser aceitas pela rede.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1310,7 +1264,6 @@
     <message>
         <source>Payment request error</source>
         <translation>Erro no pedido de pagamento</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Cannot start marycoin: click-to-pay handler</source>
@@ -1335,45 +1288,8 @@
     <message>
         <source>Payment request file handling</source>
         <translation>Manipulação de arquivo de cobrança</translation>
-=======
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>Não foi possível iniciar bitcoin: manipulador click-to-pay</translation>
-    </message>
-    <message>
-        <source>URI handling</source>
-        <translation>Manipulação de URI</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
-    </message>
-    <message>
-        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Arquivo de pedido de pagamento não pode ser lido! Isto pode ser causado por uma requisição de pagamento inválida.</translation>
-    </message>
-    <message>
-<<<<<<< HEAD
-        <source>Payment request rejected</source>
-        <translation>Pedido de pagamento rejeitado</translation>
-=======
-        <source>Invalid payment address %1</source>
-        <translation>Endereço de pagamento %1 inválido</translation>
-    </message>
-    <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI não pode ser analisado! Isto pode ser causado por um endereço inválido ou parâmetros URI informados incorretamente.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
-    </message>
-    <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>Rede do pedido de pagamento não corresponde rede do cliente.</translation>
-    </message>
-    <message>
-<<<<<<< HEAD
-        <source>Payment request expired.</source>
-        <translation>Pedido de pagamento expirado</translation>
-    </message>
-    <message>
-=======
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
         <translation>Arquivo de pedido de pagamento não pode ser lido! Isto pode ser causado por uma requisição de pagamento inválida.</translation>
     </message>
@@ -1390,7 +1306,6 @@
         <translation>Pedido de pagamento expirado</translation>
     </message>
     <message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Payment request is not initialized.</source>
         <translation>Pedido de pagamento não inicializado</translation>
     </message>
@@ -1495,8 +1410,6 @@
     <message numerus="yes">
         <source>%n second(s)</source>
         <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
-<<<<<<< HEAD
-=======
     </message>
     <message numerus="yes">
         <source>%n minute(s)</source>
@@ -1551,70 +1464,8 @@
     <message>
         <source>&amp;Copy Image</source>
         <translation>&amp;Copiar imagem</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
-    </message>
-    <message numerus="yes">
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
-    </message>
-<<<<<<< HEAD
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n dia</numerusform><numerusform>%n dias</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n semana</numerusform><numerusform>%n semanas</numerusform></translation>
     </message>
     <message>
-        <source>%1 and %2</source>
-        <translation>%1 e %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n ano</numerusform><numerusform>%n anos</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 didn't yet exit safely...</source>
-        <translation>%1 ainda não terminou com segurança...</translation>
-=======
-    <message>
-        <source>PNG Image (*.png)</source>
-        <translation>Imagem PNG (*.png)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
-    </message>
-</context>
-<context>
-    <name>QObject::QObject</name>
-    <message>
-        <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>Erro: diretório de dados especificado "%1" não existe.</translation>
-    </message>
-    <message>
-        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Erro: Não foi possível interpretar arquivo de configuração: %1. Utilize apenas a sintaxe chave=valor.</translation>
-    </message>
-    <message>
-        <source>Error: %1</source>
-        <translation>Erro: %1</translation>
-    </message>
-</context>
-<context>
-    <name>QRImageWidget</name>
-    <message>
-        <source>&amp;Save Image...</source>
-        <translation>&amp;Savar imagem</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Image</source>
-        <translation>&amp;Copiar imagem</translation>
-    </message>
-    <message>
-<<<<<<< HEAD
         <source>Save QR Code</source>
         <translation>Salvar código QR</translation>
     </message>
@@ -1626,8 +1477,6 @@
 <context>
     <name>RPCConsole</name>
     <message>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
@@ -1854,21 +1703,12 @@
     <message>
         <source>Ban for</source>
         <translation>Banir por</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>&amp;Unban</source>
         <translation>&amp;Desbanir</translation>
     </message>
     <message>
-=======
-    </message>
-    <message>
-        <source>&amp;Unban</source>
-        <translation>&amp;Desbanir</translation>
-    </message>
-    <message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Welcome to the %1 RPC console.</source>
         <translation>Bem-vindo ao console RPC do %1</translation>
     </message>
@@ -2334,11 +2174,7 @@
     </message>
     <message>
         <source>The transaction was rejected with the following reason: %1</source>
-<<<<<<< HEAD
         <translation>A transação foi negada pela seguinte razão: %1</translation>
-=======
-        <translation>A transação foi negada pela seguinte razão: %1</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>A fee higher than %1 is considered an absurdly high fee.</source>
@@ -2361,11 +2197,7 @@
         <translation><numerusform>Confirmação em %n bloco.</numerusform><numerusform>Confirmação em %n blocos.</numerusform></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Warning: Invalid Marycoin address</source>
-=======
-        <source>Warning: Invalid Bitcoin address</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>Aviso: Endereço inválido</translation>
     </message>
     <message>
@@ -2428,13 +2260,8 @@
         <translation>Remover esta entrada</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>A taxa será deduzida da quantia que está sendo enviada. O destinatário receberá menos marycoins do que você colocou no campo de quantidade. Se vários destinatários estão selecionados, a taxa é dividida igualmente.</translation>
-=======
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>A taxa será deduzida da quantia que está sendo enviada. O destinatário receberá menos bitcoins do que você colocou no campo de quantidade. Se vários destinatários estão selecionados, a taxa é dividida igualmente.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2740,11 +2567,7 @@
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-<<<<<<< HEAD
         <translation><numerusform>maduro em mais %n bloco</numerusform><numerusform>maduro em mais %n blocos</numerusform></translation>
-=======
-        <translation><numerusform>maduro em mais %n bloco</numerusform><numerusform>maduro em mais %n blocos</numerusform></translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>not accepted</source>
@@ -3184,19 +3007,11 @@
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</source>
-<<<<<<< HEAD
         <translation>Aceitar conecções de entrada (padrão: 1 sem -proxy ou -connect/-noconnect)</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s); -noconnect or -connect=0 alone to disable automatic connections</source>
         <translation>Conectar somente a nós específicos; -noconnect ou -connect=0 sozinhos para desativar conecções automáticas</translation>
-=======
-        <translation>Aceitar conecções de entrada (padrão: 1 sem -proxy ou -connect/-noconnect)</translation>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s); -noconnect or -connect=0 alone to disable automatic connections</source>
-        <translation>Conectar somente a nós específicos; -noconnect ou -connect=0 sozinhos para desativar conecções automáticas</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
@@ -3239,13 +3054,8 @@
         <translation>Não foi possível iniciar o servidor HTTP. Veja o log para detaihes.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>The %s developers</source>
@@ -3289,11 +3099,7 @@
     </message>
     <message>
         <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
-<<<<<<< HEAD
         <translation>Se este bloco está no blockchain, assume-se que ele e seus ancestrais são válidos e podem ignorar a verificação de scripts (0 para verificar todos, padrão: %s, testnet: %s)</translation>
-=======
-        <translation>Se este bloco está no blockchain, assume-se que ele e seus ancestrais são válidos e podem ignorar a verificação de scripts (0 para verificar todos, padrão: %s, testnet: %s)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
@@ -3313,11 +3119,7 @@
     </message>
     <message>
         <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
-<<<<<<< HEAD
         <translation>Reduz o requerimente de espaço habiitando o pruning (apagando) blocos antigos. Isso permite o chamar o comando pruneblockchain via RPC para apagar blocos específicos, e habiita o pruning automático de blocos antigos se o tamanho em MiB for atingido. Esse modo é incompatíve com -txindex e -rescan. Aviso: Reverter essa configuração requer re-baixar o blockchain inteiro. (padrão: 0 = disabilitado, 1 = permite o pruning manua via RPC, &gt;%u = pruna os blocos para ficar abaixo do expecificado, em MiB)</translation>
-=======
-        <translation>Reduz o requerimente de espaço habiitando o pruning (apagando) blocos antigos. Isso permite o chamar o comando pruneblockchain via RPC para apagar blocos específicos, e habiita o pruning automático de blocos antigos se o tamanho em MiB for atingido. Esse modo é incompatíve com -txindex e -rescan. Aviso: Reverter essa configuração requer re-baixar o blockchain inteiro. (padrão: 0 = disabilitado, 1 = permite o pruning manua via RPC, &gt;%u = pruna os blocos para ficar abaixo do expecificado, em MiB)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
@@ -3533,11 +3335,7 @@
     </message>
     <message>
         <source>Print version and exit</source>
-<<<<<<< HEAD
         <translation>Mostra a versão e fecha</translation>
-=======
-        <translation>Mostra a versão e fecha</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
@@ -3886,7 +3684,6 @@
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
         <translation>Informação de saída de debug (padrão: %u, definir &lt;category&gt; é opcional)</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
@@ -3949,70 +3746,6 @@
         <translation>(padrão: %s)</translation>
     </message>
     <message>
-=======
-    </message>
-    <message>
-        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
-        <translation>Buscar por endereços de peers via DNS, se estiver baixo em endereços (padrão: 1 a não ser que -connect/-noconnect)</translation>
-    </message>
-    <message>
-        <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
-        <translation>Define a criação do raw da transação ou bloco em modo não verbal, não segwit (0) ou segwit (1) (padrão: %d)</translation>
-    </message>
-    <message>
-        <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Suportar filtragem de blocos e transações com filtros bloom (padrão: %u)</translation>
-    </message>
-    <message>
-        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>Esta é a taxa que você deve pagar quando a taxa estimada não está disponível.</translation>
-    </message>
-    <message>
-        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Esse produto inclui um software desenvolvido pelo OpenSSL Project para uso na OpenSSL Toolkit %s e software criptográfico escrito por Eric Young e software UPnP escrito por Thomas Bernard. </translation>
-    </message>
-    <message>
-        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>O tamanho total da string de versão da rede (%i) excede o tamanho máximo (%i). Reduza o numero ou tamanho de uacomments.</translation>
-    </message>
-    <message>
-        <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>Tenta manter tráfego fora dos limites dentro do alvo especificado (em MiB por 24h), 0 = sem limite (padrão: %d)</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Argumento inválido -socks encontrado. Definir a versão do SOCKS não é mais possível, somente proxys SOCK5 são suportados.</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
-        <translation>Argumento não suportado -whitelistalwaysrelay foi ignorado, utilize -whitelistrelay e/ou -whitelistforcerelay.</translation>
-    </message>
-    <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Use um proxy SOCKS5 separado para alcançar participantes da rede via serviços ocultos Tor (padrão: %s)</translation>
-    </message>
-    <message>
-        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
-        <translation>Aviso: Versões de bloco desconhecidas sendo mineradas! É possível que regras estranhas estejam ativas</translation>
-    </message>
-    <message>
-        <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Atenção: Arquivo da carteira corrompido, dados recuperados! Original %s salvo como %s em %s; se seu saldo ou transações estiverem incorretos, você deve restaurar o backup.</translation>
-    </message>
-    <message>
-        <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
-        <translation>Lista Branca de conecções do endereço IP informado (ex: 1.2.3.4) ou com máscara de rede (ex: 1.2.3.0/24). Pode ser especificado várias vezes.</translation>
-    </message>
-    <message>
-        <source>%s is set very high!</source>
-        <translation>%s está muito alto!</translation>
-    </message>
-    <message>
-        <source>(default: %s)</source>
-        <translation>(padrão: %s)</translation>
-    </message>
-    <message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
         <translation>Sempre pergunte pelo endereço de peer via pesquisa DNS (padrão: %u)</translation>
     </message>
@@ -4030,11 +3763,7 @@
     </message>
     <message>
         <source>Keypool ran out, please call keypoolrefill first</source>
-<<<<<<< HEAD
         <translation>Erro na Keypool, favor executar keypoolrefill primeiro</translation>
-=======
-        <translation>Erro na Keypool, favor executar keypoolrefill primeiro</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
@@ -4075,21 +3804,12 @@
     <message>
         <source>Send transactions with full-RBF opt-in enabled (default: %u)</source>
         <translation>Ativar opção full-RBF nas transações enviadas (padrão: %u)</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
         <translation>Defina o tamanho da chave para piscina&lt;n&gt; (padrão: %u)</translation>
     </message>
     <message>
-=======
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Defina o tamanho da chave para piscina&lt;n&gt; (padrão: %u)</translation>
-    </message>
-    <message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Set maximum BIP141 block weight (default: %d)</source>
         <translation>Define a altura máxima BIP141 do bloco (padrão: %d)</translation>
     </message>
@@ -4120,7 +3840,6 @@
     <message>
         <source>The wallet will avoid paying less than the minimum relay fee.</source>
         <translation>A carteira irá evitar pagar menos que a taxa mínima.</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>This is the minimum transaction fee you pay on every transaction.</source>
@@ -4145,32 +3864,6 @@
     <message>
         <source>Transaction must have at least one recipient</source>
         <translation>A transação deve ter ao menos um destinatário</translation>
-=======
-    </message>
-    <message>
-        <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>Esta é a taxa mínima que você deve pagar em cada transação.</translation>
-    </message>
-    <message>
-        <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Esta é a taxa que você irá pagar se enviar a transação.</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Limite para desconectar peers mal comportados (padrão: %u)</translation>
-    </message>
-    <message>
-        <source>Transaction amounts must not be negative</source>
-        <translation>As quantidades das transações devem ser positivas.</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation>A transação demorou muito na memória</translation>
-    </message>
-    <message>
-        <source>Transaction must have at least one recipient</source>
-        <translation>A transação deve ter ao menos um destinatário</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>

@@ -74,10 +74,6 @@
         <translation>&amp;Copia l'adreça</translation>
     </message>
     <message>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Copia l'adreça</translation>
-    </message>
-    <message>
         <source>Copy &amp;Label</source>
         <translation>Copia l'eti&amp;queta</translation>
     </message>
@@ -184,13 +180,8 @@
         <translation>Moneder encriptat</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your marycoins from being stolen by malware infecting your computer.</source>
         <translation>Ara es tancarà el %1 per finalitzar el procés d'encriptació. Recordeu que encriptar el vostre moneder no garanteix que les vostres marycoins no puguin ser robades per programari maliciós que infecti l'ordinador.</translation>
-=======
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>Ara es tancarà el %1 per finalitzar el procés d'encriptació. Recordeu que encriptar el vostre moneder no garanteix que les vostres bitcoins no puguin ser robades per programari maliciós que infecti l'ordinador.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -419,13 +410,8 @@
         <translation>Barra d'eines de les pestanyes</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Sol·licita pagaments (genera codis QR i marycoin: URI)</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Sol·licita pagaments (genera codis QR i bitcoin: URI)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -488,13 +474,8 @@
         <translation>Al dia</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Marycoin command-line options</source>
         <translation>Mostra el missatge d'ajuda del %1 per obtenir una llista amb les possibles opcions de línia d'ordres de Marycoin</translation>
-=======
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>Mostra el missatge d'ajuda del %1 per obtenir una llista amb les possibles opcions de línia d'ordres de Bitcoin</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>%1 client</source>
@@ -559,13 +540,8 @@
         <translation>El moneder està &lt;b&gt;encriptat&lt;/b&gt; i actualment &lt;b&gt;bloquejat&lt;/b&gt;</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>A fatal error occurred. Marycoin can no longer continue safely and will quit.</source>
         <translation>S'ha produït un error fatal. Marycoin no pot continuar amb seguretat i finalitzarà.</translation>
-=======
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>S'ha produït un error fatal. Bitcoin no pot continuar amb seguretat i finalitzarà.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
 </context>
 <context>
@@ -756,17 +732,10 @@
     <message>
         <source>Edit sending address</source>
         <translation>Edita l'adreça d'enviament</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>The entered address "%1" is not a valid Marycoin address.</source>
         <translation>L'adreça introduïda «%1» no és una adreça de Marycoin vàlida.</translation>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
-    </message>
-    <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>L'adreça introduïda «%1» ja és present a la llibreta d'adreces.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -874,13 +843,8 @@
         <translation>Com és la primera vegada que s'executa el programa, podeu triar on %1 emmagatzemarà les dades.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>%1 baixarà i emmagatzemarà una còpia de la cadena de blocs de Marycoin. Com a mínim %2GB de dades s'emmagatzemaran en aquest directori, i augmentarà al llarg del temps. El moneder també s'emmagatzemarà en aquest directori.</translation>
-=======
-        <source>%1 will download and store a copy of the Bitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 baixarà i emmagatzemarà una còpia de la cadena de blocs de Bitcoin. Com a mínim %2GB de dades s'emmagatzemaran en aquest directori, i augmentarà al llarg del temps. El moneder també s'emmagatzemarà en aquest directori.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1104,13 +1068,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Connect to the Marycoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Conectar a la red de Marycoin a través de un proxy SOCKS5 per als serveis ocults de Tor</translation>
-=======
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Conectar a la red de Bitcoin a través de un proxy SOCKS5 per als serveis ocults de Tor</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1281,21 +1240,12 @@
     <message>
         <source>Payment request error</source>
         <translation>Error de la sol·licitud de pagament</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Cannot start marycoin: click-to-pay handler</source>
         <translation>No es pot iniciar marycoin: controlador click-to-pay</translation>
     </message>
     <message>
-=======
-    </message>
-    <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
-        <translation>No es pot iniciar bitcoin: controlador click-to-pay</translation>
-    </message>
-    <message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>URI handling</source>
         <translation>Gestió d'URI</translation>
     </message>
@@ -1308,13 +1258,8 @@
         <translation>Adreça de pagament no vàlida %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>URI cannot be parsed! This can be caused by an invalid Marycoin address or malformed URI parameters.</source>
         <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Marycoin no vàlida o per paràmetres URI amb mal format.</translation>
-=======
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Bitcoin no vàlida o per paràmetres URI amb mal format.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -2078,17 +2023,6 @@
     <message>
         <source>or</source>
         <translation>o</translation>
-<<<<<<< HEAD
-=======
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Confirma l'enviament de monedes</translation>
-    </message>
-    <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>L'adreça del destinatari no és vàlida. Torneu-la a comprovar.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -2126,25 +2060,15 @@
         <source>Payment request expired.</source>
         <translation>La sol·licitud de pagament ha vençut.</translation>
     </message>
-<<<<<<< HEAD
-=======
-    <message>
-        <source>Pay only the required fee of %1</source>
-        <translation>Paga només la comissió necessària de %1</translation>
-    </message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Pay only the required fee of %1</source>
         <translation>Paga només la comissió necessària de %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Warning: Invalid Marycoin address</source>
         <translation>Avís: adreça Marycoin no vàlida</translation>
     </message>
     <message>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Warning: Unknown change address</source>
         <translation>Avís: adreça de canvi desconeguda</translation>
     </message>
@@ -2918,13 +2842,8 @@
         <translation>No s'ha pogut iniciar el servidor HTTP. Vegeu debug.log per a més detalls.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

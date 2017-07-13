@@ -488,14 +488,6 @@
         <translation>Craidd Marycoin</translation>
     </message>
     <message>
-        <source>Options:</source>
-        <translation>Opsiynau:</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation>Craidd Bitcoin</translation>
-    </message>
-    <message>
         <source>Information</source>
         <translation>Gwybodaeth</translation>
     </message>

@@ -218,13 +218,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Solicitar pagos (genera codigo QR y URL's de Marycoin)</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitar pagos (genera codigo QR y URL's de Bitcoin)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -1128,13 +1123,8 @@
 </translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Núcleo de Marycoin</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Núcleo de Bitcoin</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

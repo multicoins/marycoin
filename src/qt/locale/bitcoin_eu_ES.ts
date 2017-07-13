@@ -74,10 +74,6 @@
         <translation>&amp;Kopiatu helbidea</translation>
     </message>
     <message>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Kopiatu helbidea</translation>
-    </message>
-    <message>
         <source>Copy &amp;Label</source>
         <translation>Kopiatu &amp;Etiketa</translation>
     </message>

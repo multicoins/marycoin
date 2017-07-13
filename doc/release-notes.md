@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Bitcoin Core version 0.14.2 is now available from:
 
   <https://bitcoin.org/bin/bitcoin-core-0.14.2/>
@@ -56,45 +55,6 @@ default target. The fee calculated using the correct target is still applied to
 the transaction and shown in the final send confirmation dialog.
 
 0.14.2 Change log
-=======
-Bitcoin Core version 0.14.x is now available from:
-
-  <https://bitcoin.org/bin/bitcoin-core-0.14.x/>
-
-This is a new minor version release, including various bugfixes and
-performance improvements, as well as updated translations.
-
-Please report bugs using the issue tracker at github:
-
-  <https://github.com/bitcoin/bitcoin/issues>
-
-To receive security and update notifications, please subscribe to:
-
-  <https://bitcoincore.org/en/list/announcements/join/>
-
-Compatibility
-==============
-
-Bitcoin Core is extensively tested on multiple operating systems using
-the Linux kernel, macOS 10.8+, and Windows Vista and later.
-
-Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support),
-No attempt is made to prevent installing or running the software on Windows XP, you
-can still do so at your own risk but be aware that there are known instabilities and issues.
-Please do not report issues about Windows XP to the issue tracker.
-
-Bitcoin Core should also work on most other Unix-like systems but is not
-frequently tested on them.
-
-Notable changes
-===============
-
-Example item
-------------
-
-
-0.14.x Change log
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 =================
 
 Detailed release notes follow. This overview includes changes that affect
@@ -102,7 +62,6 @@ behavior, not code moves, refactors and string updates. For convenience in locat
 the code changes and accompanying discussion, both the pull request and
 git merge commit are mentioned.
 
-<<<<<<< HEAD
 ### RPC and other APIs
 - #10410 `321419b` Fix importwallet edge case rescan bug (ryanofsky)
 
@@ -123,15 +82,12 @@ git merge commit are mentioned.
 
 ### Wallet
 - #10294 `1847642` Unset change position when there is no change (instagibbs)
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 
 Credits
 =======
 
 Thanks to everyone who directly contributed to this release:
 
-<<<<<<< HEAD
 - Alex Morcos
 - Cory Fields
 - fanquake
@@ -141,8 +97,6 @@ Thanks to everyone who directly contributed to this release:
 - Russell Yanofsky
 - Shigeya Suzuki
 - Wladimir J. van der Laan
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 
 As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/bitcoin/).
 

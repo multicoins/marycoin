@@ -58,7 +58,6 @@
         <translation>Mottaksadresser</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>These are your Marycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dette er dine Marycoin-adresser for sending av betalinger. Sjekk alltid beløpet og mottakeradressen før sending av mynter.</translation>
     </message>
@@ -67,16 +66,6 @@
         <translation>Dette er dine Marycoin-adresser for å sende betalinger med. Det er anbefalt å bruke en ny mottaksadresse for hver transaksjon.</translation>
     </message>
     <message>
-=======
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dette er dine Bitcoin-adresser for sending av betalinger. Sjekk alltid beløpet og mottakeradressen før sending av mynter.</translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dette er dine Bitcoin-adresser for å sende betalinger med. Det er anbefalt å bruke en ny mottaksadresse for hver transaksjon.</translation>
-    </message>
-    <message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopier Adresse</translation>
     </message>
@@ -337,13 +326,8 @@
         <translation>Verktøylinje for faner</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Forespør betalinger (genererer QR-koder og marycoin: URIer)</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Forespør betalinger (genererer QR-koder og bitcoin: URIer)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -362,13 +346,8 @@
         <translation>&amp;Kommandolinjevalg</translation>
     </message>
     <message numerus="yes">
-<<<<<<< HEAD
         <source>%n active connection(s) to Marycoin network</source>
         <translation><numerusform>%n aktiv forbindelse til Marycoin-nettverket</numerusform><numerusform>%n aktive forbindelser til Marycoin-nettverket</numerusform></translation>
-=======
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n aktiv forbindelse til Bitcoin-nettverket</numerusform><numerusform>%n aktive forbindelser til Bitcoin-nettverket</numerusform></translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -1013,13 +992,8 @@
         <translation>Beløp</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Enter a Marycoin address (e.g. %1)</source>
         <translation>Oppgi en Marycoin-adresse (f.eks. %1)</translation>
-=======
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Oppgi en Bitcoin-adresse (f.eks. %1)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>%1 d</source>
@@ -1606,13 +1580,8 @@
         <translation>Dette er en normal betaling.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The Marycoin address to send the payment to</source>
         <translation>Marycoin-adressen betalingen skal sendes til</translation>
-=======
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>Bitcoin-adressen betalingen skal sendes til</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Alt+A</source>
@@ -1631,13 +1600,8 @@
         <translation>Fjern denne oppføringen</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Gebyret vil bli trukket fra beløpet som blir sendt. Mottakeren vil motta mindre marycoins enn det du skriver inn i beløpsfeltet. Hvis det er valgt flere mottakere, deles gebyret likt.</translation>
-=======
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Gebyret vil bli trukket fra beløpet som blir sendt. Mottakeren vil motta mindre bitcoins enn det du skriver inn i beløpsfeltet. Hvis det er valgt flere mottakere, deles gebyret likt.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -1660,13 +1624,8 @@
         <translation>Skriv inn en merkelapp for denne adressen for å legge den til listen av brukte adresser</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>A message that was attached to the marycoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Marycoin network.</source>
         <translation>En melding som var tilknyttet marycoinen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Marycoin-nettverket.</translation>
-=======
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>En melding som var tilknyttet bitcoinen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Bitcoin-nettverket.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Pay To:</source>
@@ -1698,21 +1657,12 @@
         <translation>&amp;Signer Melding</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Du kan signere meldinger/avtaler med adresser for å bevise at du kan motta marycoins sendt til dem. Vær forsiktig med å signere noe vagt eller tilfeldig, siden phishing-angrep kan prøve å lure deg til å signere din identitet over til dem. Bare signer fullt detaljerte utsagn som du er enig i.</translation>
     </message>
     <message>
         <source>The Marycoin address to sign the message with</source>
         <translation>Marycoin-adressen meldingen skal signeres med</translation>
-=======
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan signere meldinger/avtaler med adresser for å bevise at du kan motta bitcoins sendt til dem. Vær forsiktig med å signere noe vagt eller tilfeldig, siden phishing-angrep kan prøve å lure deg til å signere din identitet over til dem. Bare signer fullt detaljerte utsagn som du er enig i.</translation>
-    </message>
-    <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>Bitcoin-adressen meldingen skal signeres med</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1743,13 +1693,8 @@
         <translation>Kopier valgt signatur til utklippstavle</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign the message to prove you own this Marycoin address</source>
         <translation>Signer meldingen for å bevise at du eier denne Marycoin-adressen</translation>
-=======
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Signer meldingen for å bevise at du eier denne Bitcoin-adressen</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1772,21 +1717,12 @@
         <translation>Skriv inn mottakerens adresse, melding (forsikre deg om at du kopier linjeskift, mellomrom, faner osv. nøyaktig) og underskrift nedenfor for å bekrefte meldingen. Vær forsiktig så du ikke leser mer ut av signaturen enn hva som er i den signerte meldingen i seg selv, for å unngå å bli lurt av et man-in-the-middle-angrep. Merk at dette bare beviser at den som signerer kan motta med adressen, dette beviser ikke hvem som har sendt transaksjoner!</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The Marycoin address the message was signed with</source>
         <translation>Marycoin-adressen meldingen ble signert med</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Marycoin address</source>
         <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Marycoin-adressen</translation>
-=======
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>Bitcoin-adressen meldingen ble signert med</translation>
-    </message>
-    <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>Verifiser meldingen for å være sikker på at den ble signert av den angitte Bitcoin-adressen</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1926,13 +1862,8 @@
         <translation>Kunne ikke starte HTTP server. Se debug logg for detaljer.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

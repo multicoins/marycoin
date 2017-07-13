@@ -41,7 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Hapus</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Pilih alamat untuk mengirim koin</translation>
@@ -94,12 +93,22 @@
         <source>Exporting Failed</source>
         <translation>Mengekspor Gagal</translation>
     </message>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>AddressTableModel</name>
-    </context>
+    <message>
+        <source>Label</source>
+        <translation>Label</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Alamat</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(tidak ada label)</translation>
+    </message>
+</context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -118,11 +127,7 @@
         <source>Repeat new passphrase</source>
         <translation>Ulangi kata kunci baru</translation>
     </message>
-    </context>
-<context>
-    <name>BanTableModel</name>
     <message>
-<<<<<<< HEAD
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Masukan kata sandi baru ke dompet.&lt;br/&gt;Mohon gunakan kata sandi &lt;b&gt;sepuluh karakter acak atau lebih&lt;/b&gt;, atau &lt;b&gt; delapan atau lebih beberapa kata &lt;/​​b&gt;.</translation>
     </message>
@@ -224,18 +229,6 @@
 </context>
 <context>
     <name>MarycoinGUI</name>
-=======
-        <source>IP/Netmask</source>
-        <translation>IP/Netmask</translation>
-    </message>
-    <message>
-        <source>Banned Until</source>
-        <translation>Di banned sampai</translation>
-    </message>
-</context>
-<context>
-    <name>BitcoinGUI</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Sign &amp;message...</source>
         <translation>Pesan &amp;penanda...</translation>
@@ -293,13 +286,10 @@
         <translation>&amp;Pilihan...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Modify configuration options for %1</source>
         <translation>Pengubahan opsi konfigurasi untuk %1</translation>
     </message>
     <message>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>&amp;Encrypt Wallet...</source>
         <translation>&amp;Enkripsi Dompet...</translation>
     </message>
@@ -324,7 +314,6 @@
         <translation>Buka &amp;URI</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Click to disable network activity.</source>
         <translation>Klik untuk menonaktifkan aktivitas jaringan.</translation>
     </message>
@@ -341,8 +330,6 @@
         <translation>Menyinkronkan Header (%1%) ...</translation>
     </message>
     <message>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Reindexing blocks on disk...</source>
         <translation>Mengindex ulang blok di dalam disk...</translation>
     </message>
@@ -399,21 +386,12 @@
         <translation>Enkripsi private key yang dimiliki dompet Anda</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign messages with your Marycoin addresses to prove you own them</source>
         <translation>Tanda tangani sebuah pesan menggunakan alamat Marycoin Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Marycoin addresses</source>
         <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat Marycoin tertentu</translation>
-=======
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Tanda tangani sebuah pesan menggunakan alamat Bitcoin Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat Bitcoin tertentu</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;File</source>
@@ -432,13 +410,8 @@
         <translation>Baris tab</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Permintaan pembayaran (membuat kode QR dan marycoin: URIs)</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Permintaan pembayaran (membuat kode QR dan bitcoin: URIs)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -457,7 +430,6 @@
         <translation>&amp;pilihan Command-line</translation>
     </message>
     <message numerus="yes">
-<<<<<<< HEAD
         <source>%n active connection(s) to Marycoin network</source>
         <translation><numerusform>%n koneksi aktif ke jaringan Marycoin</numerusform></translation>
     </message>
@@ -468,10 +440,6 @@
     <message>
         <source>Processing blocks on disk...</source>
         <translation>Memproses blok pada disk ...</translation>
-=======
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n koneksi aktif ke jaringan Bitcoin</numerusform></translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message numerus="yes">
         <source>Processed %n block(s) of transaction history.</source>
@@ -638,28 +606,15 @@
         <source>Confirmed</source>
         <translation>Terkonfirmasi</translation>
     </message>
-    </context>
-<context>
-    <name>EditAddressDialog</name>
     <message>
-<<<<<<< HEAD
         <source>Copy address</source>
         <translation>Salin alamat</translation>
-=======
-        <source>Edit Address</source>
-        <translation>Ubah Alamat</translation>
     </message>
     <message>
-        <source>&amp;Label</source>
-        <translation>&amp;Label</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
+        <source>Copy label</source>
+        <translation>Salin label</translation>
     </message>
     <message>
-        <source>The label associated with this address list entry</source>
-        <translation>Label yang terkait dengan daftar alamat</translation>
-    </message>
-    <message>
-<<<<<<< HEAD
         <source>Copy fee</source>
         <translation>Salin biaya</translation>
     </message>
@@ -667,7 +622,22 @@
         <source>(no label)</source>
         <translation>(tidak ada label)</translation>
     </message>
-=======
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+        <source>Edit Address</source>
+        <translation>Ubah Alamat</translation>
+    </message>
+    <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Label</translation>
+    </message>
+    <message>
+        <source>The label associated with this address list entry</source>
+        <translation>Label yang terkait dengan daftar alamat</translation>
+    </message>
+    <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
         <translation>Alamat yang terkait dengan daftar alamat. Hanya dapat diubah untuk alamat pengirim.</translation>
     </message>
@@ -753,235 +723,6 @@
         <translation>Selamat Datang</translation>
     </message>
     <message>
-        <source>Use the default data directory</source>
-        <translation>Gunakan direktori data default.</translation>
-    </message>
-    <message>
-        <source>Use a custom data directory:</source>
-        <translation>Gunakan direktori pilihan Anda:</translation>
-    </message>
-    <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Kesalahan: Direktori data "%1" tidak dapat dibuat.</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Kesalahan</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB ruang kosong tersedia.</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(dari %n GB yang dibutuhkan)</numerusform></translation>
-    </message>
-</context>
-<context>
-    <name>ModalOverlay</name>
-    <message>
-        <source>Form</source>
-        <translation>Formulir</translation>
-    </message>
-    <message>
-        <source>Last block time</source>
-        <translation>Waktu blok terakhir</translation>
-    </message>
-    </context>
-<context>
-    <name>OpenURIDialog</name>
-    <message>
-        <source>Open URI</source>
-        <translation>Buka URI</translation>
-    </message>
-    <message>
-        <source>Open payment request from URI or file</source>
-        <translation>Buka permintaan pembayaran dari URI atau data</translation>
-    </message>
-    <message>
-        <source>URI:</source>
-        <translation>URI:</translation>
-    </message>
-    <message>
-        <source>Select payment request file</source>
-        <translation>Pilih data permintaan pembayaran</translation>
-    </message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
-    </context>
-<context>
-    <name>OptionsDialog</name>
-    <message>
-        <source>Options</source>
-        <translation>Pilihan</translation>
-    </message>
-    <message>
-        <source>&amp;Main</source>
-        <translation>&amp;Utama</translation>
-    </message>
-    <message>
-<<<<<<< HEAD
-        <source>The label associated with this address list entry</source>
-        <translation>Label yang terkait dengan daftar alamat</translation>
-    </message>
-    <message>
-        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Alamat yang terkait dengan daftar alamat. Hanya dapat diubah untuk alamat pengirim.</translation>
-=======
-        <source>Size of &amp;database cache</source>
-        <translation>Ukuran cache &amp;database</translation>
-    </message>
-    <message>
-        <source>MB</source>
-        <translation>MB</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
-    </message>
-    <message>
-        <source>Number of script &amp;verification threads</source>
-        <translation>Jumlah script &amp;verification threads</translation>
-    </message>
-<<<<<<< HEAD
-    </context>
-<context>
-    <name>FreespaceChecker</name>
-=======
-    <message>
-        <source>Accept connections from outside</source>
-        <translation>Terima koneksi dari luar</translation>
-    </message>
-    <message>
-        <source>Allow incoming connections</source>
-        <translation>Perbolehkan koneksi masuk</translation>
-    </message>
-    <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>Alamat IP proxy (cth. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
-    </message>
-    <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimalisasi aplikasi ketika jendela ditutup. Ketika pilihan ini dipilih, aplikasi akan menutup seluruhnya jika anda memilih Keluar di menu yang tersedia.</translation>
-    </message>
-    <message>
-        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL pihak ketika (misalnya sebuah block explorer) yang mumcul dalam tab transaksi sebagai konteks menu. %s dalam URL diganti dengan kode transaksi. URL dipisahkan dengan tanda vertikal |.</translation>
-    </message>
-    <message>
-        <source>Third party transaction URLs</source>
-        <translation>URL transaksi pihak ketiga</translation>
-    </message>
-    <message>
-        <source>Active command-line options that override above options:</source>
-        <translation>Pilihan command-line yang aktif menimpa diatas opsi: </translation>
-    </message>
-    <message>
-        <source>Reset all client options to default.</source>
-        <translation>Kembalikan semua pengaturan ke awal.</translation>
-    </message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
-    <message>
-        <source>&amp;Reset Options</source>
-        <translation>&amp;Reset Pilihan</translation>
-    </message>
-    <message>
-        <source>&amp;Network</source>
-        <translation>&amp;Jaringan</translation>
-    </message>
-    <message>
-<<<<<<< HEAD
-        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Direktori masih ada. Tambahlah %1 apabila Anda ingin membuat direktori baru disini.</translation>
-    </message>
-    <message>
-        <source>Path already exists, and is not a directory.</source>
-        <translation>Sudah ada path, dan itu bukan direktori.</translation>
-    </message>
-    <message>
-        <source>Cannot create data directory here.</source>
-        <translation>Tidak bisa membuat direktori data disini.</translation>
-=======
-        <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = auto, &lt;0 = leave that many cores free)</translation>
-    </message>
-    <message>
-        <source>W&amp;allet</source>
-        <translation>D&amp;ompet</translation>
-    </message>
-    <message>
-        <source>Expert</source>
-        <translation>Ahli</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
-    </message>
-    <message>
-<<<<<<< HEAD
-        <source>version</source>
-        <translation>versi</translation>
-    </message>
-    <message>
-        <source>(%1-bit)</source>
-        <translation>(%1-bit)</translation>
-    </message>
-    <message>
-        <source>Command-line options</source>
-        <translation>Pilihan Command-line</translation>
-=======
-        <source>Enable coin &amp;control features</source>
-        <translation>Perbolehkan fitur &amp;pengaturan koin</translation>
-    </message>
-    <message>
-        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Jika Anda menonaktifkan perubahan saldo untuk transaksi yang belum dikonfirmasi, perubahan dari transaksi tidak dapat dilakukan sampai transaksi memiliki setidaknya satu konfirmasi. Hal ini juga mempengaruhi bagaimana saldo Anda dihitung.</translation>
-    </message>
-    <message>
-        <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
-    </message>
-    <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Otomatis membuka port client Bitcoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
-    </message>
-    <message>
-<<<<<<< HEAD
-        <source>command-line options</source>
-        <translation>pilihan command-line</translation>
-    </message>
-    <message>
-        <source>UI Options:</source>
-        <translation>Pilihan UI:</translation>
-    </message>
-    <message>
-        <source>Choose data directory on startup (default: %u)</source>
-        <translation>Pilih direktori data saat memulai (default: %u)</translation>
-    </message>
-    <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Pilih bahasa, contoh "id_ID" (default: system locale)</translation>
-    </message>
-    <message>
-        <source>Start minimized</source>
-        <translation>Start minimized</translation>
-    </message>
-    <message>
-        <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Pilih sertifikat root SSL untuk permintaan pembayaran {default: -system-)</translation>
-    </message>
-    <message>
-        <source>Show splash screen on startup (default: %u)</source>
-        <translation>Tampilkan layar kilat saat memulai (default: %u)</translation>
-    </message>
-    </context>
-<context>
-    <name>Intro</name>
-=======
-        <source>Map port using &amp;UPnP</source>
-        <translation>Petakan port dengan &amp;UPnP</translation>
-    </message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
-    <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Hubungkan ke jaringan Bitcoin melalui SOCKS5 proxy.</translation>
-    </message>
-    <message>
-<<<<<<< HEAD
         <source>Use the default data directory</source>
         <translation>Gunakan direktori data default.</translation>
     </message>
@@ -1147,20 +888,6 @@
         <translation>Port proxy (cth. 9050)</translation>
     </message>
     <message>
-=======
-        <source>Proxy &amp;IP:</source>
-        <translation>IP Proxy:</translation>
-    </message>
-    <message>
-        <source>&amp;Port:</source>
-        <translation>&amp;Port:</translation>
-    </message>
-    <message>
-        <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Port proxy (cth. 9050)</translation>
-    </message>
-    <message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
@@ -1554,13 +1281,10 @@
         <source>Remove</source>
         <translation>Menghapus</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Copy label</source>
         <translation>Salin label</translation>
     </message>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
@@ -1581,7 +1305,6 @@
         <translation>&amp;Simpan Gambaran...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Address</source>
         <translation>Alamat</translation>
     </message>
@@ -1604,14 +1327,6 @@
         <source>(no label)</source>
         <translation>(tidak ada label)</translation>
     </message>
-=======
-        <source>Amount</source>
-        <translation>Jumlah</translation>
-    </message>
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1715,11 +1430,7 @@
         <source>S&amp;end</source>
         <translation>K&amp;irim</translation>
     </message>
-    </context>
-<context>
-    <name>SendCoinsEntry</name>
     <message>
-<<<<<<< HEAD
         <source>Copy fee</source>
         <translation>Salin biaya</translation>
     </message>
@@ -1751,28 +1462,6 @@
         <translation>Ini adalah pembayaran normal</translation>
     </message>
     <message>
-=======
-        <source>A&amp;mount:</source>
-        <translation>J&amp;umlah:</translation>
-    </message>
-    <message>
-        <source>Pay &amp;To:</source>
-        <translation>Kirim &amp;Ke:</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Pilih alamat yang telah digunakan sebelumnya</translation>
-    </message>
-    <message>
-        <source>This is a normal payment.</source>
-        <translation>Ini adalah pembayaran normal</translation>
-    </message>
-    <message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Alt+A</source>
         <translation>Alt+J</translation>
     </message>
@@ -1912,7 +1601,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
     <message>
         <source>Label</source>
         <translation>Label</translation>
@@ -1948,11 +1636,6 @@
         <source>Exporting Failed</source>
         <translation>Mengekspor Gagal</translation>
     </message>
-=======
-    </context>
-<context>
-    <name>TransactionView</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1993,13 +1676,8 @@
         <translation>Berjalan dibelakang sebagai daemin dan menerima perintah</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>

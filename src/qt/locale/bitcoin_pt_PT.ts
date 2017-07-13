@@ -160,13 +160,8 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
         <translation>Aviso: se encriptar a sua carteira e perder a sua frase de segurnça, &lt;b&gt;PERDERÁ TODOS OS SEUS MarycoinS&lt;/b&gt;!</translation>
-=======
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>Aviso: se encriptar a sua carteira e perder a sua frase de segurnça, &lt;b&gt;PERDERÁ TODOS OS SEUS BITCOINS&lt;/b&gt;!</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -315,13 +310,8 @@
         <translation>A reindexar os blocos no disco...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Send coins to a Marycoin address</source>
         <translation>Enviar moedas para um endereço Marycoin</translation>
-=======
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Enviar moedas para um endereço Bitcoin</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,13 +362,8 @@
         <translation>Encriptar as chaves privadas que pertencem à sua carteira</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign messages with your Marycoin addresses to prove you own them</source>
         <translation>Assine as mensagens com os seus endereços Marycoin para provar que é o proprietário dos mesmos</translation>
-=======
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Assine as mensagens com os seus endereços Bitcoin para provar que é o proprietário dos mesmos</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Marycoin addresses</source>
@@ -401,13 +386,8 @@
         <translation>Barra de ferramentas dos separadores</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Solicitar pagamentos (gera códigos QR e marycoin: URIs)</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e bitcoin: URIs)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -1021,13 +1001,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Connect to the Marycoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Ligar à rede Marycoin através de um proxy SOCKS5 separado para utilizar os serviços ocultos do Tor.</translation>
-=======
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Ligar à rede Bitcoin através de um proxy SOCKS5 separado para utilizar os serviços ocultos do Tor.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1238,13 +1213,8 @@
         <translation>Quantia</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Enter a Marycoin address (e.g. %1)</source>
         <translation>Entre um endereço Marycoin (ex. %1)</translation>
-=======
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Entre um endereço Bitcoin (ex. %1)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>%1 d</source>
@@ -1919,13 +1889,8 @@
         <translation>Remover esta entrada</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>A taxa será deduzida ao montante enviado. O destinatário irá receber menos marycoins do que as que introduziu no campo montante. Caso sejam seleccionados múltiplos destinatários, a taxa será repartida equitativamente.</translation>
-=======
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>A taxa será deduzida ao montante enviado. O destinatário irá receber menos bitcoins do que as que introduziu no campo montante. Caso sejam seleccionados múltiplos destinatários, a taxa será repartida equitativamente.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -1985,21 +1950,12 @@
         <translation>&amp;Assinar Mensagem</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção ao assinar mensagens ambíguas, pois ataques de phishing podem tentar enganá-lo de modo a assinar a sua identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
     </message>
     <message>
         <source>The Marycoin address to sign the message with</source>
         <translation>O endereço Marycoin para designar a mensagem</translation>
-=======
-        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção ao assinar mensagens ambíguas, pois ataques de phishing podem tentar enganá-lo de modo a assinar a sua identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
-    </message>
-    <message>
-        <source>The Bitcoin address to sign the message with</source>
-        <translation>O endereço Bitcoin para designar a mensagem</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2054,13 +2010,8 @@
         <translation>Introduza o endereço de assinatura, mensagem (assegure-se que copia quebras de linha, espaços, tabulações, etc. exactamente) e assinatura abaixo para verificar a mensagem. Tenha atenção para não ler mais na assinatura do que o que estiver na mensagem assinada, para evitar ser enganado por um atacante que se encontre entre si e quem assinou a mensagem.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The Marycoin address the message was signed with</source>
         <translation>O endereço Marycoin com que a mensagem foi designada</translation>
-=======
-        <source>The Bitcoin address the message was signed with</source>
-        <translation>O endereço Bitcoin com que a mensagem foi designada</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Marycoin address</source>
@@ -2174,11 +2125,7 @@
     </message>
     </context>
 <context>
-<<<<<<< HEAD
     <name>marycoin-core</name>
-=======
-    <name>bitcoin-core</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Options:</source>
         <translation>Opções:</translation>
@@ -2236,13 +2183,8 @@
         <translation>Não é possível iniciar o servidor HTTP. Verifique o debug.log para detalhes.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>

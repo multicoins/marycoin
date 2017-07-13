@@ -7,8 +7,7 @@ run using Python 3 but are compatible with Python 2.
     $ ./linearize-hashes.py linearize.cfg > hashlist.txt
 
 Required configuration file settings for linearize-hashes:
-* RPC: `datadir` (Required if `rpcuser` and `rpcpassword` are not specified)
-* RPC: `rpcuser`, `rpcpassword` (Required if `datadir` is not specified)
+* RPC: `rpcuser`, `rpcpassword`
 
 Optional config file setting for linearize-hashes:
 * RPC: `host`  (Default: `127.0.0.1`)

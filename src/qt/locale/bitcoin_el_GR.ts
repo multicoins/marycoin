@@ -42,7 +42,6 @@
         <translation>&amp;Διαγραφή</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Choose the address to send coins to</source>
         <translation>Επιλέξτε διεύθυνση αποστολής των νομισμάτων σας</translation>
     </message>
@@ -51,8 +50,6 @@
         <translation>Επιλέξτε διεύθυνση παραλαβής νομισμάτων</translation>
     </message>
     <message>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Sending addresses</source>
         <translation>Διευθύνσεις αποστολής</translation>
     </message>
@@ -60,7 +57,6 @@
         <source>Receiving addresses</source>
         <translation>Διευθύνσεις λήψης</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Αντιγραφή Διεύθυνσης</translation>
@@ -97,12 +93,6 @@
         <translation>(χωρίς ετικέτα)</translation>
     </message>
 </context>
-=======
-    </context>
-<context>
-    <name>AddressTableModel</name>
-    </context>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -125,7 +115,6 @@
         <source>Unlock wallet</source>
         <translation>Ξεκλειδωσε το πορτοφολι</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Change passphrase</source>
         <translation>Αλλάξτε Φράση Πρόσβασης</translation>
@@ -134,8 +123,6 @@
         <source>Wallet unlock failed</source>
         <translation>Το Ξεκλείδωμα του Πορτοφολιού Απέτυχε</translation>
     </message>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>BanTableModel</name>
@@ -299,13 +286,8 @@
         <translation>Εργαλειοθήκη καρτελών</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις marycoin: )</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Αίτηση πληρωμών (δημιουργεί QR codes και διευθύνσεις bitcoin: )</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -472,7 +454,6 @@
         <source>Confirmed</source>
         <translation>Επικυρωμένες</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Copy address</source>
         <translation>Αντιγραφή διεύθυνσης</translation>
@@ -493,8 +474,6 @@
         <source>(no label)</source>
         <translation>(χωρίς ετικέτα)</translation>
     </message>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>EditAddressDialog</name>
@@ -518,7 +497,6 @@
         <source>&amp;Address</source>
         <translation>&amp;Διεύθυνση</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>New receiving address</source>
         <translation>Νέα Διεύθυνση Λήψης</translation>
@@ -531,8 +509,6 @@
         <source>Edit receiving address</source>
         <translation>Διόρθωση Διεύθυνσης Λήψης</translation>
     </message>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>FreespaceChecker</name>
@@ -910,7 +886,6 @@
 <context>
     <name>PeerTableModel</name>
     </context>
-<<<<<<< HEAD
 <context>
     <name>QObject</name>
     <message>
@@ -955,52 +930,6 @@
     </message>
     </context>
 <context>
-=======
-<context>
-    <name>QObject</name>
-    <message>
-        <source>Amount</source>
-        <translation>Ποσό</translation>
-    </message>
-    <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>Εισάγετε μια διεύθυνση Bitcoin (π.χ. %1)</translation>
-    </message>
-    <message>
-        <source>%1 d</source>
-        <translation>%1 d</translation>
-    </message>
-    <message>
-        <source>%1 h</source>
-        <translation>%1 ώ</translation>
-    </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 λ</translation>
-    </message>
-    <message>
-        <source>%1 s</source>
-        <translation>%1 s</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation>Κανένα</translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation>Μη διαθέσιμο</translation>
-    </message>
-    <message>
-        <source>%1 ms</source>
-        <translation>%1 ms</translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 και %2</translation>
-    </message>
-    </context>
-<context>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <name>QObject::QObject</name>
     </context>
 <context>
@@ -1227,7 +1156,6 @@
         <source>Remove</source>
         <translation>Αφαίρεση</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Copy label</source>
         <translation>Αντιγραφή ετικέτας</translation>
@@ -1237,9 +1165,6 @@
         <translation>Αντιγραφή ποσού</translation>
     </message>
 </context>
-=======
-    </context>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
@@ -1258,7 +1183,6 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Αποθήκευση εικόνας...</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Address</source>
         <translation>Διεύθυνση</translation>
@@ -1282,11 +1206,6 @@
         <source>(no label)</source>
         <translation>(χωρίς ετικέτα)</translation>
     </message>
-=======
-    </context>
-<context>
-    <name>RecentRequestsTableModel</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1410,7 +1329,6 @@
         <source>S&amp;end</source>
         <translation>Αποστολη</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Copy amount</source>
         <translation>Αντιγραφή ποσού</translation>
@@ -1420,9 +1338,6 @@
         <translation>(χωρίς ετικέτα)</translation>
     </message>
 </context>
-=======
-    </context>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1587,7 +1502,6 @@
 </context>
 <context>
     <name>TransactionDesc</name>
-<<<<<<< HEAD
     <message>
         <source>Open until %1</source>
         <translation>Ανοιχτό μέχρι %1</translation>
@@ -1652,8 +1566,6 @@
         <source>Transaction fee</source>
         <translation>Κόστος συναλλαγής</translation>
     </message>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>TransactionDescDialog</name>
@@ -1664,7 +1576,6 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
-<<<<<<< HEAD
     <message>
         <source>Date</source>
         <translation>Ημερομήνια</translation>
@@ -1728,11 +1639,6 @@
         <source>Exporting Failed</source>
         <translation>Αποτυχία Εξαγωγής</translation>
     </message>
-=======
-    </context>
-<context>
-    <name>TransactionView</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1777,13 +1683,8 @@
         <translation>Εκτέλεση στο παρασκήνιο κι αποδοχή εντολών</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

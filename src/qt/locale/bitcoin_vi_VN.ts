@@ -41,7 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Xó&amp;a</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Chọn địa chỉ để gửi coin đến</translation>
@@ -62,8 +61,6 @@
         <source>Receiving addresses</source>
         <translation>Địa chỉ nhận</translation>
     </message>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -99,11 +96,7 @@
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>MarycoinGUI</name>
-=======
-    <name>BitcoinGUI</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Sign &amp;message...</source>
         <translation>Chứ ký &amp; Tin nhắn...</translation>
@@ -193,29 +186,8 @@
         <translation>Đánh chỉ số (indexing) lại các khối (blocks) trên ổ đĩa ...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Send coins to a Marycoin address</source>
         <translation>Gửi coins đến tài khoản Marycoin</translation>
-=======
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Gửi coins đến tài khoản Bitcoin</translation>
-    </message>
-    <message>
-        <source>Backup wallet to another location</source>
-        <translation>Sao lưu ví tiền ở vị trí khác</translation>
-    </message>
-    <message>
-        <source>Change the passphrase used for wallet encryption</source>
-        <translation>Thay đổi cụm mật mã dùng cho mã hoá Ví</translation>
-    </message>
-    <message>
-        <source>&amp;Debug window</source>
-        <translation>&amp;Cửa sổ xử lý lỗi (debug)</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Tin nhắn xác thực</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -262,21 +234,12 @@
         <translation>Mã hoá các khoá bí mật trong Ví của bạn.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign messages with your Marycoin addresses to prove you own them</source>
         <translation>Dùng địa chỉ Marycoin của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Marycoin addresses</source>
         <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ Marycoin xác định.</translation>
-=======
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Dùng địa chỉ Bitcoin của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ Bitcoin xác định.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;File</source>
@@ -295,13 +258,8 @@
         <translation>Thanh công cụ (toolbar)</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Marycoin: URLs)</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Bitcoin: URLs)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -312,13 +270,8 @@
         <translation>Hiện thỉ danh sách các địa chỉ và nhãn đã dùng để nhận.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Open a marycoin: URI or payment request</source>
         <translation>Mở marycoin:URL hoặc yêu cầu thanh toán</translation>
-=======
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Mở bitcoin:URL hoặc yêu cầu thanh toán</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -327,21 +280,12 @@
     <message>
         <source>%1 behind</source>
         <translation>%1 chậm trễ</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
         <translation>Khối (block) cuối cùng nhận được cách đây %1</translation>
     </message>
     <message>
-=======
-    </message>
-    <message>
-        <source>Last received block was generated %1 ago.</source>
-        <translation>Khối (block) cuối cùng nhận được cách đây %1</translation>
-    </message>
-    <message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Transactions after this will not yet be visible.</source>
         <translation>Những giao dịch sau đó sẽ không hiện thị.</translation>
     </message>
@@ -592,13 +536,8 @@
         <translation>Ví</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Connect to the Marycoin network through a SOCKS5 proxy.</source>
         <translation>Kết nối đến máy chủ Marycoin thông qua SOCKS5 proxy.</translation>
-=======
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>Kết nối đến máy chủ Bitcoin thông qua SOCKS5 proxy.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1073,23 +1012,14 @@
     <name>WalletView</name>
     </context>
 <context>
-<<<<<<< HEAD
     <name>marycoin-core</name>
-=======
-    <name>bitcoin-core</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Options:</source>
         <translation>Lựa chọn:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>(default: %u)</source>

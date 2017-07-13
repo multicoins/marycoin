@@ -33,11 +33,7 @@
 #include <boost/thread.hpp>
 
 #if defined(NDEBUG)
-<<<<<<< HEAD
 # error "Marycoin cannot be compiled without assertions."
-=======
-# error "Bitcoin cannot be compiled without assertions."
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 #endif
 
 std::atomic<int64_t> nTimeBestReceived(0); // Used only to inform the wallet of when we last received a block

@@ -88,11 +88,7 @@ static void CheckBlockIndex(const Consensus::Params& consensusParams);
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-<<<<<<< HEAD:src/validation.cpp
 const std::string strMessageMagic = "Marycoin Signed Message:\n";
-=======
-const std::string strMessageMagic = "Bitcoin Signed Message:\n";
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26:src/validation.cpp
 
 // Internal stuff
 namespace {

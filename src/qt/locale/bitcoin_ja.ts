@@ -180,11 +180,7 @@
         <translation>ウォレットは暗号化されました</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your marycoins from being stolen by malware infecting your computer.</source>
-=======
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>暗号化処理を完了させるため %1 をいますぐ終了します。ウォレットの暗号化では、コンピュータに感染したマルウェアなどによるビットコインの盗難から完全に守ることはできないことにご注意ください。</translation>
     </message>
     <message>
@@ -418,13 +414,8 @@
         <translation>タブツールバー</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>支払いを要求する (QRコードとmarycoin:ではじまるURIを生成する)</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>支払いを要求する (QRコードとbitcoin:ではじまるURIを生成する)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -487,13 +478,8 @@
         <translation>バージョンは最新です</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Marycoin command-line options</source>
         <translation>有効な Marycoin のコマンドライン オプションを見るために %1 のヘルプメッセージを表示します。</translation>
-=======
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>有効な Bitcoin のコマンドライン オプションを見るために %1 のヘルプメッセージを表示します。</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>%1 client</source>
@@ -562,13 +548,8 @@
         <translation>ウォレットは&lt;b&gt;暗号化されて、ロックされています&lt;/b&gt;</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>A fatal error occurred. Marycoin can no longer continue safely and will quit.</source>
         <translation>致命的なエラーが発生しました。Marycoin は安全に継続することができず終了するでしょう。</translation>
-=======
-        <source>A fatal error occurred. Bitcoin can no longer continue safely and will quit.</source>
-        <translation>致命的なエラーが発生しました。Bitcoin は安全に継続することができず終了するでしょう。</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
 </context>
 <context>
@@ -761,17 +742,8 @@
         <translation>送信アドレスを編集</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Marycoin address.</source>
         <translation>入力されたアドレス "%1" は無効な Marycoin アドレスです。</translation>
-    </message>
-    <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>入力されたアドレス "%1" は既にアドレス帳にあります。</translation>
-=======
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>入力されたアドレス "%1" は無効な Bitcoin アドレスです。</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -879,11 +851,7 @@
         <translation>これはプログラム最初の起動です。%1 がデータを保存する場所を選択して下さい。</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-=======
-        <source>%1 will download and store a copy of the Bitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>%1 は、ビットコインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも %2 ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
     </message>
     <message>
@@ -918,19 +886,11 @@
         <translation>フォーム</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the marycoin network, as detailed below.</source>
         <translation>確認できない最近のトランザクションがあるかもしれません。これによりウォレットの残高は不正確なものである可能性があります。この情報はウォレットが一度ビットコインネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
     </message>
     <message>
         <source>Attempting to spend marycoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-=======
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>確認できない最近のトランザクションがあるかもしれません。これによりウォレットの残高は不正確なものである可能性があります。この情報はウォレットが一度ビットコインネットワークへの同期が完了すると正確なものとなります。詳細は下記を参照してください。</translation>
-    </message>
-    <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>まだ表示されていないトランザクションが影響するビットコインを使用しようとすると、ネットワークから認証がなされないでしょう。</translation>
     </message>
     <message>
@@ -1318,10 +1278,6 @@
         <translation>URI の操作</translation>
     </message>
     <message>
-        <source>URI handling</source>
-        <translation>URI の操作</translation>
-    </message>
-    <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>支払い要求の取得先URLが無効です: %1</translation>
     </message>
@@ -1330,13 +1286,8 @@
         <translation>支払いのアドレス「%1」は無効です</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>URI cannot be parsed! This can be caused by an invalid Marycoin address or malformed URI parameters.</source>
         <translation>URI を解析できません! これは無効な Marycoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
-=======
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>URI を解析できません! これは無効な Bitcoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1349,29 +1300,10 @@
     <message>
         <source>Payment request rejected</source>
         <translation>支払い要求は拒否されました</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
         <translation>支払いリクエストのネットワークは現在のクライアントのネットワークに一致しません。</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>支払いリクエストの期限が切れました。</translation>
-    </message>
-    <message>
-        <source>Payment request is not initialized.</source>
-        <translation>支払いリクエストは開始されていません。</translation>
-    </message>
-    <message>
-        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>カスタム支払いスクリプトに対する、検証されていない支払いリクエストはサポートされていません。</translation>
-=======
-    </message>
-    <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>支払いリクエストのネットワークは現在のクライアントのネットワークに一致しません。</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Payment request expired.</source>
@@ -2269,13 +2201,8 @@
         <translation><numerusform>%n ブロック以内に検証が開始されると予想されます。</numerusform></translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Warning: Invalid Marycoin address</source>
         <translation>警告：無効なMarycoinアドレスです</translation>
-=======
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>警告：無効なBitcoinアドレスです</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -3131,13 +3058,8 @@
         <translation>HTTPサーバを開始できませんでした。詳細はデバッグログをご確認ください。</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin のコア</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin のコア</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>The %s developers</source>
@@ -3819,7 +3741,6 @@
     <message>
         <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
         <translation>警告: ウォレットファイルが破損していましたのでデータを復旧しました！元の %s は %s として %s に保存されました; 残高やトランザクションが正しくない場合にはバックアップから復元してください。</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
@@ -3834,22 +3755,6 @@
         <translation>(デフォルト: %s)</translation>
     </message>
     <message>
-=======
-    </message>
-    <message>
-        <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
-        <translation>ホワイトリストとして登録するピアノ、接続元の IP アドレス (例: 1.2.3.4) または CIDR 表現のネットワーク (例: 1.2.3.0/24)。複数回指定することもできる</translation>
-    </message>
-    <message>
-        <source>%s is set very high!</source>
-        <translation>%s の設定値は高すぎます</translation>
-    </message>
-    <message>
-        <source>(default: %s)</source>
-        <translation>(デフォルト: %s)</translation>
-    </message>
-    <message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
         <translation>DNS ルックアップを通してピアアドレスを常に問い合わせる (初期値: %u)</translation>
     </message>

@@ -610,11 +610,7 @@ void CleanupBlockRevFiles()
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
     const CChainParams& chainparams = Params();
-<<<<<<< HEAD
     RenameThread("marycoin-loadblk");
-=======
-    RenameThread("bitcoin-loadblk");
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 
     {
     CImportingNow imp;
@@ -792,11 +788,7 @@ void InitLogging()
     fLogIPs = GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-<<<<<<< HEAD
     LogPrintf("Marycoin version %s\n", FormatFullVersion());
-=======
-    LogPrintf("Bitcoin version %s\n", FormatFullVersion());
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 }
 
 namespace { // Variables internal to initialization process only

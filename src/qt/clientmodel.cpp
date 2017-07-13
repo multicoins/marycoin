@@ -76,7 +76,6 @@ int ClientModel::getNumBlocks() const
 
 int ClientModel::getHeaderTipHeight() const
 {
-<<<<<<< HEAD
     if (cachedBestHeaderHeight == -1) {
         // make sure we initially populate the cache via a cs_main lock
         // otherwise we need to wait for a tip update
@@ -87,17 +86,10 @@ int ClientModel::getHeaderTipHeight() const
         }
     }
     return cachedBestHeaderHeight;
-=======
-    LOCK(cs_main);
-    if (!pindexBestHeader)
-        return 0;
-    return pindexBestHeader->nHeight;
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 }
 
 int64_t ClientModel::getHeaderTipTime() const
 {
-<<<<<<< HEAD
     if (cachedBestHeaderTime == -1) {
         LOCK(cs_main);
         if (pindexBestHeader) {
@@ -106,12 +98,6 @@ int64_t ClientModel::getHeaderTipTime() const
         }
     }
     return cachedBestHeaderTime;
-=======
-    LOCK(cs_main);
-    if (!pindexBestHeader)
-        return 0;
-    return pindexBestHeader->GetBlockTime();
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
 }
 
 quint64 ClientModel::getTotalBytesRecv() const
@@ -309,14 +295,11 @@ static void BlockTipChanged(ClientModel *clientmodel, bool initialSync, const CB
 
     int64_t& nLastUpdateNotification = fHeader ? nLastHeaderTipUpdateNotification : nLastBlockTipUpdateNotification;
 
-<<<<<<< HEAD
     if (fHeader) {
         // cache best headers time and height to reduce future cs_main locks
         clientmodel->cachedBestHeaderHeight = pIndex->nHeight;
         clientmodel->cachedBestHeaderTime = pIndex->GetBlockTime();
     }
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     // if we are in-sync, update the UI regardless of last update time
     if (!initialSync || now - nLastUpdateNotification > MODEL_UPDATE_DELAY) {
         //pass a async signal to the UI thread

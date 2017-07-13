@@ -128,21 +128,12 @@
     <message>
         <source>&amp;Sending addresses...</source>
         <translation>Mandando direcciones</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-=======
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>Recibiendo direcciones</translation>
-    </message>
-    <message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Open &amp;URI...</source>
         <translation>Abrir y url...</translation>
     </message>
@@ -175,13 +166,8 @@
         <translation>Verificar mensaje....</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin</source>
         <translation>Marycoin</translation>
-=======
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Wallet</source>
@@ -220,13 +206,8 @@
         <translation>Barra de pestañas</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Pide pagos (genera codigos QR and marycoin: URls)</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Pide pagos (genera codigos QR and bitcoin: URls)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Error</source>
@@ -791,13 +772,8 @@
 </translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>marycoin core</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>bitcoin core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Error loading block database</source>

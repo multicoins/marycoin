@@ -572,21 +572,13 @@
     <name>WalletView</name>
     </context>
 <context>
-<<<<<<< HEAD
     <name>marycoin-core</name>
-=======
-    <name>bitcoin-core</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Options:</source>
         <translation>Опции:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
-=======
-        <source>Bitcoin Core</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>Биткоин Core</translation>
     </message>
     <message>

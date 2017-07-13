@@ -54,11 +54,7 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || IsArgSet("-?") || IsArgSet("-h") || IsArgSet("-help"))
     {
         // First part of help message is specific to this utility
-<<<<<<< HEAD
         std::string strUsage = strprintf(_("%s marycoin-tx utility version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n\n" +
-=======
-        std::string strUsage = strprintf(_("%s bitcoin-tx utility version"), _(PACKAGE_NAME)) + " " + FormatFullVersion() + "\n\n" +
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
             _("Usage:") + "\n" +
               "  marycoin-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded marycoin transaction") + "\n" +
               "  marycoin-tx [options] -create [commands]   " + _("Create hex-encoded marycoin transaction") + "\n" +

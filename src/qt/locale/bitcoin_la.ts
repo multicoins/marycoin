@@ -346,13 +346,8 @@
         <translation>Cassidile</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Automatically open the Marycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Aperi per se portam clientis Marycoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
-=======
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aperi per se portam clientis Bitcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -773,13 +768,8 @@
         <translation>Operare infere sicut daemon et mandata accipe</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Nucleus</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Nucleus</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

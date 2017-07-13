@@ -64,11 +64,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-<<<<<<< HEAD
     <name>MarycoinGUI</name>
-=======
-    <name>BitcoinGUI</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Synchronizing with network...</source>
         <translation>Sincronizando con la red...</translation>
@@ -130,13 +126,8 @@
         <translation>Abrir &amp;URL...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Send coins to a Marycoin address</source>
         <translation>Enviando monedas a una dirección de Marycoin</translation>
-=======
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Enviando monedas a una dirección de Bitcoin</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -155,13 +146,8 @@
         <translation>&amp;Verificar Mensaje...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin</source>
         <translation>Marycoin</translation>
-=======
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Wallet</source>
@@ -308,17 +294,10 @@
     <name>WalletView</name>
     </context>
 <context>
-<<<<<<< HEAD
     <name>marycoin-core</name>
     <message>
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
-=======
-    <name>bitcoin-core</name>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Insufficient funds</source>

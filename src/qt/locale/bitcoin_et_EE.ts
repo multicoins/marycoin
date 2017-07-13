@@ -104,11 +104,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-<<<<<<< HEAD
     <name>MarycoinGUI</name>
-=======
-    <name>BitcoinGUI</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Synchronizing with network...</source>
         <translation>Võrguga sünkroniseerimine...</translation>
@@ -134,13 +130,8 @@
         <translation>Kõvakettal olevate plokkide reindekseerimine...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin</source>
         <translation>Marycoin</translation>
-=======
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Wallet</source>
@@ -763,23 +754,14 @@
     </message>
     </context>
 <context>
-<<<<<<< HEAD
     <name>marycoin-core</name>
-=======
-    <name>bitcoin-core</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Options:</source>
         <translation>Valikud:</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Information</source>

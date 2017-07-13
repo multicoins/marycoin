@@ -273,11 +273,7 @@ UniValue getaddednodeinfo(const JSONRPCRequest& request)
             "    \"connected\" : true|false,          (boolean) If connected\n"
             "    \"addresses\" : [                    (list of objects) Only when connected = true\n"
             "       {\n"
-<<<<<<< HEAD:src/rpc/net.cpp
             "         \"address\" : \"192.168.0.201:33333\",  (string) The marycoin server IP and port we're connected to\n"
-=======
-            "         \"address\" : \"192.168.0.201:8333\",  (string) The bitcoin server IP and port we're connected to\n"
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26:src/rpc/net.cpp
             "         \"connected\" : \"outbound\"           (string) connection, inbound or outbound\n"
             "       }\n"
             "     ]\n"

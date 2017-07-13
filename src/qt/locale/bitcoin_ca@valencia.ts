@@ -74,10 +74,6 @@
         <translation>&amp;Copia l'adreça</translation>
     </message>
     <message>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Copia l'adreça</translation>
-    </message>
-    <message>
         <source>Copy &amp;Label</source>
         <translation>Copia l'&amp;etiqueta</translation>
     </message>
@@ -378,13 +374,8 @@
         <translation>Barra d'eines de les pestanyes</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>Sol·licita pagaments (genera codis QR i marycoin: URI)</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Sol·licita pagaments (genera codis QR i bitcoin: URI)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -667,17 +658,8 @@
         <translation>Edita les adreces d'enviament</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Marycoin address.</source>
         <translation>L'adreça introduïda «%1» no és una adreça de Marycoin vàlida.</translation>
-    </message>
-    <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>L'adreça introduïda «%1» ja és present a la llibreta d'adreces.</translation>
-=======
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>L'adreça introduïda «%1» no és una adreça de Bitcoin vàlida.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -740,7 +722,6 @@
     <message>
         <source>UI Options:</source>
         <translation>Opcions d'interfície:</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
@@ -753,31 +734,11 @@
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
         <translation>Defineix certificats arrel SSL per a la sol·licitud de pagament (per defecte: -sistema-)</translation>
-=======
-    </message>
-    <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Defineix un idioma, per exemple «de_DE» (per defecte: preferències locals de sistema)</translation>
-    </message>
-    <message>
-        <source>Start minimized</source>
-        <translation>Inicia minimitzat</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-<<<<<<< HEAD
-=======
-        <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Defineix certificats arrel SSL per a la sol·licitud de pagament (per defecte: -sistema-)</translation>
-    </message>
-    </context>
-<context>
-    <name>Intro</name>
-    <message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <source>Welcome</source>
         <translation>Vos donem la benviguda</translation>
     </message>
@@ -803,7 +764,6 @@
     <message>
         <source>Form</source>
         <translation>Formulari</translation>
-<<<<<<< HEAD
     </message>
     <message>
         <source>Last block time</source>
@@ -813,17 +773,6 @@
         <source>Hide</source>
         <translation>Amaga</translation>
     </message>
-=======
-    </message>
-    <message>
-        <source>Last block time</source>
-        <translation>Últim temps de bloc</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Amaga</translation>
-    </message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>OpenURIDialog</name>
@@ -1129,10 +1078,6 @@
         <translation>Gestió d'URI</translation>
     </message>
     <message>
-        <source>URI handling</source>
-        <translation>Gestió d'URI</translation>
-    </message>
-    <message>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>L'URL de recuperació de la sol·licitud de pagament no és vàlida: %1</translation>
     </message>
@@ -1141,13 +1086,8 @@
         <translation>Adreça de pagament no vàlida %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>URI cannot be parsed! This can be caused by an invalid Marycoin address or malformed URI parameters.</source>
         <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Marycoin no vàlida o per paràmetres URI amb mal format.</translation>
-=======
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Bitcoin no vàlida o per paràmetres URI amb mal format.</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1873,13 +1813,8 @@
         <translation>La sol·licitud de pagament ha vençut.</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Warning: Invalid Marycoin address</source>
         <translation>Avís: adreça Marycoin no vàlida</translation>
-=======
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>Avís: adreça Bitcoin no vàlida</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2623,13 +2558,8 @@
         <translation>Executa en segon pla com a programa dimoni i accepta ordes</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
         <translation>Marycoin Core</translation>
-=======
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

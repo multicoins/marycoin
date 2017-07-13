@@ -58,10 +58,6 @@
         <translation>&amp;Kopjo adresen</translation>
     </message>
     <message>
-        <source>&amp;Copy Address</source>
-        <translation>&amp;Kopjo adresen</translation>
-    </message>
-    <message>
         <source>Copy &amp;Label</source>
         <translation>Kopjo &amp;Etiketë</translation>
     </message>
@@ -790,14 +786,6 @@
     <message>
         <source>Marycoin Core</source>
         <translation>Berthama Marycoin</translation>
-    </message>
-    <message>
-        <source>Options:</source>
-        <translation>Opsionet:</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation>Berthama Bitcoin</translation>
     </message>
     <message>
         <source>Information</source>

@@ -3,11 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-<<<<<<< HEAD
         <translation>Кликните правой кнопкой мыши для редактирования адреса или метки</translation>
-=======
-        <translation>Кликните правой кнопкой мыши для редоктирования адреса или ярлыка</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Create a new address</source>
@@ -19,11 +15,7 @@
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-<<<<<<< HEAD
         <translation>Скопировать текущий выбранный адрес в буфер обмена системы</translation>
-=======
-        <translation>Copy the currently selected address to the system clipboardый адрес в буфер</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -49,7 +41,6 @@
         <source>&amp;Delete</source>
         <translation>Удалить</translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Choose the address to send coins to</source>
         <translation>Выбрать адрес для отправки монет</translation>
@@ -58,8 +49,6 @@
         <source>Choose the address to receive coins with</source>
         <translation>Выбрать адрес для получения монет</translation>
     </message>
-=======
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -77,17 +66,8 @@
 <context>
     <name>MarycoinGUI</name>
     <message>
-<<<<<<< HEAD
         <source>Marycoin</source>
         <translation>Marycoin Core</translation>
-    </message>
-    <message>
-        <source>&amp;Command-line options</source>
-        <translation>Опции командной строки</translation>
-=======
-        <source>Bitcoin</source>
-        <translation>Bitcoin Core</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -262,14 +242,6 @@
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>marycoin-core</translation>
-    </message>
-    <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
-    </message>
-    <message>
-        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>bitcoin-core</translation>
     </message>
     <message>
         <source>Information</source>

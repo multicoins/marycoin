@@ -88,11 +88,7 @@
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>MarycoinGUI</name>
-=======
-    <name>BitcoinGUI</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>&amp;Transactions</source>
         <translation>Transazioni</translation>
@@ -206,10 +202,6 @@
     <name>WalletView</name>
     </context>
 <context>
-<<<<<<< HEAD
     <name>marycoin-core</name>
-=======
-    <name>bitcoin-core</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 </TS>

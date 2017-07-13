@@ -88,11 +88,7 @@
     </message>
 </context>
 <context>
-<<<<<<< HEAD
     <name>MarycoinGUI</name>
-=======
-    <name>BitcoinGUI</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Sign &amp;message...</source>
         <translation>เซ็นต์ชื่อด้วย &amp;ข้อความ...</translation>
@@ -167,19 +163,11 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-<<<<<<< HEAD
         <translation>&amp;ที่เก็บเงิน ที่จะส่ง marycoin</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
         <translation>&amp;ที่เก็บเงิน ที่จะรับ marycoin</translation>
-=======
-        <translation>&amp;ที่เก็บเงิน ที่จะส่ง bitcoin</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;ที่เก็บเงิน ที่จะรับ bitcoin</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -190,13 +178,8 @@
         <translation>กำลังทำดัชนี ที่เก็บบล็อก ใหม่ ในดิสก์...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Send coins to a Marycoin address</source>
         <translation>ส่ง coins ไปยัง ที่เก็บ Marycoin</translation>
-=======
-        <source>Send coins to a Bitcoin address</source>
-        <translation>ส่ง coins ไปยัง ที่เก็บ Bitcoin</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -219,13 +202,8 @@
         <translation>&amp;ยืนยันข้อความ...</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin</source>
         <translation>Marycoin</translation>
-=======
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Wallet</source>
@@ -252,21 +230,12 @@
         <translation>เข้ารหัส private keys/ รหัสส่วนตัว สำหรับกระเป๋าเงินของท่าน</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign messages with your Marycoin addresses to prove you own them</source>
         <translation>เซ็นชื่อด้วยข้อความ ที่เก็บ Marycoin เพื่อแสดงว่าท่านเป็นเจ้าของ marycoin นี้จริง</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Marycoin addresses</source>
         <translation>ตรวจสอบ ข้อความ เพื่อให้แน่ใจว่า การเซ็นต์ชื่อ ด้วยที่เก็บ Marycoin แล้ว</translation>
-=======
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>เซ็นชื่อด้วยข้อความ ที่เก็บ Bitcoin เพื่อแสดงว่าท่านเป็นเจ้าของ bitcoin นี้จริง</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>ตรวจสอบ ข้อความ เพื่อให้แน่ใจว่า การเซ็นต์ชื่อ ด้วยที่เก็บ Bitcoin แล้ว</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;File</source>
@@ -285,7 +254,6 @@
         <translation>แถบเครื่องมือ</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
         <translation>เรียกเก็บ การชำระเงิน (สร้าง QR codes และ marycoin: URIs)</translation>
     </message>
@@ -300,35 +268,14 @@
     <message>
         <source>Open a marycoin: URI or payment request</source>
         <translation>เปิด marycoin: URI หรือ การเรียกเก็บเงิน (การเรียกให้ชำระเงิน)</translation>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>เรียกเก็บ การชำระเงิน (สร้าง QR codes และ bitcoin: URIs)</translation>
-    </message>
-    <message>
-        <source>Show the list of used sending addresses and labels</source>
-        <translation>แสดงรายการ ที่เก็บเงินที่จะส่ง bitcoin ออก และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
-    </message>
-    <message>
-        <source>Show the list of used receiving addresses and labels</source>
-        <translation>แสดงรายการ ที่เก็บเงินที่จะรับ bitcoin เข้า และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
-    </message>
-    <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>เปิด bitcoin: URI หรือ การเรียกเก็บเงิน (การเรียกให้ชำระเงิน)</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;ตัวเลือก Command-line</translation>
     </message>
     <message numerus="yes">
-<<<<<<< HEAD
         <source>%n active connection(s) to Marycoin network</source>
         <translation><numerusform>%n ช่องการเชื่อมต่อที่ใช้งานได้ เพื่อเชื่อมกับเครือข่าย Marycoin</numerusform></translation>
-=======
-        <source>%n active connection(s) to Bitcoin network</source>
-        <translation><numerusform>%n ช่องการเชื่อมต่อที่ใช้งานได้ เพื่อเชื่อมกับเครือข่าย Bitcoin</numerusform></translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -371,13 +318,8 @@
         <translation>ทันสมัย</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Marycoin command-line options</source>
         <translation>แสดง %1 ข้อความช่วยเหลือ เพื่อแสดงรายการ ตัวเลือกที่เป็นไปได้สำหรับ Marycoin command-line</translation>
-=======
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
-        <translation>แสดง %1 ข้อความช่วยเหลือ เพื่อแสดงรายการ ตัวเลือกที่เป็นไปได้สำหรับ Bitcoin command-line</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>%1 client</source>
@@ -621,13 +563,8 @@
         <translation>นี่เป็นการรันโปรแกรมครั้งแรก ท่านสามารถเลือก ว่าจะเก็บข้อมูลไว้ที่ %1</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>%1 จะดาวน์โหลดและเก็บกอปปี้ชุดหนึ่งของ บล็อกเชน Marycoin ไว้ ข้อมูลขนานอย่างน้อย %2GB จะเก็บไว้ในไดเร็กทอรี่นี้ และข้อมูลจะมีขนาดใหญ่ขึ้นเรื่อยๆ กระเป๋าเงิน จะเก็บไว้ในไดเร็กทอรี่นี้ด้วย</translation>
-=======
-        <source>%1 will download and store a copy of the Bitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 จะดาวน์โหลดและเก็บกอปปี้ชุดหนึ่งของ บล็อกเชน Bitcoin ไว้ ข้อมูลขนานอย่างน้อย %2GB จะเก็บไว้ในไดเร็กทอรี่นี้ และข้อมูลจะมีขนาดใหญ่ขึ้นเรื่อยๆ กระเป๋าเงิน จะเก็บไว้ในไดเร็กทอรี่นี้ด้วย</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -775,26 +712,16 @@
         <translation>&amp;ใช้เงินทอนที่ยังไม่ยืนยัน</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Automatically open the Marycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>เปิด Marycoin ไคล์เอ็นท์พอร์ต/client port บน router โดยอัตโนมัติ วิธีนี้ใช้ได้เมื่อ router สนับสนุน UPnP และสถานะเปิดใช้งาน</translation>
-=======
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>เปิด Bitcoin ไคล์เอ็นท์พอร์ต/client port บน router โดยอัตโนมัติ วิธีนี้ใช้ได้เมื่อ router สนับสนุน UPnP และสถานะเปิดใช้งาน</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>จองพอร์ต โดยใช้ &amp;UPnP</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Connect to the Marycoin network through a SOCKS5 proxy.</source>
         <translation>เชื่อมต่อกับ Marycoin เน็ตเวิร์ก ผ่านพร็อกซี่แบบ SOCKS5</translation>
-=======
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>เชื่อมต่อกับ Bitcoin เน็ตเวิร์ก ผ่านพร็อกซี่แบบ SOCKS5</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -833,13 +760,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Connect to the Marycoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>เชื่อมต่อกับ เครือข่าย Marycoin ผ่านทาง พร้อกซี่ SOCKS5 แยกต่างหาก สำหรับ Tor เซอร์วิส</translation>
-=======
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>เชื่อมต่อกับ เครือข่าย Bitcoin ผ่านทาง พร้อกซี่ SOCKS5 แยกต่างหาก สำหรับ Tor เซอร์วิส</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -994,11 +916,7 @@
     <name>WalletView</name>
     </context>
 <context>
-<<<<<<< HEAD
     <name>marycoin-core</name>
-=======
-    <name>bitcoin-core</name>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     <message>
         <source>Options:</source>
         <translation>ตัวเลือก:</translation>

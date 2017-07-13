@@ -62,19 +62,11 @@
         <translation>Адрес за получаване</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>These are your Marycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Тези са вашите Биткойн адреси за изпращане на монети. Винаги проверявайте количеството и получаващия адрес преди изпращане. </translation>
     </message>
     <message>
         <source>These are your Marycoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-=======
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Тези са вашите Биткойн адреси за изпращане на монети. Винаги проверявайте количеството и получаващия адрес преди изпращане. </translation>
-    </message>
-    <message>
-        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>Това са вашите Биткойн адреси за получаване на монети. Препоръчително е да ползвате нов адрес на всяка транзакция.</translation>
     </message>
     <message>
@@ -170,7 +162,6 @@
     </context>
 <context>
     <name>BanTableModel</name>
-<<<<<<< HEAD
     <message>
         <source>IP/Netmask</source>
         <translation>IP/Мрежова маска</translation>
@@ -270,107 +261,6 @@
         <source>Reindexing blocks on disk...</source>
         <translation>Повторно индексиране на блоковете на диска...</translation>
     </message>
-=======
-    <message>
-        <source>IP/Netmask</source>
-        <translation>IP/Мрежова маска</translation>
-    </message>
-    <message>
-        <source>Banned Until</source>
-        <translation>Блокиран до</translation>
-    </message>
-</context>
-<context>
-    <name>BitcoinGUI</name>
-    <message>
-        <source>Sign &amp;message...</source>
-        <translation>Подпиши съобщение...</translation>
-    </message>
-    <message>
-        <source>Synchronizing with network...</source>
-        <translation>Синхронизиране с мрежата...</translation>
-    </message>
-    <message>
-        <source>&amp;Overview</source>
-        <translation>Преглед</translation>
-    </message>
-    <message>
-        <source>Node</source>
-        <translation>Възел</translation>
-    </message>
-    <message>
-        <source>Show general overview of wallet</source>
-        <translation>Покажи общ преглед на портфейла</translation>
-    </message>
-    <message>
-        <source>&amp;Transactions</source>
-        <translation>Транзакции</translation>
-    </message>
-    <message>
-        <source>Browse transaction history</source>
-        <translation>Разгледай история на транзакциите</translation>
-    </message>
-    <message>
-        <source>E&amp;xit</source>
-        <translation>Изход</translation>
-    </message>
-    <message>
-        <source>Quit application</source>
-        <translation>Излез от приложението</translation>
-    </message>
-    <message>
-        <source>&amp;About %1</source>
-        <translation>За %1</translation>
-    </message>
-    <message>
-        <source>Show information about %1</source>
-        <translation>Покажи информация за %1</translation>
-    </message>
-    <message>
-        <source>About &amp;Qt</source>
-        <translation>Относно Qt</translation>
-    </message>
-    <message>
-        <source>Show information about Qt</source>
-        <translation>Покажи информация отностно Qt</translation>
-    </message>
-    <message>
-        <source>&amp;Options...</source>
-        <translation>Настройки...</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for %1</source>
-        <translation>Промени конфигурации за %1</translation>
-    </message>
-    <message>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>Криптирай портфейл</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>Направи резервно копие на портфейла...</translation>
-    </message>
-    <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>Промени паролата...</translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>Адреси за пращане...</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>Адреси за получаване...</translation>
-    </message>
-    <message>
-        <source>Open &amp;URI...</source>
-        <translation>Отвори URI</translation>
-    </message>
-    <message>
-        <source>Reindexing blocks on disk...</source>
-        <translation>Повторно индексиране на блоковете на диска...</translation>
-    </message>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </context>
 <context>
     <name>CoinControlDialog</name>
@@ -528,15 +418,9 @@
     </message>
     </context>
 <context>
-<<<<<<< HEAD
     <name>marycoin-core</name>
     <message>
         <source>Marycoin Core</source>
-=======
-    <name>bitcoin-core</name>
-    <message>
-        <source>Bitcoin Core</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>Биткойн ядро</translation>
     </message>
     </context>

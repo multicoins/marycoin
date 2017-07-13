@@ -370,21 +370,12 @@
         <translation>تشفير المفتاح الخاص بمحفظتك</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Sign messages with your Marycoin addresses to prove you own them</source>
         <translation>وقَع الرسائل بواسطة ال: Marycoin الخاص بك لإثبات امتلاكك لهم</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Marycoin addresses</source>
         <translation>تحقق من الرسائل للتأكد من أنَها وُقعت برسائل Marycoin محدَدة</translation>
-=======
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>وقَع الرسائل بواسطة ال: Bitcoin الخاص بك لإثبات امتلاكك لهم</translation>
-    </message>
-    <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>تحقق من الرسائل للتأكد من أنَها وُقعت برسائل Bitcoin محدَدة</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;File</source>
@@ -403,11 +394,7 @@
         <translation>شريط أدوات علامات التبويب</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
-=======
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>أطلب دفعات (يولد كودات الرمز المربع وبيت كوين: العناوين المعطاة)</translation>
     </message>
     <message>
@@ -419,13 +406,8 @@
         <translation>عرض قائمة عناوين الإستقبال المستخدمة والملصقات</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Open a marycoin: URI or payment request</source>
         <translation>فتح URI : Marycoin أو طلب دفع</translation>
-=======
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>فتح URI : Bitcoin أو طلب دفع</translation>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -468,11 +450,7 @@
         <translation>محدث</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Marycoin command-line options</source>
-=======
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>بين اشارة المساعدة %1 للحصول على قائمة من خيارات اوامر البت كوين المحتملة </translation>
     </message>
     <message>
@@ -690,11 +668,7 @@
         <translation>تعديل عنوان الارسال</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Marycoin address.</source>
-=======
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>العنوان المدخل "%1" ليس عنوان بيت كوين صحيح.</translation>
     </message>
     <message>
@@ -1444,11 +1418,7 @@
         <translation>هذا دفع اعتيادي</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>The Marycoin address to send the payment to</source>
-=======
-        <source>The Bitcoin address to send the payment to</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>عنوان البت كوين المرسل اليه الدفع</translation>
     </message>
     <message>
@@ -1962,11 +1932,7 @@
         <translation>حدد مجلد المعلومات</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Marycoin Core</source>
-=======
-        <source>Bitcoin Core</source>
->>>>>>> beceab2ebd304bf1d0e9214fa550c3f5194d6d26
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>
