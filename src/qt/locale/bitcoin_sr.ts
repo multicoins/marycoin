@@ -76,7 +76,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Синхронизација са мрежом у току...</translation>
@@ -131,7 +131,7 @@
     </message>
     <message>
         <source>Send coins to a Marycoin address</source>
-        <translation>Пошаљите новац на marycoin адресу</translation>
+        <translation>Пошаљите новац на bitcoin адресу</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -442,7 +442,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Opcije</translation>

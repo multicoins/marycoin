@@ -68,7 +68,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firmar &amp;mensaje...</translation>
@@ -582,7 +582,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Opciones:</translation>

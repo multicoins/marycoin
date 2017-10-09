@@ -64,7 +64,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firmar &amp;Mensaje...</translation>
@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>Send coins to a Marycoin address</source>
-        <translation>Enviar monedas a una dirección marycoin</translation>
+        <translation>Enviar monedas a una dirección bitcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -750,7 +750,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Opciones:
@@ -773,7 +773,7 @@
     </message>
     <message>
         <source>Marycoin Core</source>
-        <translation>marycoin core</translation>
+        <translation>bitcoin core</translation>
     </message>
     <message>
         <source>Error loading block database</source>

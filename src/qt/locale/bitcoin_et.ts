@@ -168,8 +168,8 @@
         <translation>Kinnita rahakoti krüpteerimine.</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
-        <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA MarycoinID&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <translation>Hoiatus:Kui sa krüpteerid oma rahakoti ja kaotad salafraasi, siis sa&lt;b&gt;KAOTAD OMA BITCOINID&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -220,7 +220,7 @@
     </message>
     </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signeeri &amp;sõnum</translation>
@@ -291,7 +291,7 @@
     </message>
     <message>
         <source>Send coins to a Marycoin address</source>
-        <translation>Saada münte Marycoini aadressile</translation>
+        <translation>Saada münte Bitcoini aadressile</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -343,11 +343,11 @@
     </message>
     <message>
         <source>Sign messages with your Marycoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Marycoini aadressiga</translation>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Bitcoini aadressiga</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Marycoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Marycoini aadressiga</translation>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Bitcoini aadressiga</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -367,11 +367,11 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
-        <translation>Loo maksepäring (genereerib QR koodid ja marycoini: URId)</translation>
+        <translation>Loo maksepäring (genereerib QR koodid ja bitcoini: URId)</translation>
     </message>
     <message>
         <source>Open a marycoin: URI or payment request</source>
-        <translation>Ava marycoini: URI või maksepäring</translation>
+        <translation>Ava bitcoini: URI või maksepäring</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -379,7 +379,7 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Marycoin network</source>
-        <translation><numerusform>%n aktiivne ühendus Marycoini võrku</numerusform><numerusform>%n aktiivset ühendust Marycoini võrku</numerusform></translation>
+        <translation><numerusform>%n aktiivne ühendus Bitcoini võrku</numerusform><numerusform>%n aktiivset ühendust Bitcoini võrku</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -757,7 +757,7 @@
     </message>
     <message>
         <source>Automatically open the Marycoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Marycoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <translation>Bitcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1450,7 +1450,7 @@
     </message>
     <message>
         <source>Sign the message to prove you own this Marycoin address</source>
-        <translation>Allkirjasta sõnum Marycoini aadressi sulle kuulumise tõestamiseks</translation>
+        <translation>Allkirjasta sõnum Bitcoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1474,7 +1474,7 @@
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Marycoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Marycoini aadressiga.</translation>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Bitcoini aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1732,7 +1732,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Valikud:</translation>
@@ -1759,7 +1759,7 @@
     </message>
     <message>
         <source>Marycoin Core</source>
-        <translation>Marycoini tuumik</translation>
+        <translation>Bitcoini tuumik</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

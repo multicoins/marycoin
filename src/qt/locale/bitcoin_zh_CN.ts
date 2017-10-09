@@ -168,7 +168,7 @@
         <translation>确认钱包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
         <translation>警告: 如果把钱包加密后又忘记密码，你就会从此&lt;b&gt;失去其中所有的比特币了&lt;/b&gt;！</translation>
     </message>
     <message>
@@ -180,7 +180,7 @@
         <translation>钱包已加密</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your marycoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>%1 现在要关闭，以完成加密过程。请注意，加密钱包不能完全防止入侵你的电脑的恶意程序偷取钱币。</translation>
     </message>
     <message>
@@ -197,7 +197,7 @@
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>提供的密码不yi'zhi。</translation>
+        <translation>提供的密码不一致。</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>消息签名(&amp;M)...</translation>
@@ -328,6 +328,10 @@
     <message>
         <source>Click to enable network activity again.</source>
         <translation>点击重新开启网络活动。</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>同步区块头 (%1%)...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -526,6 +530,14 @@
     <message>
         <source>Incoming transaction</source>
         <translation>流入交易</translation>
+    </message>
+    <message>
+        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
+        <translation>HD密钥生成&lt;b&gt;启用&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
+        <translation>HD密钥生成&lt;b&gt;禁用&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -840,8 +852,8 @@
         <translation>由于这是第一次启动此程序，您可以选择%1的数据所存储的位置</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 会下载并存储一份比特币区块链的副本。至少有 %2GB 的数据会存储到这个目录中，并且还会持续增长。另外钱包资料也会储存在这个目录。</translation>
+        <source>%1 will download and store a copy of the Marycoin block chain. At least %2MB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 会下载并存储一份比特币区块链的副本。至少有 %2MB 的数据会存储到这个目录中，并且还会持续增长。另外钱包资料也会储存在这个目录。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -875,11 +887,11 @@
         <translation>表单</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the marycoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
         <translation>近期交易可能尚未显示，因此当前余额可能不准确。以上信息将在与比特币网络完全同步后更正。详情如下</translation>
     </message>
     <message>
-        <source>Attempting to spend marycoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>尝试使用受未可见交易影响的余额将不被网络接受。</translation>
     </message>
     <message>
@@ -914,7 +926,11 @@
         <source>Hide</source>
         <translation>隐藏</translation>
     </message>
-    </context>
+    <message>
+        <source>Unknown. Syncing Headers (%1)...</source>
+        <translation>未知状态。同步区块头（%1）</translation>
+    </message>
+</context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1256,7 +1272,7 @@
     </message>
     <message>
         <source>Cannot start marycoin: click-to-pay handler</source>
-        <translation>无法启动 marycoin 协议的“
+        <translation>无法启动 bitcoin 协议的“
 一键支付”处理器</translation>
     </message>
     <message>
@@ -2019,7 +2035,7 @@
         <translation>最小额 </translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for marycoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
         <translation>交易量小时只支付最小交易费是可以的。但是请注意，当交易量大到超出网络可处理时您的交易可能永远无法确认。</translation>
     </message>
     <message>
@@ -2061,6 +2077,10 @@
     <message>
         <source>Dust:</source>
         <translation>小额：</translation>
+    </message>
+    <message>
+        <source>Confirmation time target:</source>
+        <translation>确认时间目标：</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -2238,7 +2258,7 @@
         <translation>移除此项</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>交易费将从发送总额中扣除。接收人将收到比您在金额框中输入的更少的比特币。如果选中了多个收件人，交易费平分。</translation>
     </message>
     <message>
@@ -2263,7 +2283,7 @@
     </message>
     <message>
         <source>A message that was attached to the marycoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Marycoin network.</source>
-        <translation>marycoin:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过比特币网络传输。</translation>
+        <translation>bitcoin:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过比特币网络传输。</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2307,7 +2327,7 @@
         <translation>签名消息(&amp;S)</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>您可以用你的地址对消息/协议进行签名，以证明您可以接收发送到该地址的比特币。注意不要对任何模棱两可或者随机的消息进行签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
@@ -2630,7 +2650,11 @@
         <source>This pane shows a detailed description of the transaction</source>
         <translation>当前面板显示了交易的详细信息</translation>
     </message>
-    </context>
+    <message>
+        <source>Details for %1</source>
+        <translation>%1 详情</translation>
+    </message>
+</context>
 <context>
     <name>TransactionTableModel</name>
     <message>
@@ -2656,6 +2680,10 @@
     <message>
         <source>Unconfirmed</source>
         <translation>未确认的 </translation>
+    </message>
+    <message>
+        <source>Abandoned</source>
+        <translation>已丢弃</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
@@ -2950,7 +2978,7 @@
     </message>
 </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>选项：
@@ -2973,6 +3001,10 @@
         <source>Accept command line and JSON-RPC commands</source>
         <translation>接受命令行和 JSON-RPC 命令
 </translation>
+    </message>
+    <message>
+        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
+        <translation>在MIT协议下分发，参见附带的 %s 文件或 %s</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
@@ -3033,12 +3065,32 @@
         <translation>绑定指定的IP地址开始监听。IPv6地址请使用[host]:port 格式</translation>
     </message>
     <message>
+        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
+        <translation>无法给数据目录 %s 上锁。%s 可能已经在运行。</translation>
+    </message>
+    <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>删除钱包的所有交易记录，且只有用 -rescan参数启动客户端才能重新取回交易记录 </translation>
     </message>
     <message>
+        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>读取 %s 时发生错误！所有的密钥都可以正确读取，但是交易记录或地址簿数据可能已经丢失或出错。</translation>
+    </message>
+    <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
         <translation>当最佳区块变化时执行命令 (命令行中的 %s 会被替换成区块哈希值)</translation>
+    </message>
+    <message>
+        <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
+        <translation>最大的单次钱包或原始转账费用（%s），设置太低可能导致大尺寸交易失败（默认：%s）</translation>
+    </message>
+    <message>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
+        <translation>请检查电脑的日期时间设置是否正确！时间错误可能会导致 %s 运行异常。</translation>
+    </message>
+    <message>
+        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
+        <translation>如果你认为%s对你比较有用的话，请对我们进行一些捐赠支持。请访问%s网站来获取有关这个软件的更多信息。</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
@@ -3053,6 +3105,10 @@
         <translation>使用UPnP暴露本机监听端口（默认：1 当正在监听且不使用代理）</translation>
     </message>
     <message>
+        <source>%s corrupt, salvage failed</source>
+        <translation>%s 已损坏，抢救备份失败</translation>
+    </message>
+    <message>
         <source>-maxmempool must be at least %d MB</source>
         <translation>-maxmempool 最小为%d MB</translation>
     </message>
@@ -3065,12 +3121,20 @@
         <translation>为用户代理字符串附加说明</translation>
     </message>
     <message>
+        <source>Attempt to recover private keys from a corrupt wallet on startup</source>
+        <translation>启动时尝试从已损坏的钱包文件中恢复私钥</translation>
+    </message>
+    <message>
         <source>Block creation options:</source>
         <translation>数据块创建选项：</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>
         <translation>无法解析 - %s 地址： '%s'</translation>
+    </message>
+    <message>
+        <source>Chain selection options:</source>
+        <translation>区块链选择选项:</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -3129,6 +3193,14 @@
         <translation>载入 %s 时发生错误</translation>
     </message>
     <message>
+        <source>Error loading %s: Wallet corrupted</source>
+        <translation>%s 加载出错：钱包损坏</translation>
+    </message>
+    <message>
+        <source>Error loading %s: Wallet requires newer version of %s</source>
+        <translation>%s 加载错误：请升级到最新版 %s</translation>
+    </message>
+    <message>
         <source>Error loading block database</source>
         <translation>导入数据块数据库出错</translation>
     </message>
@@ -3157,12 +3229,20 @@
         <translation>无效的 -onion 地址：“%s”</translation>
     </message>
     <message>
+        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
+        <translation>非法金额 -%s=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
         <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
         <translation>-fallbackfee 的无效数额=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
         <translation>保持交易内存池大小低于&lt;n&gt;MB（默认：%u）</translation>
+    </message>
+    <message>
+        <source>Loading banlist...</source>
+        <translation>加载黑名单</translation>
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
@@ -3177,6 +3257,10 @@
         <translation>只连接 &lt;net&gt;网络中的节点 (ipv4, ipv6 或 onion) </translation>
     </message>
     <message>
+        <source>Print this help message and exit</source>
+        <translation>打印出这段帮助信息并退出</translation>
+    </message>
+    <message>
         <source>Print version and exit</source>
         <translation>打印版本信息并退出</translation>
     </message>
@@ -3187,6 +3271,10 @@
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
         <translation>修剪模式与 -txindex 不兼容。</translation>
+    </message>
+    <message>
+        <source>Rebuild chain state from the currently indexed blocks</source>
+        <translation>从当前索引的区块中重建链状态</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
@@ -3203,6 +3291,10 @@
     <message>
         <source>The source code is available from %s.</source>
         <translation>源代码可以在 %s 获得。</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer. %s is probably already running.</source>
+        <translation>无法在本机绑定 %s 端口。%s 可能已经在运行。</translation>
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -3506,6 +3598,10 @@
         <translation>支持用 Bloom 过滤器来过滤区块和交易(默认值: %u)</translation>
     </message>
     <message>
+        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
+        <translation>这是在费用估计不可用时你可能会支付的交易费。</translation>
+    </message>
+    <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
         <translation>网络版本字符串的总长度 (%i) 超过最大长度 (%i) 了。请减少 uacomment 参数的数目或长度。</translation>
     </message>
@@ -3528,6 +3624,10 @@
     <message>
         <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
         <translation>警告: 未知的区块版本被挖掘！未知规则可能已生效</translation>
+    </message>
+    <message>
+        <source>%s is set very high!</source>
+        <translation>%s非常高！</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3590,6 +3690,10 @@
         <translation>设置私钥池大小为 &lt;n&gt; (默认：%u) </translation>
     </message>
     <message>
+        <source>Set maximum BIP141 block weight (default: %d)</source>
+        <translation>设置BIP141最大区块权重 (默认: %d)</translation>
+    </message>
+    <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>设置RPC服务线程数 (默认: %d) </translation>
     </message>
@@ -3614,8 +3718,20 @@
         <translation>正在启动网络线程...</translation>
     </message>
     <message>
+        <source>This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>如果发送交易，这是你交易付款时所要付的手续费。</translation>
+    </message>
+    <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
         <translation>断开 非礼节点的阀值 (默认: %u) </translation>
+    </message>
+    <message>
+        <source>Transaction amounts must not be negative</source>
+        <translation>交易金额不不可为负数</translation>
+    </message>
+    <message>
+        <source>Transaction must have at least one recipient</source>
+        <translation>交易必须包含至少一个接收人</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>

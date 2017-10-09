@@ -168,8 +168,8 @@
         <translation>Confirma l'encriptació del moneder</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
-        <translation>Avís: si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES MarycoinS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <translation>Avís: si encripteu el vostre moneder i perdeu la contrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES BITCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -220,7 +220,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signa el &amp;missatge...</translation>
@@ -1673,8 +1673,8 @@
         <translation>total com a mínim</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for marycoin transactions than the network can process.</source>
-        <translation>No hi ha cap problema en pagar només la comissió mínima sempre que hi haja menys volum de transacció que espai en els blocs. Però tingueu present que això pot acabar en una transacció que mai es confirme una vegada hi haja més demanda de transaccions de marycoins que la xarxa puga processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <translation>No hi ha cap problema en pagar només la comissió mínima sempre que hi haja menys volum de transacció que espai en els blocs. Però tingueu present que això pot acabar en una transacció que mai es confirme una vegada hi haja més demanda de transaccions de bitcoins que la xarxa puga processar.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -1868,8 +1868,8 @@
         <translation>Elimina esta entrada</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>La comissió es deduirà de l'import que s'enviarà. El destinatari rebrà menys marycoins que les que introduïu al camp d'import. Si se seleccionen múltiples destinataris, la comissió es dividirà per igual.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>La comissió es deduirà de l'import que s'enviarà. El destinatari rebrà menys bitcoins que les que introduïu al camp d'import. Si se seleccionen múltiples destinataris, la comissió es dividirà per igual.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -1933,8 +1933,8 @@
         <translation>&amp;Signa el missatge</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Podeu signar missatges/acords amb les vostres adreces per provar que rebeu les marycoins que s'hi envien. Aneu amb compte no signar res que siga vague o aleatori, perquè en alguns atacs de suplantació es pot provar que hi signeu la vostra identitat. Només signeu aquelles declaracions completament detallades en què hi esteu d'acord. </translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Podeu signar missatges/acords amb les vostres adreces per provar que rebeu les bitcoins que s'hi envien. Aneu amb compte no signar res que siga vague o aleatori, perquè en alguns atacs de suplantació es pot provar que hi signeu la vostra identitat. Només signeu aquelles declaracions completament detallades en què hi esteu d'acord. </translation>
     </message>
     <message>
         <source>The Marycoin address to sign the message with</source>
@@ -2524,7 +2524,7 @@
     </message>
 </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Opcions:</translation>

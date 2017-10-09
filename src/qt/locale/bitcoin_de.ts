@@ -168,7 +168,7 @@
         <translation>Brieftaschen-Verschlüsselung bestätigen</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
         <translation>Warnung: Wenn Sie Ihre Brieftasche verschlüsseln und Ihre Passphrase verlieren, werden Sie &lt;b&gt;alle Ihre Marycoins verlieren&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -180,7 +180,7 @@
         <translation>Brieftasche verschlüsselt</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your marycoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>%1 wird jetzt beendet, um den Verschlüsselungsprozess abzuschließen. Bitte beachten Sie, dass die Brieftaschen-Verschlüsselung nicht vollständig vor Diebstahl Ihrer Marycoins durch Schadprogramme schützt, die Ihren Computer befällt.</translation>
     </message>
     <message>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Nachricht s&amp;ignieren...</translation>
@@ -851,8 +851,8 @@
         <translation>Da Sie das Programm gerade zum ersten Mal starten, können Sie nun auswählen wo %1 seine Daten ablegen wird.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 wird eine Kopie der Blockkette herunterladen und speichern. Mindestens %2GB Daten werden in diesem Verzeichnis abgelegt und die Datenmenge wächst über die Zeit an. Auch die Wallet wird in diesem Verzeichnis abgelegt.</translation>
+        <source>%1 will download and store a copy of the Marycoin block chain. At least %2MB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 wird eine Kopie der Blockkette herunterladen und speichern. Mindestens %2MB Daten werden in diesem Verzeichnis abgelegt und die Datenmenge wächst über die Zeit an. Auch die Wallet wird in diesem Verzeichnis abgelegt.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -886,11 +886,11 @@
         <translation>Formular</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the marycoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
         <translation>Neueste Transaktionen werden eventuell noch nicht angezeigt, daher könnte Ihr Kontostand veraltet sein. Er wird korrigiert, sobald Ihr Wallet die Synchronisation mit dem Marycoin-Netzwerk erfolgreich abgeschlossen. Details dazu finden sich weiter unten.</translation>
     </message>
     <message>
-        <source>Attempting to spend marycoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Versuche, Marycoins aus noch nicht angezeigten Transaktionen auszugeben, werden vom Netzwerk nicht akzeptiert.</translation>
     </message>
     <message>
@@ -2033,7 +2033,7 @@
         <translation>Mindestbetrag</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for marycoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
         <translation>Nur die minimale Gebühr zu bezahlen ist so lange in Ordnung, wie weniger Transaktionsvolumen als Platz in den Blöcken vorhanden ist. Aber Vorsicht, diese Option kann dazu führen, dass Transaktionen nicht bestätigt werden, wenn mehr Bedarf an Marycoin-Transaktionen besteht als das Netzwerk verarbeiten kann.</translation>
     </message>
     <message>
@@ -2260,7 +2260,7 @@
         <translation>Diesen Eintrag entfernen</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Die Gebühr wird vom zu überweisenden Betrag abgezogen. Der Empfänger wird also weniger Marycoins erhalten, als Sie im Betrags-Feld eingegeben haben. Falls mehrere Empfänger ausgewählt wurden, wird die Gebühr gleichmäßig verteilt.</translation>
     </message>
     <message>
@@ -2329,7 +2329,7 @@
         <translation>Nachricht &amp;signieren</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Sie können Nachrichten/Vereinbarungen mit Hilfe Ihrer Adressen signieren, um zu beweisen, dass Sie Marycoins empfangen können, die an diese Adressen überwiesen werden. Seien Sie vorsichtig und signieren Sie nichts Vages oder Willkürliches, um Ihre Indentität vor Phishingangriffen zu schützen. Signieren Sie nur vollständig-detaillierte Aussagen, mit denen Sie auch einverstanden sind.</translation>
     </message>
     <message>
@@ -2984,7 +2984,7 @@
     </message>
 </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Optionen:</translation>
@@ -3067,7 +3067,7 @@
     </message>
     <message>
         <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>Geben Sie immer die Transaktionen, die Sie von freigegebenen Peers erhalten haben, weiter (Voreinstellung: %d)</translation>
+        <translation>Immer übermittelte Transaktionen von freigegebenen Peers akzeptieren, auch wenn keine Transaktionen übermittelt werden (Standard: %d)</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -3080,6 +3080,10 @@
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Alle Wallet-Transaktionen löschen und nur diese Teilbereiche der Blockkette durch -rescan beim Starten wiederherstellen</translation>
+    </message>
+    <message>
+        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
+        <translation>Fehler beim Laden von %s: Sie können HD nicht aktivieren da sie derzeit eine nicht HD Brieftasche besitzen.</translation>
     </message>
     <message>
         <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
@@ -3095,11 +3099,11 @@
     </message>
     <message>
         <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
-        <translation>Sofern dieser Block Bestandteil der Blockchain ist, nehme an das er und seine Vorgänger gültig sind und überspringe ggf. dessen Skriptverifikation (0 um alle zu verifizieren, default: %s, testnet: %s)</translation>
+        <translation>Sofern dieser Block Bestandteil der Blockchain ist, nehme an, dass er und seine Vorgänger gültig sind und überspringe ggf. dessen Skriptverifikation (0 um alle zu verifizieren, default: %s, testnet: %s)</translation>
     </message>
     <message>
         <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
-        <translation>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</translation>
+        <translation>Maximal zulässige mediane Peer-Zeit-Offset-Einstellung. Lokale Perspektive der Zeit kann von Peers vorwärts oder rückwärts um diesen Betrag beeinflusst werden. (Voreinstellung: %u Sekunden)</translation>
     </message>
     <message>
         <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
@@ -3262,6 +3266,10 @@
         <translation>Fehler beim Laden von %s: Das Wallet benötigt eine neuere Version von %s</translation>
     </message>
     <message>
+        <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
+        <translation>Fehler beim Laden von %s: Sie können die hierarchisch deterministische Schlüsselgeneration (HD) für eine bereits existierende HD-Brieftasche nicht deaktivieren</translation>
+    </message>
+    <message>
         <source>Error loading block database</source>
         <translation>Fehler beim Laden der Blockdatenbank</translation>
     </message>
@@ -3343,7 +3351,7 @@
     </message>
     <message>
         <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>Blockkettenindex aus aktuellen Dateien blk000??.dat wiederaufbauen</translation>
+        <translation>Blockkettenzustand aus aktuelle indizierten Blöcken wiederaufbauen</translation>
     </message>
     <message>
         <source>Rewinding blocks...</source>
@@ -3475,7 +3483,7 @@
     </message>
     <message>
         <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
-        <translation>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</translation>
+        <translation>Verwende hierarchisch deterministische Schlüsselgenerierung (HD) nach BIP32. Funktioniert nur bei der Erstellung (erster Start) von einer Brieftasche.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
@@ -3727,7 +3735,7 @@
     </message>
     <message>
         <source>%s is set very high!</source>
-        <translation>%s wurde sehr hoch Eingestellt!</translation>
+        <translation>%s wurde sehr hoch eingestellt!</translation>
     </message>
     <message>
         <source>(default: %s)</source>

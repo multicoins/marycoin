@@ -28,7 +28,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>&amp;Transactions</source>
         <translation>&amp;Транзакциялар</translation>
@@ -334,7 +334,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Information</source>
         <translation>Маалымат</translation>

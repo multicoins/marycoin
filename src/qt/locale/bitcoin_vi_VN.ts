@@ -96,7 +96,7 @@
     </message>
 </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Chứ ký &amp; Tin nhắn...</translation>
@@ -271,7 +271,7 @@
     </message>
     <message>
         <source>Open a marycoin: URI or payment request</source>
-        <translation>Mở marycoin:URL hoặc yêu cầu thanh toán</translation>
+        <translation>Mở bitcoin:URL hoặc yêu cầu thanh toán</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1012,7 +1012,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Lựa chọn:</translation>

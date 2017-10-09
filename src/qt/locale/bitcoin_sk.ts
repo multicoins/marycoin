@@ -168,8 +168,8 @@
         <translation>Potvrďte zašifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
-        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE MarycoinY&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE BITCOINY&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,8 +180,8 @@
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your marycoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 sa teraz zavrie, aby sa ukončil proces šifrovania. Zašifrovanie peňaženky neochráni úplne pred krádežou marycoinov škodlivými programami, ktoré prenikli do vášho počítača.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 sa teraz zavrie, aby sa ukončil proces šifrovania. Zašifrovanie peňaženky neochráni úplne pred krádežou bitcoinov škodlivými programami, ktoré prenikli do vášho počítača.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Podpísať &amp;správu...</translation>
@@ -339,7 +339,7 @@
     </message>
     <message>
         <source>Send coins to a Marycoin address</source>
-        <translation>Poslať marycoins na adresu</translation>
+        <translation>Poslať bitcoins na adresu</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -427,7 +427,7 @@
     </message>
     <message>
         <source>Open a marycoin: URI or payment request</source>
-        <translation>Otvoriť marycoin URI alebo výzvu k platbe</translation>
+        <translation>Otvoriť bitcoin URI alebo výzvu k platbe</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -479,7 +479,7 @@
     </message>
     <message>
         <source>Show the %1 help message to get a list with possible Marycoin command-line options</source>
-        <translation>Ukáž %1 zoznam možných nastavení Marycoinu pomocou príkazového riadku</translation>
+        <translation>Ukáž %1 zoznam možných nastavení Bitcoinu pomocou príkazového riadku</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -530,6 +530,14 @@
     <message>
         <source>Incoming transaction</source>
         <translation>Prijatá transakcia</translation>
+    </message>
+    <message>
+        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
+        <translation>Generovanie HD kľúčov je &lt;b&gt;zapnuté&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
+        <translation>Generovanie HD kľúčov je &lt;b&gt;vypnuté&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -843,8 +851,8 @@
         <translation>Keďže toto je prvé spustenie programu, môžete si vybrať, kam %1 bude ukladať vaše údaje.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 stiahne a uloží kópiu Marycoin block chain. Minimálne %2GB dát bude uložených v tejto zložke, a bude sa zväčšovať postupom času. Peňaženka bude taktiež uložená v tejto zložke.</translation>
+        <source>%1 will download and store a copy of the Marycoin block chain. At least %2MB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 stiahne a uloží kópiu Marycoin block chain. Minimálne %2MB dát bude uložených v tejto zložke, a bude sa zväčšovať postupom času. Peňaženka bude taktiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -878,12 +886,12 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the marycoin network, as detailed below.</source>
-        <translation>Nedávne transakcie nemusia byť ešte viditeľné preto môže byť zostatok vo vašej peňaženke nesprávny. Táto informácia bude správna keď sa dokončí synchronizovanie peňaženky so sieťou marycoin, ako je rozpísané nižšie.</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <translation>Nedávne transakcie nemusia byť ešte viditeľné preto môže byť zostatok vo vašej peňaženke nesprávny. Táto informácia bude správna keď sa dokončí synchronizovanie peňaženky so sieťou bitcoin, ako je rozpísané nižšie.</translation>
     </message>
     <message>
-        <source>Attempting to spend marycoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Pokus o minutie marycoinov, ktoré sú ovplyvnené ešte nezobrazenými transakciami, nebude sieťou akceptovaný.</translation>
+        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Pokus o minutie bitcoinov, ktoré sú ovplyvnené ešte nezobrazenými transakciami, nebude sieťou akceptovaný.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1089,7 +1097,7 @@
     </message>
     <message>
         <source>Connect to the Marycoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Pripojiť k Marycoinovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
+        <translation>Pripojiť k Bitcoinovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1137,7 +1145,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Zvoľte ako deliť marycoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
+        <translation>Zvoľte ako deliť bitcoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1369,7 +1377,7 @@
     </message>
     <message>
         <source>Enter a Marycoin address (e.g. %1)</source>
-        <translation>Zadajte marycoin adresu (napr. %1)</translation>
+        <translation>Zadajte bitcoin adresu (napr. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1939,7 +1947,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Poslať Marycoins</translation>
+        <translation>Poslať Bitcoins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -2018,7 +2026,7 @@
         <translation>spolu aspoň</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for marycoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
         <translation>Zaplatenie len minimálneho poplatku je v poriadku, pokiaľ existuje menej transakcií ako miesta v blokoch. Uvedomte si však, že ak bude vyšší dopyt po transakciách ako dokáže sieť spracovať, môže byť vaša transakcia odsúvaná a nepotvrdená donekonečna.</translation>
     </message>
     <message>
@@ -2245,8 +2253,8 @@
         <translation>Odstrániť túto položku</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej marycoinov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Poplatok sa odpočíta od čiastky, ktorú odosielate. Príjemca dostane menej bitcoinov ako zadáte. Ak je vybraných viacero príjemcov, poplatok je rozdelený rovným dielom.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2314,7 +2322,7 @@
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Môžete podpísať správy svojou adresou a dokázať, že viete prijímať mince zaslané na túto adresu. Buďte však opatrní a podpíšte len podrobné prehlásenia, s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k podpísaniu nejasných alebo príliš všeobecných tvrdení čím prevezmú vašu identitu.</translation>
     </message>
     <message>
@@ -2925,7 +2933,7 @@
     </message>
 </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Možnosti:</translation>
@@ -2945,6 +2953,10 @@
     <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Prijímať príkazy z príkazového riadku a JSON-RPC</translation>
+    </message>
+    <message>
+        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
+        <translation>Distribuované pod softvérovou licenciou MIT, viď sprievodný súbor %s alebo %s</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
@@ -3039,6 +3051,10 @@
         <translation>Varovanie: Zjavne sa úplne nezhodujeme s našimi peer-mi! Možno potrebujete prejsť na novšiu verziu alebo ostatné uzly potrebujú vyššiu verziu.</translation>
     </message>
     <message>
+        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
+        <translation>Potrebujete prebudovať databázu použitím -reindex-chainstate pre zmenu -txindex</translation>
+    </message>
+    <message>
         <source>%s corrupt, salvage failed</source>
         <translation>%s je poškodený, záchrana zlyhala</translation>
     </message>
@@ -3049,6 +3065,10 @@
     <message>
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;category&gt; môže byť:</translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet on startup</source>
+        <translation>Pokúsiť sa o obnovenie privátnych kľúčov z poškodenej peňaženky pri spustení</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3233,6 +3253,10 @@
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
         <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
+    </message>
+    <message>
+        <source>Use the test chain</source>
+        <translation>Použiť testovaciu sieť</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

@@ -88,7 +88,7 @@
     </message>
 </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>เซ็นต์ชื่อด้วย &amp;ข้อความ...</translation>
@@ -163,11 +163,11 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;ที่เก็บเงิน ที่จะส่ง marycoin</translation>
+        <translation>&amp;ที่เก็บเงิน ที่จะส่ง bitcoin</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;ที่เก็บเงิน ที่จะรับ marycoin</translation>
+        <translation>&amp;ที่เก็บเงิน ที่จะรับ bitcoin</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <source>Sign messages with your Marycoin addresses to prove you own them</source>
-        <translation>เซ็นชื่อด้วยข้อความ ที่เก็บ Marycoin เพื่อแสดงว่าท่านเป็นเจ้าของ marycoin นี้จริง</translation>
+        <translation>เซ็นชื่อด้วยข้อความ ที่เก็บ Marycoin เพื่อแสดงว่าท่านเป็นเจ้าของ bitcoin นี้จริง</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Marycoin addresses</source>
@@ -259,11 +259,11 @@
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>แสดงรายการ ที่เก็บเงินที่จะส่ง marycoin ออก และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
+        <translation>แสดงรายการ ที่เก็บเงินที่จะส่ง bitcoin ออก และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>แสดงรายการ ที่เก็บเงินที่จะรับ marycoin เข้า และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
+        <translation>แสดงรายการ ที่เก็บเงินที่จะรับ bitcoin เข้า และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
     </message>
     <message>
         <source>Open a marycoin: URI or payment request</source>
@@ -563,8 +563,8 @@
         <translation>นี่เป็นการรันโปรแกรมครั้งแรก ท่านสามารถเลือก ว่าจะเก็บข้อมูลไว้ที่ %1</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 จะดาวน์โหลดและเก็บกอปปี้ชุดหนึ่งของ บล็อกเชน Marycoin ไว้ ข้อมูลขนานอย่างน้อย %2GB จะเก็บไว้ในไดเร็กทอรี่นี้ และข้อมูลจะมีขนาดใหญ่ขึ้นเรื่อยๆ กระเป๋าเงิน จะเก็บไว้ในไดเร็กทอรี่นี้ด้วย</translation>
+        <source>%1 will download and store a copy of the Marycoin block chain. At least %2MB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 จะดาวน์โหลดและเก็บกอปปี้ชุดหนึ่งของ บล็อกเชน Marycoin ไว้ ข้อมูลขนานอย่างน้อย %2MB จะเก็บไว้ในไดเร็กทอรี่นี้ และข้อมูลจะมีขนาดใหญ่ขึ้นเรื่อยๆ กระเป๋าเงิน จะเก็บไว้ในไดเร็กทอรี่นี้ด้วย</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -916,7 +916,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>ตัวเลือก:</translation>

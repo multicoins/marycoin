@@ -168,7 +168,7 @@
         <translation>Подтвердите шифрование бумажника</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
         <translation>Предупреждение: если вы зашифруете бумажник и потеряете пароль, вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ ВАШИ БИТКОИНЫ&lt;/b&gt;!</translation>
     </message>
     <message>
@@ -180,7 +180,7 @@
         <translation>Бумажник зашифрован</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your marycoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас %1 закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши биткоины от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>&amp;Подписать сообщение...</translation>
@@ -851,8 +851,20 @@
         <translation>При первом запуске программы вы можете выбрать где %1 будет хранить свои данные.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 скачает и сохранит копию цепи блоков. Как минимум %2GB будут записаны в этот каталог, и со временем он будет расти. Бумажник также будет сохранен в этом каталоге.</translation>
+        <source>%1 will download and store a copy of the Marycoin block chain. At least %2MB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 скачает и сохранит копию цепи блоков. Как минимум %2MB будут записаны в этот каталог, и со временем он будет расти. Бумажник также будет сохранен в этом каталоге.</translation>
+    </message>
+    <message>
+        <source>%1 will1 download and store a copy of the Marycoin block chain.</source>
+        <translation>%1 скачает и сохранит копию цепи блоков.</translation>
+    </message>
+    <message>
+        <source>At1 least %1MB of data will be stored in this directory, and it will grow over time.</source>
+        <translation>Как минимум %1MB будут записаны в этот каталог, и со временем он будет расти.</translation>
+    </message>
+    <message>
+        <source>The1 wallet will also be stored in this directory.</source>
+        <translation>Бумажник также будет сохранен в этом каталоге.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -886,11 +898,11 @@
         <translation>Форма</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the marycoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
         <translation>Недавние транзакции могут быть пока не видны, поэтому ваш баланс может отображаться некорректно. Эта информация станет корректной, как только ваш бумажник будет синхронизирован с сетью, см. подробности ниже.</translation>
     </message>
     <message>
-        <source>Attempting to spend marycoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Попытка потратить биткоины из ещё не отображённых транзакций будет отвергнута сетью.</translation>
     </message>
     <message>
@@ -2037,7 +2049,7 @@
         <translation>Итого как минимум</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for marycoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
         <translation>Уплата минимальной комиссии — не проблема, пока объём транзакций меньше, чем свободное место в блоках. Учтите, однако, что такая транзакция может никогда не подтвердиться, если спрос на транзакции превышает возможности сети по их обработке.</translation>
     </message>
     <message>
@@ -2264,7 +2276,7 @@
         <translation>Удалить эту запись</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>С отправляемой суммы будет удержана комиссия. Получателю придёт меньше биткоинов, чем вы вводите в поле количества. Если выбрано несколько получателей, комиссия распределяется поровну.</translation>
     </message>
     <message>
@@ -2333,7 +2345,7 @@
         <translation>&amp;Подписать сообщение</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Вы можете подписывать сообщения/соглашения своими адресами, чтобы доказать свою возможность получать биткоины на них. Будьте осторожны, не подписывайте что-то неопределённое или случайное, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
     </message>
     <message>
@@ -2988,7 +3000,7 @@
     </message>
 </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Параметры:</translation>

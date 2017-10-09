@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Scegli l'indirizzo a cui inviare marycoin</translation>
+        <translation>Scegli l'indirizzo a cui inviare bitcoin</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Scegli l'indirizzo con cui ricevere marycoin</translation>
+        <translation>Scegli l'indirizzo con cui ricevere bitcoin</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -63,7 +63,7 @@
     </message>
     <message>
         <source>These are your Marycoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questo è un elenco di indirizzi Marycoin a cui puoi inviare pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare marycoin.</translation>
+        <translation>Questo è un elenco di indirizzi Marycoin a cui puoi inviare pagamenti. Controlla sempre l'importo e l'indirizzo del beneficiario prima di inviare bitcoin.</translation>
     </message>
     <message>
         <source>These are your Marycoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
@@ -168,8 +168,8 @@
         <translation>Conferma la cifratura del portamonete</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
-        <translation>Attenzione: perdendo la passphrase di un portamonete cifrato &lt;b&gt;TUTTI I PROPRI Marycoin ANDRANNO PERSI&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <translation>Attenzione: perdendo la passphrase di un portamonete cifrato &lt;b&gt;TUTTI I PROPRI BITCOIN ANDRANNO PERSI&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -228,7 +228,7 @@
     </message>
 </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firma &amp;messaggio...</translation>
@@ -312,6 +312,22 @@
     <message>
         <source>Open &amp;URI...</source>
         <translation>Apri &amp;URI...</translation>
+    </message>
+    <message>
+        <source>Click to disable network activity.</source>
+        <translation>Clicca per disattivare la rete.</translation>
+    </message>
+    <message>
+        <source>Network activity disabled.</source>
+        <translation>Attività di rete disabilitata</translation>
+    </message>
+    <message>
+        <source>Click to enable network activity again.</source>
+        <translation>Clicca per abilitare nuovamente l'attività di rete</translation>
+    </message>
+    <message>
+        <source>Syncing Headers (%1%)...</source>
+        <translation>Sincronizzazione Headers (%1%)...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -466,6 +482,10 @@
         <translation>%1 client</translation>
     </message>
     <message>
+        <source>Connecting to peers...</source>
+        <translation>Connessione ai peers</translation>
+    </message>
+    <message>
         <source>Catching up...</source>
         <translation>In aggiornamento...</translation>
     </message>
@@ -508,6 +528,14 @@
         <translation>Transazione ricevuta</translation>
     </message>
     <message>
+        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
+        <translation>La creazione della chiave HD è &lt;b&gt;abilitata&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
+        <translation>La creazione della chiave HD è &lt;b&gt;disabilitata&lt;/b&gt;</translation>
+    </message>
+    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Il portamonete è &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;sbloccato&lt;/b&gt;</translation>
     </message>
@@ -515,7 +543,11 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Il portamonete è &lt;b&gt;cifrato&lt;/b&gt; ed attualmente &lt;b&gt;bloccato&lt;/b&gt;</translation>
     </message>
-    </context>
+    <message>
+        <source>A fatal error occurred. Marycoin can no longer continue safely and will quit.</source>
+        <translation>Si è verificato un errore critico. Marycoin non può più funzionare in maniera sicura e verrà chiuso.</translation>
+    </message>
+</context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -707,7 +739,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Marycoin address.</source>
-        <translation>L'indirizzo inserito "%1" non è un indirizzo marycoin valido.</translation>
+        <translation>L'indirizzo inserito "%1" non è un indirizzo bitcoin valido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -815,8 +847,8 @@
         <translation>Dato che questa è la prima volta che il programma viene lanciato, puoi scegliere dove %1 salverà i suoi dati.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 scaricherà e salverà una copia della Blockchain di Marycoin. Saranno salvati almeno %2GB di dati in questo percorso e continueranno ad aumentare col tempo. Anche il portafoglio verrà salvato in questo percorso.</translation>
+        <source>%1 will download and store a copy of the Marycoin block chain. At least %2MB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 scaricherà e salverà una copia della Blockchain di Marycoin. Saranno salvati almeno %2MB di dati in questo percorso e continueranno ad aumentare col tempo. Anche il portafoglio verrà salvato in questo percorso.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -850,6 +882,10 @@
         <translation>Modulo</translation>
     </message>
     <message>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <translation>Transazioni recenti potrebbero non essere visibili ancora, perciò il saldo del tuo portafoglio potrebbe non essere corretto. Questa informazione risulterà corretta quando il tuo portafoglio avrà terminato la sincronizzazione con la rete bitcoin, come indicato in dettaglio più sotto.</translation>
+    </message>
+    <message>
         <source>Number of blocks left</source>
         <translation>Numero di blocchi mancanti</translation>
     </message>
@@ -866,10 +902,26 @@
         <translation>Progresso</translation>
     </message>
     <message>
+        <source>Progress increase per hour</source>
+        <translation>Aumento dei progressi per ogni ora</translation>
+    </message>
+    <message>
+        <source>calculating...</source>
+        <translation>calcolando...</translation>
+    </message>
+    <message>
+        <source>Estimated time left until synced</source>
+        <translation>Tempo stimato al completamento della sincronizzazione.</translation>
+    </message>
+    <message>
         <source>Hide</source>
         <translation>Nascondi</translation>
     </message>
-    </context>
+    <message>
+        <source>Unknown. Syncing Headers (%1)...</source>
+        <translation>Sconosciuto. Sincronizzazione Headers (%1)...</translation>
+    </message>
+</context>
 <context>
     <name>OpenURIDialog</name>
     <message>
@@ -1086,7 +1138,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Scegli l'unità di suddivisione predefinita da utilizzare per l'interfaccia e per l'invio di marycoin.</translation>
+        <translation>Scegli l'unità di suddivisione predefinita da utilizzare per l'interfaccia e per l'invio di bitcoin.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1283,6 +1335,14 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>La richiesta di pagamento non può essere processata!</translation>
     </message>
     <message>
+        <source>Bad response from server %1</source>
+        <translation> Risposta errata da parte del server %1 </translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation> Errore di richiesta di rete</translation>
+    </message>
+    <message>
         <source>Payment acknowledged</source>
         <translation>Pagamento riconosciuto</translation>
     </message>
@@ -1368,9 +1428,21 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <source>%n year(s)</source>
         <translation><numerusform>%n anno</numerusform><numerusform>%n anni</numerusform></translation>
     </message>
-    </context>
+    <message>
+        <source>%1 didn't yet exit safely...</source>
+        <translation>%1 non è ancora stato chiuso in modo sicuro</translation>
+    </message>
+</context>
 <context>
     <name>QObject::QObject</name>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Errore: La cartella dati "%1" specificata non esiste.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>Errore: impossibile interpretare il file di configurazione: %1. Usare esclusivamente la sintassi chiave=valore.</translation>
+    </message>
     <message>
         <source>Error: %1</source>
         <translation>Errore: %1</translation>
@@ -1554,6 +1626,10 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Attesa ping</translation>
     </message>
     <message>
+        <source>Min Ping</source>
+        <translation>Ping Minimo</translation>
+    </message>
+    <message>
         <source>Time Offset</source>
         <translation>Scarto Temporale</translation>
     </message>
@@ -1618,6 +1694,14 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>&amp;Disconnetti</translation>
     </message>
     <message>
+        <source>Ban for</source>
+        <translation>Bannato per</translation>
+    </message>
+    <message>
+        <source>&amp;Unban</source>
+        <translation>&amp;Sbanna</translation>
+    </message>
+    <message>
         <source>Welcome to the %1 RPC console.</source>
         <translation>Benvenuto nella console RPC di %1.</translation>
     </message>
@@ -1628,6 +1712,10 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Scrivi &lt;b&gt;help&lt;/b&gt; per un riassunto dei comandi disponibili.</translation>
+    </message>
+    <message>
+        <source>Network activity disabled</source>
+        <translation>Attività di rete disabilitata</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -1811,7 +1899,15 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <source>Message</source>
         <translation>Messaggio</translation>
     </message>
-    </context>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation> L'URI risultante è troppo lungo, prova a ridurre il testo nell'etichetta / messaggio.</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation> Errore nella codifica dell'URI nel codice QR.</translation>
+    </message>
+</context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
@@ -1926,7 +2022,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>somma almeno</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for marycoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
         <translation>Non vi è alcuna controindicazione a pagare la commissione minima, a patto che il volume delle transazioni sia inferiore allo spazio disponibile nei blocchi. Occorre comunque essere consapevoli che ciò potrebbe impedire la conferma delle transazioni nel caso in cui la rete risultasse satura.</translation>
     </message>
     <message>
@@ -2018,16 +2114,44 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>%1 a %2</translation>
     </message>
     <message>
+        <source>Are you sure you want to send?</source>
+        <translation> Sei sicuro di voler inviare?</translation>
+    </message>
+    <message>
         <source>added as transaction fee</source>
         <translation> Includi il costo della transazione</translation>
+    </message>
+    <message>
+        <source>Total Amount %1</source>
+        <translation>Importo Totale %1</translation>
     </message>
     <message>
         <source>or</source>
         <translation>o</translation>
     </message>
     <message>
+        <source>Confirm send coins</source>
+        <translation>Conferma invio coins</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid. Please recheck.</source>
+        <translation> L'indirizzo del destinatario non è valido. Si prega di ricontrollare.</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation> L'importo da pagare deve essere maggiore di 0.</translation>
+    </message>
+    <message>
         <source>The amount exceeds your balance.</source>
         <translation>Non hai abbastanza fondi</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation> Il totale è superiore al tuo saldo attuale includendo la commissione di %1. </translation>
+    </message>
+    <message>
+        <source>Duplicate address found: addresses should only be used once each.</source>
+        <translation> Rilevato un indirizzo duplicato Ciascun indirizzo dovrebbe essere utilizzato una sola volta.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
@@ -2038,12 +2162,24 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>La transazione è stata respinta per il seguente motivo: %1</translation>
     </message>
     <message>
+        <source>A fee higher than %1 is considered an absurdly high fee.</source>
+        <translation> Una commissione maggiore di %1 è considerata irragionevolmente elevata.</translation>
+    </message>
+    <message>
         <source>Payment request expired.</source>
         <translation>Richiesta di pagamento scaduta.</translation>
     </message>
     <message numerus="yes">
         <source>%n block(s)</source>
         <translation><numerusform>%n blocco</numerusform><numerusform>%n blocchi</numerusform></translation>
+    </message>
+    <message>
+        <source>Pay only the required fee of %1</source>
+        <translation> Paga solamente la commissione richiesta di %1</translation>
+    </message>
+    <message numerus="yes">
+        <source>Estimated to begin confirmation within %n block(s).</source>
+        <translation><numerusform>Inizio delle conferme stimato entro %n blocchi.</numerusform><numerusform>Inizio delle conferme stimato entro %n blocchi.</numerusform></translation>
     </message>
     <message>
         <source>Warning: Invalid Marycoin address</source>
@@ -2101,8 +2237,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Rimuovi questa voce</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>La commissione sarà sottratta dall'importo che si sta inviando. Il beneficiario riceverà un totale di marycoin inferiore al valore digitato. Nel caso in cui siano stati selezionati più beneficiari la commissione sarà suddivisa in parti uguali.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>La commissione sarà sottratta dall'importo che si sta inviando. Il beneficiario riceverà un totale di bitcoin inferiore al valore digitato. Nel caso in cui siano stati selezionati più beneficiari la commissione sarà suddivisa in parti uguali.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2126,7 +2262,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>A message that was attached to the marycoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Marycoin network.</source>
-        <translation>Messaggio incluso nel marycoin URI e che sarà memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete Marycoin.</translation>
+        <translation>Messaggio incluso nel bitcoin URI e che sarà memorizzato con la transazione per vostro riferimento. Nota: Questo messaggio non sarà inviato attraverso la rete Marycoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2166,8 +2302,8 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>&amp;Firma Messaggio</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>È possibile firmare messaggi/accordi con i propri indirizzi in modo da dimostrare di poter ricevere marycoin attraverso di essi. Si consiglia di prestare attenzione a non firmare dichiarazioni vaghe o casuali, attacchi di phishing potrebbero cercare di indurre ad apporre la firma su di esse. Si raccomanda di firmare esclusivamente dichiarazioni completamente dettagliate e delle quali si condivide in pieno il contenuto.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>È possibile firmare messaggi/accordi con i propri indirizzi in modo da dimostrare di poter ricevere bitcoin attraverso di essi. Si consiglia di prestare attenzione a non firmare dichiarazioni vaghe o casuali, attacchi di phishing potrebbero cercare di indurre ad apporre la firma su di esse. Si raccomanda di firmare esclusivamente dichiarazioni completamente dettagliate e delle quali si condivide in pieno il contenuto.</translation>
     </message>
     <message>
         <source>The Marycoin address to sign the message with</source>
@@ -2242,6 +2378,10 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Reimposta tutti i campi della verifica messaggio</translation>
     </message>
     <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Clicca "Firma Messaggio" per generare una firma</translation>
+    </message>
+    <message>
         <source>The entered address is invalid.</source>
         <translation>L'indirizzo inserito non è valido.</translation>
     </message>
@@ -2251,7 +2391,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>L'indirizzo marycoin inserito non è associato a nessuna chiave.</translation>
+        <translation>L'indirizzo bitcoin inserito non è associato a nessuna chiave.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
@@ -2469,6 +2609,10 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
         <translation>Non confermata</translation>
     </message>
     <message>
+        <source>Abandoned</source>
+        <translation>Abbandonato</translation>
+    </message>
+    <message>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Confermata (%1 conferme)</translation>
     </message>
@@ -2483,6 +2627,10 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>Received with</source>
         <translation>Ricevuto tramite</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Ricevuto da</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -2590,6 +2738,10 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     <message>
         <source>Min amount</source>
         <translation>Importo minimo</translation>
+    </message>
+    <message>
+        <source>Abandon transaction</source>
+        <translation>Abbandona transazione </translation>
     </message>
     <message>
         <source>Copy address</source>
@@ -2737,7 +2889,7 @@ Per specificare più URL separarli con una barra verticale "|".</translation>
     </message>
 </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Opzioni:</translation>

@@ -37,10 +37,46 @@
         <source>&amp;Delete</source>
         <translation>&amp;Dzēst</translation>
     </message>
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>Izvēlies adresi uz kuru sūtīt bitcoins</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Izvēlies adresi ar kuru saņemt bitcoins</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Kopēt adresi</translation>
+    </message>
+    <message>
+        <source>&amp;Edit</source>
+        <translation>&amp;Rediģēt</translation>
+    </message>
+    <message>
+        <source>Export Address List</source>
+        <translation>Eksportēt Adrešu Sarakstu</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Eksportēšana Neizdevās</translation>
+    </message>
     </context>
 <context>
     <name>AddressTableModel</name>
-    </context>
+    <message>
+        <source>Label</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrese</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(bez nosaukuma)</translation>
+    </message>
+</context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -59,12 +95,36 @@
         <source>Repeat new passphrase</source>
         <translation>Jaunā parole vēlreiz</translation>
     </message>
+    <message>
+        <source>Encrypt wallet</source>
+        <translation>Šifrēt maciņu</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Atslēgt maciņu</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Atšifrēt maciņu</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Apstiprināt maciņa šifrēšanu</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Vai tu tiešām vēlies šifrēt savu maciņu?</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>Maciņa šifrēšana neizdevās</translation>
+    </message>
     </context>
 <context>
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Parakstīt &amp;ziņojumu...</translation>
@@ -223,7 +283,7 @@
     </message>
     <message>
         <source>Open a marycoin: URI or payment request</source>
-        <translation>Atvērt marycoin URI vai maksājuma pieprasījumu</translation>
+        <translation>Atvērt bitcoin URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -327,6 +387,10 @@
     <message>
         <source>Confirmed</source>
         <translation>Apstiprināts</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(bez nosaukuma)</translation>
     </message>
     </context>
 <context>
@@ -499,7 +563,7 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ieslēgt marycoin &amp;kontroles funkcijas</translation>
+        <translation>Ieslēgt bitcoin &amp;kontroles funkcijas</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -840,9 +904,25 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Saglabāt Attēlu...</translation>
     </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrese</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Nosaukums</translation>
+    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(bez nosaukuma)</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -926,7 +1006,11 @@
         <source>S&amp;end</source>
         <translation>&amp;Sūtīt</translation>
     </message>
-    </context>
+    <message>
+        <source>(no label)</source>
+        <translation>(bez nosaukuma)</translation>
+    </message>
+</context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1081,9 +1165,29 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(bez nosaukuma)</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Label</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrese</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Eksportēšana Neizdevās</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1098,7 +1202,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Iespējas:</translation>

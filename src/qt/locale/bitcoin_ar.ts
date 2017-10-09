@@ -168,8 +168,8 @@
         <translation>تأكيد تشفير المحفظة</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
-        <translation>تحذير: إذا قمت بتشفير محفظتك وفقدت كلمة المرور الخاص بك, ستفقد كل عملات MarycoinS الخاصة بك.</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <translation>تحذير: إذا قمت بتشفير محفظتك وفقدت كلمة المرور الخاص بك, ستفقد كل عملات BITCOINS الخاصة بك.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -228,7 +228,7 @@
     </message>
 </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>التوقيع و الرسائل</translation>
@@ -312,6 +312,18 @@
     <message>
         <source>Open &amp;URI...</source>
         <translation>افتح &amp;URI...</translation>
+    </message>
+    <message>
+        <source>Click to disable network activity.</source>
+        <translation>اضغط لإلغاء تفعيل الشبكه</translation>
+    </message>
+    <message>
+        <source>Network activity disabled.</source>
+        <translation>تم إلغاء تفعيل الشبكه</translation>
+    </message>
+    <message>
+        <source>Click to enable network activity again.</source>
+        <translation>اضغط لتفعيل الشبكه مره أخرى</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -509,7 +521,11 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>المحفظة &lt;b&gt;مشفرة&lt;/b&gt; و &lt;b&gt;مقفلة&lt;/b&gt; حاليا</translation>
     </message>
-    </context>
+    <message>
+        <source>A fatal error occurred. Marycoin can no longer continue safely and will quit.</source>
+        <translation>خطأ فادح حدث . لا يمكن اتمام بيتكوين بامان سيتم الخروج</translation>
+    </message>
+</context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -607,6 +623,10 @@
     <message>
         <source>Copy after fee</source>
         <translation>نسخ بعد الرسوم</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>نسخ البايتات </translation>
     </message>
     <message>
         <source>Copy change</source>
@@ -794,6 +814,10 @@
     <message>
         <source>Form</source>
         <translation>نمودج</translation>
+    </message>
+    <message>
+        <source>Unknown...</source>
+        <translation>غير معرف</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -1363,6 +1387,10 @@
         <translation>نسخ بعد الرسوم</translation>
     </message>
     <message>
+        <source>Copy bytes</source>
+        <translation>نسخ البايتات </translation>
+    </message>
+    <message>
         <source>Copy change</source>
         <translation>نسخ التعديل</translation>
     </message>
@@ -1922,7 +1950,7 @@
     </message>
     </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>خيارات: </translation>

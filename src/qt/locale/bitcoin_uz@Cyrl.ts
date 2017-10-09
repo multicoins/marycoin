@@ -68,7 +68,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>&amp;Хабар ёзиш...</translation>
@@ -223,7 +223,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
-        <translation>Тўловлар (QR кодлари ва marycoin ёрдамида яратишлар: URI’лар) сўраш</translation>
+        <translation>Тўловлар (QR кодлари ва bitcoin ёрдамида яратишлар: URI’лар) сўраш</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -1190,7 +1190,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Танламалар:</translation>

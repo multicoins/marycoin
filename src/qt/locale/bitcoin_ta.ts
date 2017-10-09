@@ -52,7 +52,7 @@
     </message>
     </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;கண்ணோட்டம்</translation>
@@ -706,7 +706,7 @@
     <name>WalletView</name>
     </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Marycoin Core</source>
         <translation>Marycoin மையம்</translation>

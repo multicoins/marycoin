@@ -12,8 +12,6 @@
 
 #include <assert.h>
 
-#include <boost/assign/list_of.hpp>
-
 #include "chainparamsseeds.h"
 
 static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesisOutputScript, uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
@@ -53,6 +51,12 @@ static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits
     const char* pszTimestamp = "27/May/2017 Masha turned a year and two months old";
     const CScript genesisOutputScript = CScript() << ParseHex("04fbe018bca155f2cd40b941ba01856681dd1b44b4248e3ba91df33e42aee861d64b8724ffbdc480dadbe8571dfacc522c47da6314ac59851ed257784674d8a942") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
+}
+
+void CChainParams::UpdateVersionBitsParameters(Consensus::DeploymentPos d, int64_t nStartTime, int64_t nTimeout)
+{
+    consensus.vDeployments[d].nStartTime = nStartTime;
+    consensus.vDeployments[d].nTimeout = nTimeout;
 }
 
 /**
@@ -97,10 +101,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1510704000; // November 15th, 2017.
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000484fe0fac171915aa");
+        consensus.nMinimumChainWork = uint256S("0x00000000000000000000000000000000000000000000000fe57c2a01eb179524");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0x000000000000010c21a7ee49b43b5c4ebdf06e6291c8e2ea8acf36a3bfb671ed"); //3803
+        consensus.defaultAssumeValid = uint256S("0x00000000000000df61c429da2fbd61b541dec091f1762c7d52963e17f2a1fbc3"); //11802
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -124,19 +128,19 @@ public:
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5+1);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,128+1);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x88, 0xB2, 0x1E};
+        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x88, 0xAD, 0xE4};
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
-        fMiningRequiresPeers = true;
         fDefaultConsistencyChecks = false;
         fRequireStandard = true;
         fMineBlocksOnDemand = false;
 
         checkpointData = (CCheckpointData) {
-            boost::assign::map_list_of
-            ( 3803, uint256S("0x000000000000010c21a7ee49b43b5c4ebdf06e6291c8e2ea8acf36a3bfb671ed"))
+            {
+                { 3803, uint256S("0x000000000000010c21a7ee49b43b5c4ebdf06e6291c8e2ea8acf36a3bfb671ed")}
+            }
         };
 
         chainTxData = ChainTxData{
@@ -148,7 +152,6 @@ public:
         };
     }
 };
-static CMainParams mainParams;
 
 /**
  * Testnet (v3)
@@ -207,20 +210,20 @@ public:
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111+1);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196+1);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239+1);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
+        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
-        fMiningRequiresPeers = true;
         fDefaultConsistencyChecks = false;
         fRequireStandard = false;
         fMineBlocksOnDemand = false;
 
 
         checkpointData = (CCheckpointData) {
-            boost::assign::map_list_of
-            ( 546, uint256S("00000000bb9fb8ac0c6e7d49cd45d25be8cca7065233820d7eff340476be3875")),
+            {
+                { 0, uint256S("00000000bb9fb8ac0c6e7d49cd45d25be8cca7065233820d7eff340476be3875")}
+            }
         };
 
         chainTxData = ChainTxData{
@@ -228,10 +231,8 @@ public:
             0,
             0
         };
-
     }
 };
-static CTestNetParams testNetParams;
 
 /**
  * Regression test
@@ -283,14 +284,14 @@ public:
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
 
-        fMiningRequiresPeers = false;
         fDefaultConsistencyChecks = true;
         fRequireStandard = false;
         fMineBlocksOnDemand = true;
 
         checkpointData = (CCheckpointData){
-            boost::assign::map_list_of
-            ( 0, uint256S("0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206"))
+            {
+                { 0, uint256S("5ddec2ed236f7b4a8a2d8eea78045fae738d3897a3b53965c0b8acef4804e171")}
+            }
         };
 
         chainTxData = ChainTxData{
@@ -302,45 +303,36 @@ public:
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111+1);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196+1);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239+1);
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
-    }
-
-    void UpdateBIP9Parameters(Consensus::DeploymentPos d, int64_t nStartTime, int64_t nTimeout)
-    {
-        consensus.vDeployments[d].nStartTime = nStartTime;
-        consensus.vDeployments[d].nTimeout = nTimeout;
+        base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
+        base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
     }
 };
-static CRegTestParams regTestParams;
 
-static CChainParams *pCurrentParams = 0;
+static std::unique_ptr<CChainParams> globalChainParams;
 
 const CChainParams &Params() {
-    assert(pCurrentParams);
-    return *pCurrentParams;
+    assert(globalChainParams);
+    return *globalChainParams;
 }
 
-CChainParams& Params(const std::string& chain)
+std::unique_ptr<CChainParams> CreateChainParams(const std::string& chain)
 {
     if (chain == CBaseChainParams::MAIN)
-            return mainParams;
+        return std::unique_ptr<CChainParams>(new CMainParams());
     else if (chain == CBaseChainParams::TESTNET)
-            return testNetParams;
+        return std::unique_ptr<CChainParams>(new CTestNetParams());
     else if (chain == CBaseChainParams::REGTEST)
-            return regTestParams;
-    else
-        throw std::runtime_error(strprintf("%s: Unknown chain %s.", __func__, chain));
+        return std::unique_ptr<CChainParams>(new CRegTestParams());
+    throw std::runtime_error(strprintf("%s: Unknown chain %s.", __func__, chain));
 }
 
 void SelectParams(const std::string& network)
 {
     SelectBaseParams(network);
-    pCurrentParams = &Params(network);
+    globalChainParams = CreateChainParams(network);
 }
 
-void UpdateRegtestBIP9Parameters(Consensus::DeploymentPos d, int64_t nStartTime, int64_t nTimeout)
+void UpdateVersionBitsParameters(Consensus::DeploymentPos d, int64_t nStartTime, int64_t nTimeout)
 {
-    regTestParams.UpdateBIP9Parameters(d, nStartTime, nTimeout);
+    globalChainParams->UpdateVersionBitsParameters(d, nStartTime, nTimeout);
 }
- 

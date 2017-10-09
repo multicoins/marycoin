@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Bitcoin Core
-Comment=Connect to the Bitcoin P2P Network
-Comment[de]=Verbinde mit dem Bitcoin peer-to-peer Netzwerk
-Comment[fr]=Bitcoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Bitcoin, eşten eşe kriptografik sanal para birimi
-Exec=bitcoin-qt %u
+Name=Marycoin Core
+Comment=Connect to the Marycoin P2P Network
+Comment[de]=Verbinde mit dem Marycoin peer-to-peer Netzwerk
+Comment[fr]=Marycoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Marycoin, eşten eşe kriptografik sanal para birimi
+Exec=marycoin-qt %u
 Terminal=false
 Type=Application
 Icon=bitcoin128

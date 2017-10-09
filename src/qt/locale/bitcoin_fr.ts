@@ -168,8 +168,8 @@
         <translation>Confirmer le chiffrement du porte-monnaie</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
-        <translation>Avertissement : si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS MarycoinS&lt;/b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <translation>Avertissement : si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ TOUS VOS BITCOINS&lt;/b&gt; !</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -180,8 +180,8 @@
         <translation>Le porte-monnaie est chiffré</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your marycoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 va maintenant se fermer pour terminer le processus de chiffrement. Souvenez-vous que le chiffrement de votre porte-monnaie ne peut pas protéger entièrement vos marycoins contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>%1 va maintenant se fermer pour terminer le processus de chiffrement. Souvenez-vous que le chiffrement de votre porte-monnaie ne peut pas protéger entièrement vos bitcoins contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signer un &amp;message...</translation>
@@ -851,8 +851,8 @@
         <translation>Puisque c'est la première fois que le logiciel est lancé, vous pouvez choisir où %1 stockera ses données.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 téléchargera et stockera une copie de la chaîne de blocs de Marycoin. Au moins %2 Go de données seront stockés dans ce répertoire et sa taille augmentera avec le temps. Le porte-monnaie sera également stocké dans ce répertoire.</translation>
+        <source>%1 will download and store a copy of the Marycoin block chain. At least %2MB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 téléchargera et stockera une copie de la chaîne de blocs de Marycoin. Au moins %2 Mo de données seront stockés dans ce répertoire et sa taille augmentera avec le temps. Le porte-monnaie sera également stocké dans ce répertoire.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -886,12 +886,12 @@
         <translation>Formulaire</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the marycoin network, as detailed below.</source>
-        <translation>Les transactions récentes ne sont peut-être pas encore visibles, et par conséquent, le solde de votre porte-monnaie est peut-être erroné. Cette information sera juste une fois que votre porte-monnaie aura fini de se synchroniser avec le réseau Marycoin, comme décrit ci-dessous. </translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <translation>Les transactions récentes ne sont peut-être pas encore visibles et par conséquent le solde de votre porte-monnaie est peut-être erroné. Cette information sera juste quand votre porte-monnaie aura fini de se synchroniser avec le réseau Marycoin, comme décrit ci-dessous.</translation>
     </message>
     <message>
-        <source>Attempting to spend marycoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Toute tentative de dépense de marycoins affectés par des transactions qui ne sont pas encore affichées ne sera pas acceptée par le réseau.</translation>
+        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <translation>Toute tentative de dépense de bitcoins affectés par des transactions qui ne sont pas encore affichées ne sera pas acceptée par le réseau.</translation>
     </message>
     <message>
         <source>Number of blocks left</source>
@@ -1009,7 +1009,7 @@
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Options actives de ligne de commande qui annulent les options ci-dessus :</translation>
+        <translation>Options de ligne de commande actives qui remplacent les options ci-dessus :</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -1081,7 +1081,7 @@
     </message>
     <message>
         <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>S'affiche, si le mandataire SOCKS5 par défaut fourni est utilisé pour atteindre les pairs par ce type de réseau.</translation>
+        <translation>Indique si le mandataire SOCKS5 par défaut fourni est utilisé pour atteindre des pairs par ce type de réseau.</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -2037,7 +2037,7 @@
         <translation>total au moins</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for marycoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
         <translation>Il est correct de payer les frais minimum tant que le volume transactionnel est inférieur à l'espace dans les blocs. Mais soyez conscient que cela pourrait résulter en une transaction n'étant jamais confirmée une fois qu'il y aura plus de transactions que le réseau ne pourra en traiter.</translation>
     </message>
     <message>
@@ -2264,8 +2264,8 @@
         <translation>Retirer cette entrée</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Les frais seront déduits du montant envoyé. Le destinataire recevra moins de marycoins que le montant saisi dans le champ de montant. Si plusieurs destinataires sont sélectionnés, les frais seront partagés également..</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Les frais seront déduits du montant envoyé. Le destinataire recevra moins de bitcoins que le montant saisi dans le champ de montant. Si plusieurs destinataires sont sélectionnés, les frais seront partagés également..</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2333,8 +2333,8 @@
         <translation>&amp;Signer un message</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Vous pouvez signer des messages ou des accords avec vos adresses pour prouver que vous pouvez recevoir des marycoins à ces dernières. Faites attention de ne rien signer de vague ou au hasard, car des attaques d'hameçonnage pourraient essayer de vous faire signer avec votre identité afin de l'usurper. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d'accord.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Vous pouvez signer des messages ou des accords avec vos adresses pour prouver que vous pouvez recevoir des bitcoins à ces dernières. Faites attention de ne rien signer de vague ou au hasard, car des attaques d'hameçonnage pourraient essayer de vous faire signer avec votre identité afin de l'usurper. Ne signez que des déclarations entièrement détaillées et avec lesquelles vous êtes d'accord.</translation>
     </message>
     <message>
         <source>The Marycoin address to sign the message with</source>
@@ -2988,7 +2988,7 @@
     </message>
 </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Options :</translation>
@@ -3623,7 +3623,7 @@
     </message>
     <message>
         <source>Whether to operate in a blocks only mode (default: %u)</source>
-        <translation>Faut-il fonctionner en mode blocs seulement (par défaut : %u)</translation>
+        <translation>Fonctionner ou non en mode blocs seulement (par défaut : %u)</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
@@ -3643,7 +3643,7 @@
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Autoriser les recherches DNS pour -addnode, -seednode et -connect</translation>
+        <translation>Autoriser les consultations DNS pour -addnode, -seednode et -connect</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
@@ -3691,7 +3691,7 @@
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
-        <translation>Requête d'adresses de paires par recherche DNS, si il y a peu d'adresses (par défaut : 1 sauf si -connect/-noconnect)</translation>
+        <translation>Requête d'adresses de paires par consultation DNS, si il y a peu d'adresses (par défaut : 1 sauf si -connect/-noconnect)</translation>
     </message>
     <message>
         <source>Sets the serialization of raw transaction or block hex returned in non-verbose mode, non-segwit(0) or segwit(1) (default: %d)</source>
@@ -3751,7 +3751,7 @@
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Toujours demander les adresses des pairs par recherche DNS (par défaut : %u)</translation>
+        <translation>Toujours demander les adresses des pairs par consultation DNS (par défaut : %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
@@ -3807,7 +3807,7 @@
     </message>
     <message>
         <source>Send transactions with full-RBF opt-in enabled (default: %u)</source>
-        <translation>Envoyer des transactions avec « RBF opt-in » complet activé (par défaut : %u)</translation>
+        <translation>Envoyer les transactions avec « full-RBF opt-in » activé (par défaut : %u)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>

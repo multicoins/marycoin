@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Criar novo endereço</translation>
+        <translation>Criar um novo endereço</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -51,7 +51,7 @@
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>Escol&amp;ha</translation>
+        <translation>E&amp;scolha</translation>
     </message>
     <message>
         <source>Sending addresses</source>
@@ -75,7 +75,7 @@
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Copiar rótu&amp;lo</translation>
+        <translation>Copiar &amp;rótulo</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -87,7 +87,7 @@
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Comma separated file (*.csv)</translation>
+        <translation>Arquivo separado por virgula (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -168,8 +168,8 @@
         <translation>Confirmar criptografia da carteira</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
-        <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;PERDER TODOS OS SEUS MarycoinS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <translation>Aviso: Se você criptografar sua carteira e perder sua senha, você vai &lt;b&gt;PERDER TODOS OS SEUS BITCOINS&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -228,7 +228,7 @@
     </message>
 </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Assinar &amp;mensagem...</translation>
@@ -327,7 +327,7 @@
     </message>
     <message>
         <source>Syncing Headers (%1%)...</source>
-        <translation>Sincronizando cabeçahos (%1%)...</translation>
+        <translation>Sincronizando cabeçalhos (%1%)...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -335,7 +335,7 @@
     </message>
     <message>
         <source>Send coins to a Marycoin address</source>
-        <translation>Enviar moedas para um endereço marycoin</translation>
+        <translation>Enviar moedas para um endereço bitcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -847,8 +847,8 @@
         <translation>Como essa é a primeira vez que o programa é executado, você pode escolher onde %1 armazenará seus dados.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Marycoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O %1 irá baixar e armazenar uma cópia do block chain do Marycoin. Pelo menos %2GB de dados serão armazenados neste diretório, e ele crescerá ao longo do tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>%1 will download and store a copy of the Marycoin block chain. At least %2MB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O %1 irá baixar e armazenar uma cópia do block chain do Marycoin. Pelo menos %2MB de dados serão armazenados neste diretório, e ele crescerá ao longo do tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -882,11 +882,11 @@
         <translation>Formulário</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the marycoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
         <translation>Transações recentes podem não estar visíveis ainda, portanto o seu saldo pode estar incorreto. Esta informação será corrigida assim que sua carteira for sincronizada com a rede, como detalhado abaixo.</translation>
     </message>
     <message>
-        <source>Attempting to spend marycoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Gastar moedas de transações desconhecidas podem não ser aceitas pela rede.</translation>
     </message>
     <message>
@@ -923,7 +923,7 @@
     </message>
     <message>
         <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Desconhecido. Sincroniando cabeçahos (%1)...</translation>
+        <translation>Desconhecido. Sincronizando cabeçalhos (%1)...</translation>
     </message>
 </context>
 <context>
@@ -1141,7 +1141,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar marycoins.</translation>
+        <translation>Escolha a unidade padrão de subdivisão para interface mostrar quando enviar bitcoins.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -2033,7 +2033,7 @@
         <translation>pelo menos</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for marycoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
         <translation>Pagando apenas a taxa mínima é bom, desde que haja pouco volume de transações. Mas esteja ciente de que isso pode acabar em uma transação nunca confirmanda uma vez que há mais demanda por transações do que a rede pode processar.</translation>
     </message>
     <message>
@@ -2260,8 +2260,8 @@
         <translation>Remover esta entrada</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>A taxa será deduzida da quantia que está sendo enviada. O destinatário receberá menos marycoins do que você colocou no campo de quantidade. Se vários destinatários estão selecionados, a taxa é dividida igualmente.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>A taxa será deduzida da quantia que está sendo enviada. O destinatário receberá menos bitcoins do que você colocou no campo de quantidade. Se vários destinatários estão selecionados, a taxa é dividida igualmente.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2329,8 +2329,8 @@
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Você pode assinar mensagens com seus endereços para provar que você pode receber marycoins enviados por alguém. Cuidado para não assinar nada vago ou aleatório, pois ataques phishing podem tentar te enganar para assinar coisas para eles como se fosse você. Somente assine termos bem detalhados que você concorde.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Você pode assinar mensagens com seus endereços para provar que você pode receber bitcoins enviados por alguém. Cuidado para não assinar nada vago ou aleatório, pois ataques phishing podem tentar te enganar para assinar coisas para eles como se fosse você. Somente assine termos bem detalhados que você concorde.</translation>
     </message>
     <message>
         <source>The Marycoin address to sign the message with</source>
@@ -2984,7 +2984,7 @@
     </message>
 </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Opções:</translation>
@@ -3835,7 +3835,7 @@
     </message>
     <message>
         <source>Starting network threads...</source>
-        <translation>Iniciando análise da rede...</translation>
+        <translation>Iniciando atividades da rede...</translation>
     </message>
     <message>
         <source>The wallet will avoid paying less than the minimum relay fee.</source>
@@ -3855,11 +3855,11 @@
     </message>
     <message>
         <source>Transaction amounts must not be negative</source>
-        <translation>As quantidades das transações devem ser positivas.</translation>
+        <translation>As quantidades das transações não podem serem negativas</translation>
     </message>
     <message>
         <source>Transaction has too long of a mempool chain</source>
-        <translation>A transação demorou muito na memória</translation>
+        <translation>A transação demorou muito para ser confirmada na mempool chain</translation>
     </message>
     <message>
         <source>Transaction must have at least one recipient</source>
@@ -3879,7 +3879,7 @@
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Adicionar um cliente para se conectar e tentar manter a conexão ativa</translation>
+        <translation>Adicionar um nódulo para se conectar e tentar manter a conexão ativa</translation>
     </message>
     <message>
         <source>Loading wallet...</source>

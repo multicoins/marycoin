@@ -10,7 +10,7 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both bitcoind and bitcoin-core, to make it harder for attackers to
+ * for both marycoind and marycoin-core, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
 const std::string CLIENT_NAME("Satoshi");
@@ -45,8 +45,8 @@ const std::string CLIENT_NAME("Satoshi");
 //! git will put "#define GIT_ARCHIVE 1" on the next line inside archives. 
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
-#define GIT_COMMIT_ID "fc61c8322bd"
-#define GIT_COMMIT_DATE "Thu, 15 Jun 2017 12:44:01 +0200"
+#define GIT_COMMIT_ID "fb7b5293844"
+#define GIT_COMMIT_DATE "Fri, 15 Sep 2017 16:00:59 +0200"
 #endif
 
 #define BUILD_DESC_WITH_SUFFIX(maj, min, rev, build, suffix) \

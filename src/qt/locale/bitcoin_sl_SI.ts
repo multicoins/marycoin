@@ -41,10 +41,50 @@
         <source>&amp;Delete</source>
         <translation>I&amp;zbriši</translation>
     </message>
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>Izberi naslov prejemnika kovancev</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Izberi naslov, na katerega želiš prejeti kovance</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>&amp;Izberi</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>Imenik naslovov za pošiljanje</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>Imenik naslovov za prejemanje</translation>
+    </message>
+    <message>
+        <source>Export Address List</source>
+        <translation>Izvozi seznam naslovov</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Podatkov ni bilo mogoče izvoziti.</translation>
+    </message>
     </context>
 <context>
     <name>AddressTableModel</name>
-    </context>
+    <message>
+        <source>Label</source>
+        <translation>Oznaka</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Naslov</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(brez oznake)</translation>
+    </message>
+</context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -63,6 +103,14 @@
         <source>Repeat new passphrase</source>
         <translation>Ponovite novo geslo</translation>
     </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Odkleni denarnico</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Odšifriraj denarnico</translation>
+    </message>
     </context>
 <context>
     <name>BanTableModel</name>
@@ -76,7 +124,7 @@
     </message>
 </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Podpiši &amp;sporočilo ...</translation>
@@ -417,6 +465,10 @@
     <message>
         <source>Confirmed</source>
         <translation>Potrjeno</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(brez oznake)</translation>
     </message>
     </context>
 <context>
@@ -1190,9 +1242,25 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Shrani sliko ...</translation>
     </message>
+    <message>
+        <source>Address</source>
+        <translation>Naslov</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Oznaka</translation>
+    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Oznaka</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(brez oznake)</translation>
+    </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
@@ -1277,7 +1345,7 @@
         <translation>skupno vsaj</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for marycoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
         <translation>Dokler bo v blokih še dovolj prostora za vse nastajajoče transakcije, zadostuje, če plačate samo minimalno provizijo. Ko pa se bo količina vseh transakcij povečala do meja zmogljivosti omrežja, se lahko zgodi, da vaša transakcija brez večje provizije nikoli ne bo potrjena.</translation>
     </message>
     <message>
@@ -1336,7 +1404,11 @@
         <source>S&amp;end</source>
         <translation>&amp;Pošlji</translation>
     </message>
-    </context>
+    <message>
+        <source>(no label)</source>
+        <translation>(brez oznake)</translation>
+    </message>
+</context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -1380,7 +1452,7 @@
         <translation>Izpraznite vsebino polja</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less marycoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Znesek plačila bo zmanjšan za znesek provizije. Prejemnik bo prejel manjše število kovancev, kot je bil vnešeni znesek. Če je prejemnikov več, bo provizija med njih enakomerno porazdeljena.</translation>
     </message>
     <message>
@@ -1437,7 +1509,7 @@
         <translation>&amp;Podpiši sporočilo</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive marycoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>S svojimi naslovi lahko podpisujete sporočila ali pogodbe in s tem dokazujete, da na teh naslovih lahko prejemate kovance. Bodite previdni in ne podpisujte ničesar nejasnega ali naključnega, ker vas zlikovci preko ribarjenja (phishing) lahko prelisičijo, da na njih prepišete svojo identiteto. Podpisujte samo podrobno opisane izjave, s katerimi se strinjate.</translation>
     </message>
     <message>
@@ -1539,9 +1611,29 @@
     </context>
 <context>
     <name>TransactionTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Oznaka</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(brez oznake)</translation>
+    </message>
     </context>
 <context>
     <name>TransactionView</name>
+    <message>
+        <source>Label</source>
+        <translation>Oznaka</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Naslov</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Podatkov ni bilo mogoče izvoziti.</translation>
+    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
@@ -1564,7 +1656,7 @@
     </message>
     </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Options:</source>
         <translation>Možnosti:</translation>

@@ -156,7 +156,7 @@
         <translation>確認錢包加密</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR MarycoinS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
         <translation>警告: 如果你將錢包加密後又忘記密碼，你就會&lt;b&gt;失去所有 Marycoin 了&lt;/b&gt;！</translation>
     </message>
     <message>
@@ -168,7 +168,7 @@
         <translation>錢包已加密</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your marycoins from being stolen by malware infecting your computer.</source>
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
         <translation>%1 現在要關閉來完成加密程序。請記得將錢包加密不能完全防止你的 Marycoins 經被入侵電腦的惡意程式偷取。</translation>
     </message>
     <message>
@@ -220,7 +220,7 @@
     </message>
 </context>
 <context>
-    <name>MarycoinGUI</name>
+    <name>BitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>簽署訊息... &amp;m</translation>
@@ -650,9 +650,17 @@
     </context>
 <context>
     <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>匯出 &amp;E</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>把目前分頁的資料匯出至檔案</translation>
+    </message>
     </context>
 <context>
-    <name>marycoin-core</name>
+    <name>bitcoin-core</name>
     <message>
         <source>Information</source>
         <translation>資訊</translation>
