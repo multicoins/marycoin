@@ -223,7 +223,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and marycoin: URIs)</source>
-        <translation>Тўловлар (QR кодлари ва bitcoin ёрдамида яратишлар: URI’лар) сўраш</translation>
+        <translation>Тўловлар (QR кодлари ва marycoin ёрдамида яратишлар: URI’лар) сўраш</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>

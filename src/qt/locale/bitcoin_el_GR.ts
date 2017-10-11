@@ -239,7 +239,7 @@
     </message>
     <message>
         <source>Send coins to a Marycoin address</source>
-        <translation>Στείλε νομίσματα σε μια διεύθυνση bitcoin</translation>
+        <translation>Στείλε νομίσματα σε μια διεύθυνση marycoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>

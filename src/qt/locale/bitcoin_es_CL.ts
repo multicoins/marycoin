@@ -143,7 +143,7 @@
     </message>
     <message>
         <source>Send coins to a Marycoin address</source>
-        <translation>Enviar monedas a una dirección bitcoin</translation>
+        <translation>Enviar monedas a una dirección marycoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -773,7 +773,7 @@
     </message>
     <message>
         <source>Marycoin Core</source>
-        <translation>bitcoin core</translation>
+        <translation>marycoin core</translation>
     </message>
     <message>
         <source>Error loading block database</source>

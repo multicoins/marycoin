@@ -163,11 +163,11 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;ที่เก็บเงิน ที่จะส่ง bitcoin</translation>
+        <translation>&amp;ที่เก็บเงิน ที่จะส่ง marycoin</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;ที่เก็บเงิน ที่จะรับ bitcoin</translation>
+        <translation>&amp;ที่เก็บเงิน ที่จะรับ marycoin</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <source>Sign messages with your Marycoin addresses to prove you own them</source>
-        <translation>เซ็นชื่อด้วยข้อความ ที่เก็บ Marycoin เพื่อแสดงว่าท่านเป็นเจ้าของ bitcoin นี้จริง</translation>
+        <translation>เซ็นชื่อด้วยข้อความ ที่เก็บ Marycoin เพื่อแสดงว่าท่านเป็นเจ้าของ marycoin นี้จริง</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Marycoin addresses</source>
@@ -259,11 +259,11 @@
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>แสดงรายการ ที่เก็บเงินที่จะส่ง bitcoin ออก และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
+        <translation>แสดงรายการ ที่เก็บเงินที่จะส่ง marycoin ออก และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>แสดงรายการ ที่เก็บเงินที่จะรับ bitcoin เข้า และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
+        <translation>แสดงรายการ ที่เก็บเงินที่จะรับ marycoin เข้า และป้ายชื่อ ที่ใช้ไปแล้ว</translation>
     </message>
     <message>
         <source>Open a marycoin: URI or payment request</source>

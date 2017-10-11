@@ -523,7 +523,7 @@
     <name>QObject</name>
     <message>
         <source>Enter a Marycoin address (e.g. %1)</source>
-        <translation>Введите биткоин-адрес (напр. %1)</translation>
+        <translation>Введите мэрикоин-адрес (напр. %1)</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -837,7 +837,7 @@
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>bitcoin-core</translation>
+        <translation>marycoin-core</translation>
     </message>
     <message>
         <source>Information</source>

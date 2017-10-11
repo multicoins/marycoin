@@ -271,7 +271,7 @@
     </message>
     <message>
         <source>Open a marycoin: URI or payment request</source>
-        <translation>Mở bitcoin:URL hoặc yêu cầu thanh toán</translation>
+        <translation>Mở marycoin:URL hoặc yêu cầu thanh toán</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
