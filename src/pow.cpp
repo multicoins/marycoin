@@ -16,9 +16,9 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
 
     // Only change once per difficulty adjustment interval
-    if ((pindexLast->nHeight+1) % params.DifficultyAdjustmentInterval() != 0)
+    if ((pindexLast->nHeight+1) % params.DifficultyAdjustmentInterval() != 0 || pindexLast->nHeight == 16200)
     {
-        if (params.fPowAllowMinDifficultyBlocks)
+        if (params.fPowAllowMinDifficultyBlocks || pindexLast->nHeight >= 16200)
         {
             // Special difficulty rule for testnet:
             // If the new block's timestamp is more than 2* 10 minutes
