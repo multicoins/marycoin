@@ -10,10 +10,66 @@
 #include "primitives/block.h"
 #include "uint256.h"
 
+unsigned int CalculateNextWorkRequiredMC(const CBlockIndex* pindexBase, const CBlockIndex* pindexLast, int64_t nFirstBlockTime, const Consensus::Params& params)
+{
+    if (params.fPowNoRetargeting)
+        return pindexBase->nBits;
+        
+    int64_t nPowTargetTimespan = params.nPowTargetTimespan*3;
+    
+    // Limit adjustment step
+    int64_t nActualTimespan = pindexLast->GetBlockTime() - nFirstBlockTime;
+    if (nActualTimespan < nPowTargetTimespan/4)
+        nActualTimespan = nPowTargetTimespan/4;
+    if (nActualTimespan > nPowTargetTimespan*4)
+        nActualTimespan = nPowTargetTimespan*4;
+    
+    // Retarget
+    const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
+    arith_uint256 bnNew;
+    bnNew.SetCompact(pindexBase->nBits);
+    
+    if (pindexLast->GetBlockTime() - pindexLast->pprev->GetBlockTime() < (7*params.nPowTargetSpacing)/10 && nActualTimespan > nPowTargetTimespan)
+        return bnNew.GetCompact();
+
+    bnNew *= nActualTimespan;
+    bnNew /= nPowTargetTimespan;
+    
+    if (bnNew > bnPowLimit)
+        bnNew = bnPowLimit;
+        
+    return bnNew.GetCompact();
+} 
+
+unsigned int GetNextWorkRequiredMC(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
+{
+    unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
+    
+    if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*4)
+        return nProofOfWorkLimit;
+    
+    int nHeightFirst = pindexLast->nHeight - 18;
+    assert(nHeightFirst >= 0);
+    const CBlockIndex* pindexFirst = pindexLast->GetAncestor(nHeightFirst);
+    assert(pindexFirst);
+    
+    const CBlockIndex* pindexBase = pindexLast;
+    while (pindexBase->pprev && pindexBase->nBits == nProofOfWorkLimit)
+        pindexBase = pindexBase->pprev;
+    
+    if (pindexBase->GetBlockTime() < pindexFirst->GetBlockTime())
+        pindexBase = pindexLast;
+    
+    return CalculateNextWorkRequiredMC(pindexBase, pindexLast, pindexFirst->GetBlockTime(), params);
+}
+
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
 {
     assert(pindexLast != nullptr);
     unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
+    
+    if (pindexLast->nHeight >= 26000)
+        return GetNextWorkRequiredMC(pindexLast, pblock, params);
 
     // Only change once per difficulty adjustment interval
     if ((pindexLast->nHeight+1) % params.DifficultyAdjustmentInterval() != 0 || pindexLast->nHeight == 16200)
