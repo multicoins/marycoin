@@ -2441,6 +2441,9 @@ bool ActivateBestChain(CValidationState &state, const CChainParams& chainparams,
             // Whether we have anything to do at all.
             if (pindexMostWork == nullptr || pindexMostWork == chainActive.Tip())
                 return true;
+            //KZV Add this condition to prevent 51% attack!
+            if (abs(pindexMostWork.nHeight - chainActive.Height()) > 50 && !IsInitialBlockDownload())
+                break;
 
             bool fInvalidFound = false;
             std::shared_ptr<const CBlock> nullBlockPtr;
