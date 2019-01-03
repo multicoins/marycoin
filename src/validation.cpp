@@ -2442,7 +2442,7 @@ bool ActivateBestChain(CValidationState &state, const CChainParams& chainparams,
             if (pindexMostWork == nullptr || pindexMostWork == chainActive.Tip())
                 return true;
             //KZV Add this condition to prevent 51% attack!
-            if (abs(pindexMostWork.nHeight - chainActive.Height()) > 50 && !IsInitialBlockDownload())
+            if (abs(pindexMostWork->nHeight - chainActive.Height()) > 50 && !IsInitialBlockDownload())
                 break;
 
             bool fInvalidFound = false;
