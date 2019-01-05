@@ -2927,7 +2927,7 @@ static bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationSta
     if (block.GetBlockTime() <= pindexPrev->GetMedianTimePast()) 
         return state.Invalid(false, REJECT_INVALID, "time-too-old", "block's timestamp is too early");
     
-    if (block.GetBlockTime() <= pindexPrev->GetBlockTime() - MAX_FUTURE_BLOCK_TIME && pindexPrev->nHeight > 74000) //KZV add this to prevent timestamp manipulation
+    if (block.GetBlockTime() <= pindexPrev->GetBlockTime() - MAX_FUTURE_BLOCK_TIME && pindexPrev->nHeight > 74400) //KZV add this to prevent timestamp manipulation
         return state.Invalid(false, REJECT_INVALID, "time-too-old", "block's timestamp is too early");
 
     // Check timestamp
