@@ -67,6 +67,7 @@ CConditionVariable cvBlockChange;
 int nScriptCheckThreads = 0;
 std::atomic_bool fImporting(false);
 bool fReindex = false;
+bool fFirstTimeSync = false; //KZV added for first time sync
 bool fTxIndex = false;
 bool fHavePruned = false;
 bool fPruneMode = false;
@@ -1049,8 +1050,7 @@ bool IsInitialBlockDownload()
         return true;
     if (chainActive.Tip()->nChainWork < UintToArith256(chainParams.GetConsensus().nMinimumChainWork))
         return true;
-    //if (chainActive.Tip()->GetBlockTime() < (GetTime() - nMaxTipAge))
-    if (chainActive.Tip()->GetBlockTime() < GetTime()) //KZV update for best initial syncronisation
+    if (chainActive.Tip()->GetBlockTime() < (GetTime() - nMaxTipAge))
         return true;
     LogPrintf("Leaving InitialBlockDownload (latching to false)\n");
     latchToFalse.store(true, std::memory_order_relaxed);
@@ -2444,7 +2444,7 @@ bool ActivateBestChain(CValidationState &state, const CChainParams& chainparams,
             if (pindexMostWork == nullptr || pindexMostWork == chainActive.Tip())
                 return true;
             //KZV Add this condition to prevent 51% attack!
-            if (abs(pindexMostWork->nHeight - chainActive.Height()) > maxforklength && !IsInitialBlockDownload())
+            if (abs(pindexMostWork->nHeight - chainActive.Height()) > maxforklength && !fFirstTimeSync)
             {
                 state.Invalid(false, REJECT_INVALID, "max-fork", "fork's length is too big");
                 return true;
@@ -3936,6 +3936,8 @@ bool LoadGenesisBlock(const CChainParams& chainparams)
     } catch (const std::runtime_error& e) {
         return error("%s: failed to write genesis block: %s", __func__, e.what());
     }
+    
+    fFirstTimeSync = true; //KZV add this for initial syncronisation
 
     return true;
 }
