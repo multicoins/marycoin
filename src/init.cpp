@@ -1198,6 +1198,8 @@ bool AppInitMain(boost::thread_group& threadGroup, CScheduler& scheduler)
 #ifndef WIN32
     CreatePidFile(GetPidFile(), getpid());
 #endif
+    fFirstTimeSync = true; //KZV add this for initial syncronisation
+
     if (gArgs.GetBoolArg("-shrinkdebugfile", logCategories == BCLog::NONE)) {
         // Do this first since it both loads a bunch of debug.log into memory,
         // and because this needs to happen before any other debug.log printing

@@ -2932,7 +2932,7 @@ static bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationSta
     if (block.GetBlockTime() <= pindexPrev->GetMedianTimePast()) 
         return state.Invalid(false, REJECT_INVALID, "time-too-old", "block's timestamp is too early");
     
-    if (block.GetBlockTime() <= pindexPrev->GetBlockTime() - MAX_FUTURE_BLOCK_TIME && !IsInitialBlockDownload()) //KZV add this to prevent timestamp manipulation
+    if (block.GetBlockTime() <= pindexPrev->GetBlockTime() - MAX_FUTURE_BLOCK_TIME && !fFirstTimeSync) //KZV add this to prevent timestamp manipulation
         return state.Invalid(false, REJECT_INVALID, "time-too-old", "block's timestamp is too early");
 
     // Check timestamp
@@ -3937,8 +3937,6 @@ bool LoadGenesisBlock(const CChainParams& chainparams)
         return error("%s: failed to write genesis block: %s", __func__, e.what());
     }
     
-    fFirstTimeSync = true; //KZV add this for initial syncronisation
-
     return true;
 }
 
