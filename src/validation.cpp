@@ -2422,6 +2422,7 @@ bool ActivateBestChain(CValidationState &state, const CChainParams& chainparams,
     CBlockIndex *pindexMostWork = nullptr;
     CBlockIndex *pindexNewTip = nullptr;
     int nStopAtHeight = gArgs.GetArg("-stopatheight", DEFAULT_STOPATHEIGHT);
+    const int maxforklength = gArgs.GetArg("-maxforklength", 3);
     do {
         boost::this_thread::interruption_point();
         if (ShutdownRequested())
@@ -2442,8 +2443,11 @@ bool ActivateBestChain(CValidationState &state, const CChainParams& chainparams,
             if (pindexMostWork == nullptr || pindexMostWork == chainActive.Tip())
                 return true;
             //KZV Add this condition to prevent 51% attack!
-            if (abs(pindexMostWork->nHeight - chainActive.Height()) > 50 && !IsInitialBlockDownload())
-                break;
+            if (abs(pindexMostWork->nHeight - chainActive.Height()) > maxforklength && !IsInitialBlockDownload())
+            {
+                state.Invalid(false, REJECT_INVALID, "max-fork", "fork's length is too big");
+                return true;
+            }
 
             bool fInvalidFound = false;
             std::shared_ptr<const CBlock> nullBlockPtr;

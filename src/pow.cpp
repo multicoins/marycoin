@@ -9,6 +9,7 @@
 #include "chain.h"
 #include "primitives/block.h"
 #include "uint256.h"
+#include "util.h"
 
 unsigned int CalculateNextWorkRequiredMC(const CBlockIndex* pindexBase, const CBlockIndex* pindexLast, int64_t nFirstBlockTime, const Consensus::Params& params)
 {
@@ -45,9 +46,20 @@ unsigned int GetNextWorkRequiredMC(const CBlockIndex* pindexLast, const CBlockHe
 {
     unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
     
-    if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*4)
+    if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*8)
         return nProofOfWorkLimit;
     
+    if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*4)
+    {
+        const unsigned int mindiff = gArgs.GetArg("-mindifficulty", 1);    
+        arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
+        
+        bnPowLimit *= (mindiff > 1) ? mindiff : 1;
+        
+        return bnPowLimit.GetCompact();
+    }
+
+
     int nHeightFirst = pindexLast->nHeight - 18;
     assert(nHeightFirst >= 0);
     const CBlockIndex* pindexFirst = pindexLast->GetAncestor(nHeightFirst);
