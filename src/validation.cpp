@@ -1049,7 +1049,8 @@ bool IsInitialBlockDownload()
         return true;
     if (chainActive.Tip()->nChainWork < UintToArith256(chainParams.GetConsensus().nMinimumChainWork))
         return true;
-    if (chainActive.Tip()->GetBlockTime() < (GetTime() - nMaxTipAge))
+    //if (chainActive.Tip()->GetBlockTime() < (GetTime() - nMaxTipAge))
+    if (chainActive.Tip()->GetBlockTime() < GetTime()) //KZV update for best initial syncronisation
         return true;
     LogPrintf("Leaving InitialBlockDownload (latching to false)\n");
     latchToFalse.store(true, std::memory_order_relaxed);
@@ -2931,7 +2932,7 @@ static bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationSta
     if (block.GetBlockTime() <= pindexPrev->GetMedianTimePast()) 
         return state.Invalid(false, REJECT_INVALID, "time-too-old", "block's timestamp is too early");
     
-    if (block.GetBlockTime() <= pindexPrev->GetBlockTime() - MAX_FUTURE_BLOCK_TIME && pindexPrev->nHeight > 74400) //KZV add this to prevent timestamp manipulation
+    if (block.GetBlockTime() <= pindexPrev->GetBlockTime() - MAX_FUTURE_BLOCK_TIME && !IsInitialBlockDownload()) //KZV add this to prevent timestamp manipulation
         return state.Invalid(false, REJECT_INVALID, "time-too-old", "block's timestamp is too early");
 
     // Check timestamp
