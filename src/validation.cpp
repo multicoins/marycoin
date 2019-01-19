@@ -67,7 +67,6 @@ CConditionVariable cvBlockChange;
 int nScriptCheckThreads = 0;
 std::atomic_bool fImporting(false);
 bool fReindex = false;
-bool fFirstTimeSync = false; //KZV added for first time sync
 bool fTxIndex = false;
 bool fHavePruned = false;
 bool fPruneMode = false;
@@ -1050,7 +1049,7 @@ bool IsInitialBlockDownload()
         return true;
     if (chainActive.Tip()->nChainWork < UintToArith256(chainParams.GetConsensus().nMinimumChainWork))
         return true;
-    if (chainActive.Tip()->GetBlockTime() < (GetTime() - nMaxTipAge))
+    if (chainActive.Tip()->GetBlockTime() < GetTime()) //KZV fixed this for initial sync
         return true;
     LogPrintf("Leaving InitialBlockDownload (latching to false)\n");
     latchToFalse.store(true, std::memory_order_relaxed);
@@ -2423,7 +2422,7 @@ bool ActivateBestChain(CValidationState &state, const CChainParams& chainparams,
     CBlockIndex *pindexMostWork = nullptr;
     CBlockIndex *pindexNewTip = nullptr;
     int nStopAtHeight = gArgs.GetArg("-stopatheight", DEFAULT_STOPATHEIGHT);
-    const int maxforklength = gArgs.GetArg("-maxforklength", 3);
+    const int maxforklength = gArgs.GetArg("-maxforklength", 8);
     do {
         boost::this_thread::interruption_point();
         if (ShutdownRequested())
@@ -2444,7 +2443,7 @@ bool ActivateBestChain(CValidationState &state, const CChainParams& chainparams,
             if (pindexMostWork == nullptr || pindexMostWork == chainActive.Tip())
                 return true;
             //KZV Add this condition to prevent 51% attack!
-            if (abs(pindexMostWork->nHeight - chainActive.Height()) > maxforklength && !fFirstTimeSync)
+            if (abs(pindexMostWork->nHeight - chainActive.Height()) > maxforklength && !IsInitialBlockDownload())
             {
                 state.Invalid(false, REJECT_INVALID, "max-fork", "fork's length is too big");
                 return true;
@@ -2932,9 +2931,6 @@ static bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationSta
     if (block.GetBlockTime() <= pindexPrev->GetMedianTimePast()) 
         return state.Invalid(false, REJECT_INVALID, "time-too-old", "block's timestamp is too early");
     
-    if (block.GetBlockTime() <= pindexPrev->GetBlockTime() - MAX_FUTURE_BLOCK_TIME && !fFirstTimeSync) //KZV add this to prevent timestamp manipulation
-        return state.Invalid(false, REJECT_INVALID, "time-too-old", "block's timestamp is too early");
-
     // Check timestamp
     if (block.GetBlockTime() > nAdjustedTime + MAX_FUTURE_BLOCK_TIME)
         return state.Invalid(false, REJECT_INVALID, "time-too-new", "block timestamp too far in the future");

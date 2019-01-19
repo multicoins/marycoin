@@ -11,11 +11,30 @@
 #include "uint256.h"
 #include "util.h"
 
+int64_t GetAdjustedTime();
+bool IsInitialBlockDownload();
+
+unsigned int CalculateNextWorkRequiredMC2(const unsigned int nProofOfWork, const int nDeltaTime, const Consensus::Params& params)
+{
+    arith_uint256 bnNew;
+    bnNew.SetCompact(nProofOfWork);
+    
+    bnNew = (bnNew * params.nPowTargetSpacing * params.nPowTargetSpacing) / (nDeltaTime * nDeltaTime * 4);
+
+    const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
+    
+    if (bnNew > bnPowLimit)
+        bnNew = bnPowLimit;
+        
+    return bnNew.GetCompact();
+} 
+
+
 unsigned int CalculateNextWorkRequiredMC(const CBlockIndex* pindexBase, const CBlockIndex* pindexLast, int64_t nFirstBlockTime, const Consensus::Params& params)
 {
     if (params.fPowNoRetargeting)
         return pindexBase->nBits;
-        
+
     int64_t nPowTargetTimespan = params.nPowTargetTimespan*3;
     
     // Limit adjustment step
@@ -46,20 +65,9 @@ unsigned int GetNextWorkRequiredMC(const CBlockIndex* pindexLast, const CBlockHe
 {
     unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
     
-    if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*8)
+    if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*4 && IsInitialBlockDownload())
         return nProofOfWorkLimit;
     
-    if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*4)
-    {
-        const unsigned int mindiff = gArgs.GetArg("-mindifficulty", 1);    
-        arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
-        
-        bnPowLimit *= (mindiff > 1) ? mindiff : 1;
-        
-        return bnPowLimit.GetCompact();
-    }
-
-
     int nHeightFirst = pindexLast->nHeight - 18;
     assert(nHeightFirst >= 0);
     const CBlockIndex* pindexFirst = pindexLast->GetAncestor(nHeightFirst);
@@ -72,7 +80,19 @@ unsigned int GetNextWorkRequiredMC(const CBlockIndex* pindexLast, const CBlockHe
     if (pindexBase->GetBlockTime() < pindexFirst->GetBlockTime())
         pindexBase = pindexLast;
     
-    return CalculateNextWorkRequiredMC(pindexBase, pindexLast, pindexFirst->GetBlockTime(), params);
+    const unsigned int nProofOfWork = CalculateNextWorkRequiredMC(pindexBase, pindexLast, pindexFirst->GetBlockTime(), params);
+
+    if (IsInitialBlockDownload())
+        return nProofOfWork;
+        
+    if (GetAdjustedTime() <= pindexLast->GetBlockTime() + params.nPowTargetSpacing)
+        return nProofOfWork; //if user clock is show less than 40 min after last block then old rules
+    if (pblock->GetBlockTime() <= pindexLast->GetBlockTime() + params.nPowTargetSpacing) 
+        return nProofOfWork; //if new block time less than 40 min last block then old rules
+    if (pblock->GetBlockTime() - GetAdjustedTime() > params.nPowTargetSpacing / 4)
+        return nProofOfWork; //if new block time is in far future then old rules
+        
+    return CalculateNextWorkRequiredMC2(nProofOfWork, pblock->GetBlockTime()-pindexLast->GetBlockTime(), params);
 }
 
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
