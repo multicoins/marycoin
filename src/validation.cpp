@@ -1049,7 +1049,7 @@ bool IsInitialBlockDownload()
         return true;
     if (chainActive.Tip()->nChainWork < UintToArith256(chainParams.GetConsensus().nMinimumChainWork))
         return true;
-    if (chainActive.Tip()->GetBlockTime() < GetTime()) //KZV fixed this for initial sync
+    if (chainActive.Tip()->GetBlockTime() < GetTime() - nMaxTipAge)
         return true;
     LogPrintf("Leaving InitialBlockDownload (latching to false)\n");
     latchToFalse.store(true, std::memory_order_relaxed);
@@ -2443,11 +2443,11 @@ bool ActivateBestChain(CValidationState &state, const CChainParams& chainparams,
             if (pindexMostWork == nullptr || pindexMostWork == chainActive.Tip())
                 return true;
             //KZV Add this condition to prevent 51% attack!
-            if (abs(pindexMostWork->nHeight - chainActive.Height()) > maxforklength && !IsInitialBlockDownload())
+            /*if (abs(pindexMostWork->nHeight - chainActive.Height()) > maxforklength && !IsInitialBlockDownload())
             {
                 state.Invalid(false, REJECT_INVALID, "max-fork", "fork's length is too big");
                 return true;
-            }
+            }*/
 
             bool fInvalidFound = false;
             std::shared_ptr<const CBlock> nullBlockPtr;

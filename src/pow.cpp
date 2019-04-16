@@ -9,32 +9,92 @@
 #include "chain.h"
 #include "primitives/block.h"
 #include "uint256.h"
+#include <stdlib.h>     /* abs */
 #include "util.h"
 
-int64_t GetAdjustedTime();
-bool IsInitialBlockDownload();
+extern ArgsManager gArgs;
 
-unsigned int CalculateNextWorkRequiredMC2(const unsigned int nProofOfWork, const int nDeltaTime, const Consensus::Params& params)
+const int64_t GetDeltaTime(const int64_t nDeltaHeight, const CBlockIndex* pindexLast)
 {
-    arith_uint256 bnNew;
-    bnNew.SetCompact(nProofOfWork);
+    int64_t nHeightFirst = pindexLast->nHeight - nDeltaHeight;
+    while (1)
+    {
+        assert(nHeightFirst > 0);
+        const CBlockIndex* pindexFirst = pindexLast->GetAncestor(nHeightFirst);
+        assert(pindexFirst);    
+        
+        const int64_t ret = abs(pindexLast->GetBlockTime() - pindexFirst->GetBlockTime());
+        LogPrintf("nHeightLast = %i; nHeightFirst = %i; timeLast=%i; timeFirst=%i\n", pindexLast->nHeight, pindexFirst->nHeight, pindexLast->GetBlockTime(), pindexFirst->GetBlockTime());
+        
+        if (ret == 0)
+        {
+            nHeightFirst--;
+            continue;
+        }
+        
+        return ret;
+    }
+    return 1000*600;
+}
+
+unsigned int GetNextWorkRequiredMC2(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
+{
+    int64_t nAverageBlockTime = 0;
+    arith_uint256 bnAverageBits = 0;
+
+    const CBlockIndex* pindexCurr = pindexLast;
+    for (int n=0; n<6; n++)
+    {
+        arith_uint256 bnTmp;
+        bnTmp.SetCompact(pindexCurr->nBits);
+        
+        const int64_t nDeltaTime = abs(pindexCurr->GetBlockTime() - pindexCurr->pprev->GetBlockTime());
+
+        nAverageBlockTime += nDeltaTime;
+        bnAverageBits += bnTmp;
+        
+        pindexCurr = pindexCurr->pprev;
+    }
+
+    nAverageBlockTime = (nAverageBlockTime) / 6;
+    bnAverageBits = (bnAverageBits) / 6;
+
+    const int64_t nDeltaTimeBlocks6 = GetDeltaTime(6, pindexLast);
+    const int64_t nDeltaTimeBlocks144 = GetDeltaTime(144, pindexLast);
     
-    bnNew = (bnNew * params.nPowTargetSpacing * params.nPowTargetSpacing) / (nDeltaTime * nDeltaTime * 4);
+    LogPrintf("nAverageBlockTime=%i; nDeltaTimeBlocks6=%i; nDeltaTimeBlocks144=%i\n", nAverageBlockTime, nDeltaTimeBlocks6, nDeltaTimeBlocks144);
+    if (nAverageBlockTime < 300) 
+        bnAverageBits = (bnAverageBits * (nDeltaTimeBlocks6 + 5*600*6)) / (6*600*6) ;
+    else
+    {
+        if (nAverageBlockTime < 600) 
+            bnAverageBits = (bnAverageBits * (nDeltaTimeBlocks144 + 49*600*144)) / (50 * 600 * 144);
+    }
+    
+    if (nAverageBlockTime > 900) 
+         bnAverageBits = (bnAverageBits * nDeltaTimeBlocks6) / (600*6);
+    else
+    {
+        if (nAverageBlockTime > 630) 
+            bnAverageBits = (bnAverageBits * (nDeltaTimeBlocks6 + 5*600*6)) / (6*600*6) ;
+    }
+    
+    if (nAverageBlockTime >= 600 && nAverageBlockTime <= 630 )
+        return pindexLast->nBits;
 
     const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
-    
-    if (bnNew > bnPowLimit)
-        bnNew = bnPowLimit;
-        
-    return bnNew.GetCompact();
-} 
+    if (bnAverageBits > bnPowLimit)
+        bnAverageBits = bnPowLimit;
+
+    return bnAverageBits.GetCompact();
+}
 
 
 unsigned int CalculateNextWorkRequiredMC(const CBlockIndex* pindexBase, const CBlockIndex* pindexLast, int64_t nFirstBlockTime, const Consensus::Params& params)
 {
     if (params.fPowNoRetargeting)
         return pindexBase->nBits;
-
+        
     int64_t nPowTargetTimespan = params.nPowTargetTimespan*3;
     
     // Limit adjustment step
@@ -65,7 +125,7 @@ unsigned int GetNextWorkRequiredMC(const CBlockIndex* pindexLast, const CBlockHe
 {
     unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
     
-    if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*4 && IsInitialBlockDownload())
+    if (pblock->GetBlockTime() > pindexLast->GetBlockTime() + params.nPowTargetSpacing*4)
         return nProofOfWorkLimit;
     
     int nHeightFirst = pindexLast->nHeight - 18;
@@ -80,19 +140,7 @@ unsigned int GetNextWorkRequiredMC(const CBlockIndex* pindexLast, const CBlockHe
     if (pindexBase->GetBlockTime() < pindexFirst->GetBlockTime())
         pindexBase = pindexLast;
     
-    const unsigned int nProofOfWork = CalculateNextWorkRequiredMC(pindexBase, pindexLast, pindexFirst->GetBlockTime(), params);
-
-    if (IsInitialBlockDownload())
-        return nProofOfWork;
-        
-    if (GetAdjustedTime() <= pindexLast->GetBlockTime() + params.nPowTargetSpacing)
-        return nProofOfWork; //if user clock is show less than 40 min after last block then old rules
-    if (pblock->GetBlockTime() <= pindexLast->GetBlockTime() + params.nPowTargetSpacing) 
-        return nProofOfWork; //if new block time less than 40 min last block then old rules
-    if (pblock->GetBlockTime() - GetAdjustedTime() > params.nPowTargetSpacing / 4)
-        return nProofOfWork; //if new block time is in far future then old rules
-        
-    return CalculateNextWorkRequiredMC2(nProofOfWork, pblock->GetBlockTime()-pindexLast->GetBlockTime(), params);
+    return CalculateNextWorkRequiredMC(pindexBase, pindexLast, pindexFirst->GetBlockTime(), params);
 }
 
 unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock, const Consensus::Params& params)
@@ -100,6 +148,10 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     assert(pindexLast != nullptr);
     unsigned int nProofOfWorkLimit = UintToArith256(params.powLimit).GetCompact();
     
+    int nFork = gArgs.GetArg("-fork", 88000);
+
+    if (pindexLast->nHeight >= nFork)
+        return GetNextWorkRequiredMC2(pindexLast, pblock, params);
     if (pindexLast->nHeight >= 26000)
         return GetNextWorkRequiredMC(pindexLast, pblock, params);
 
